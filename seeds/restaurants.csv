@@ -1,0 +1,61 @@
+restaurant_id,restaurant_name,cuisine_type,city,is_partner,rating
+2824,WarungKoo,Indonesian,Jakarta Selatan,0,3.6
+3286,Sakuraa Dining,Japanese,Jakarta Pusat,1,4.8
+2424,Pizza Huut,Western,Bekasi,1,3.4
+4811,ChinaTown Bites,Chinese,Jakarta Selatan,1,4.5
+9928,Bbq Kingz,Korean,Bekasi,1,4.3
+1106,Pita Pitaa,Middle Eastern,Jakarta Barat,1,3.8
+3547,Desi Grub,Indian,Jakarta Timur,0,3.8
+2519,Chizzcake Fctry,Dessert & Drinks,Bekasi,1,4.7
+5333,WarungKoo,Indonesian,Jakarta Selatan,0,4.2
+7201,Sakuraa Dining,Japanese,Jakarta Pusat,1,4.7
+6925,Pizza Huut,Western,Jakarta Timur,0,3.3
+4733,ChinaTown Bites,Chinese,Jakarta Utara,0,4.7
+2654,Bbq Kingz,Korean,Bekasi,1,4.3
+6977,Pita Pitaa,Middle Eastern,Jakarta Barat,1,3.6
+5374,Desi Grub,Indian,Jakarta Pusat,1,3.5
+5010,Chizzcake Fctry,Dessert & Drinks,Jakarta Barat,1,3.7
+4598,WarungKoo,Indonesian,Tangerang,0,4.6
+4752,Sakuraa Dining,Japanese,Jakarta Selatan,0,3.9
+2084,Pizza Huut,Western,Jakarta Timur,0,4.2
+6155,ChinaTown Bites,Chinese,Jakarta Timur,1,3.9
+8517,Bbq Kingz,Korean,Jakarta Barat,1,3.6
+9830,Pita Pitaa,Middle Eastern,Jakarta Utara,0,4.0
+7543,Desi Grub,Indian,Tangerang,1,5.0
+9348,Chizzcake Fctry,Dessert & Drinks,Depok,1,3.3
+2796,WarungKoo,Indonesian,Jakarta Barat,1,4.6
+7916,Sakuraa Dining,Japanese,Jakarta Pusat,1,4.3
+8668,Pizza Huut,Western,Jakarta Utara,0,4.7
+1188,ChinaTown Bites,Chinese,Jakarta Pusat,1,4.2
+5371,Bbq Kingz,Korean,Tangerang,1,4.0
+8433,Pita Pitaa,Middle Eastern,Jakarta Selatan,0,4.8
+5315,Desi Grub,Indian,Jakarta Barat,1,3.4
+5889,Chizzcake Fctry,Dessert & Drinks,Jakarta Timur,1,4.6
+9837,WarungKoo,Indonesian,Jakarta Selatan,1,4.1
+2832,Sakuraa Dining,Japanese,Tangerang,0,4.7
+6038,Pizza Huut,Western,Jakarta Timur,1,4.8
+2290,ChinaTown Bites,Chinese,Jakarta Pusat,0,4.7
+9727,Bbq Kingz,Korean,Jakarta Barat,1,4.1
+3705,Pita Pitaa,Middle Eastern,Jakarta Utara,1,4.3
+4470,Desi Grub,Indian,Jakarta Timur,0,3.9
+7118,Chizzcake Fctry,Dessert & Drinks,Depok,0,4.0
+5061,WarungKoo,Indonesian,Jakarta Timur,1,3.2
+4770,Sakuraa Dining,Japanese,Jakarta Timur,1,4.5
+1964,Pizza Huut,Western,Jakarta Timur,1,3.3
+6413,ChinaTown Bites,Chinese,Jakarta Pusat,1,3.7
+8953,Bbq Kingz,Korean,Jakarta Timur,1,4.5
+8744,Pita Pitaa,Middle Eastern,Jakarta Timur,0,4.7
+4119,Desi Grub,Indian,Jakarta Pusat,1,4.0
+7939,Chizzcake Fctry,Dessert & Drinks,Bekasi,1,4.5
+2612,WarungKoo,Indonesian,Jakarta Selatan,1,3.8
+2790,Sakuraa Dining,Japanese,Jakarta Timur,1,4.2
+3296,Pizza Huut,Western,Bekasi,1,4.0
+2235,ChinaTown Bites,Chinese,Depok,0,4.7
+2604,Bbq Kingz,Korean,Jakarta Selatan,1,4.2
+1241,Pita Pitaa,Middle Eastern,Jakarta Pusat,0,4.7
+3724,Desi Grub,Indian,Bekasi,1,3.6
+7570,Chizzcake Fctry,Dessert & Drinks,Jakarta Selatan,1,3.2
+7396,WarungKoo,Indonesian,Jakarta Utara,0,4.6
+5673,Sakuraa Dining,Japanese,Bekasi,1,4.5
+8973,Pizza Huut,Western,Jakarta Barat,1,3.6
+1958,ChinaTown Bites,Chinese,Jakarta Selatan,0,3.3

@@ -1,0 +1,121 @@
+courier_id,city,vehicle_type,joined_at,courier_tier,rating
+8811,Jakarta Barat,motorcycle,2022-06-30 00:00:00,silver,3.9
+4044,Jakarta Pusat,motorcycle,2023-04-06 00:00:00,bronze,3.5
+5033,Jakarta Selatan,motorcycle,2022-09-29 00:00:00,silver,4.3
+9565,Jakarta Utara,motorcycle,2023-01-15 00:00:00,bronze,3.4
+7484,Jakarta Utara,motorcycle,2023-09-19 00:00:00,bronze,3.2
+2638,Jakarta Timur,motorcycle,2023-07-20 00:00:00,bronze,3.9
+2127,Tangerang,motorcycle,2022-09-10 00:00:00,gold,4.9
+5956,Jakarta Selatan,motorcycle,2022-05-14 00:00:00,silver,4.0
+2697,Jakarta Barat,motorcycle,2023-08-15 00:00:00,gold,4.8
+3546,Jakarta Timur,bicycle,2023-05-08 00:00:00,bronze,3.7
+5325,Jakarta Utara,car,2023-10-11 00:00:00,silver,3.9
+7939,Jakarta Selatan,motorcycle,2023-07-22 00:00:00,gold,4.7
+5291,Depok,motorcycle,2022-09-21 00:00:00,bronze,3.6
+2832,Jakarta Barat,motorcycle,2022-11-19 00:00:00,bronze,3.7
+3426,Jakarta Selatan,motorcycle,2023-10-23 00:00:00,silver,4.4
+4441,Jakarta Pusat,motorcycle,2022-05-08 00:00:00,silver,4.4
+7658,Jakarta Barat,car,2023-04-04 00:00:00,gold,4.9
+3900,Jakarta Selatan,motorcycle,2022-12-27 00:00:00,gold,4.8
+7745,Jakarta Timur,motorcycle,2023-08-14 00:00:00,gold,4.6
+1634,Jakarta Timur,motorcycle,2022-08-18 00:00:00,gold,4.5
+4728,Jakarta Timur,motorcycle,2023-02-20 00:00:00,bronze,3.9
+5573,Bekasi,motorcycle,2022-06-01 00:00:00,bronze,3.5
+1452,Jakarta Utara,motorcycle,2023-03-06 00:00:00,bronze,3.2
+8119,Tangerang,motorcycle,2022-06-27 00:00:00,bronze,3.3
+4114,Bekasi,motorcycle,2022-05-30 00:00:00,bronze,3.7
+4228,Jakarta Pusat,car,2022-12-29 00:00:00,bronze,3.7
+3041,Jakarta Utara,motorcycle,2022-10-10 00:00:00,silver,4.0
+5844,Jakarta Timur,motorcycle,2022-11-09 00:00:00,silver,4.3
+3851,Jakarta Utara,motorcycle,2023-12-02 00:00:00,silver,4.0
+4443,Tangerang,motorcycle,2022-09-06 00:00:00,silver,4.3
+9375,Jakarta Barat,motorcycle,2023-02-15 00:00:00,silver,4.2
+6491,Jakarta Timur,motorcycle,2023-04-16 00:00:00,bronze,3.8
+3414,Jakarta Timur,car,2022-03-17 00:00:00,bronze,3.9
+2193,Jakarta Timur,bicycle,2022-11-04 00:00:00,silver,4.1
+4997,Jakarta Selatan,bicycle,2023-08-15 00:00:00,bronze,3.8
+4585,Depok,motorcycle,2023-03-22 00:00:00,bronze,3.9
+2988,Depok,motorcycle,2022-05-09 00:00:00,silver,4.2
+8251,Bekasi,bicycle,2022-05-20 00:00:00,silver,4.1
+3607,Depok,motorcycle,2023-03-24 00:00:00,silver,4.4
+5543,Depok,motorcycle,2023-02-24 00:00:00,gold,4.6
+5681,Tangerang,motorcycle,2022-05-28 00:00:00,bronze,3.3
+3471,Jakarta Barat,bicycle,2023-09-28 00:00:00,bronze,3.5
+6421,Bekasi,motorcycle,2022-09-28 00:00:00,silver,4.1
+1320,Bekasi,motorcycle,2022-12-07 00:00:00,gold,4.5
+7389,Bekasi,motorcycle,2022-05-22 00:00:00,gold,4.9
+4613,Jakarta Utara,motorcycle,2023-11-03 00:00:00,silver,4.1
+7624,Depok,car,2022-03-05 00:00:00,silver,4.2
+7455,Jakarta Selatan,motorcycle,2022-09-20 00:00:00,silver,3.9
+8564,Jakarta Utara,motorcycle,2023-04-30 00:00:00,bronze,3.6
+6529,Bekasi,motorcycle,2022-09-27 00:00:00,gold,4.5
+2341,Jakarta Selatan,car,2022-12-09 00:00:00,silver,4.0
+2124,Jakarta Selatan,bicycle,2023-03-24 00:00:00,gold,4.4
+1333,Jakarta Timur,motorcycle,2023-08-07 00:00:00,silver,4.2
+4571,Jakarta Utara,bicycle,2023-06-14 00:00:00,silver,4.2
+2876,Jakarta Barat,car,2023-08-14 00:00:00,gold,4.7
+6111,Bekasi,motorcycle,2023-05-13 00:00:00,silver,3.9
+4978,Jakarta Utara,bicycle,2022-03-28 00:00:00,bronze,3.8
+1672,Bekasi,motorcycle,2023-09-23 00:00:00,bronze,3.6
+6590,Bekasi,bicycle,2023-08-16 00:00:00,bronze,3.5
+6934,Depok,bicycle,2022-09-13 00:00:00,silver,3.9
+9548,Jakarta Utara,motorcycle,2022-05-30 00:00:00,gold,4.8
+8616,Jakarta Utara,motorcycle,2023-03-26 00:00:00,silver,4.4
+2419,Depok,motorcycle,2022-08-14 00:00:00,bronze,3.7
+7209,Depok,bicycle,2023-05-30 00:00:00,bronze,3.6
+6813,Tangerang,motorcycle,2022-04-01 00:00:00,gold,4.8
+5526,Jakarta Timur,motorcycle,2022-10-12 00:00:00,silver,4.1
+4937,Depok,motorcycle,2023-11-15 00:00:00,silver,3.9
+4630,Jakarta Timur,motorcycle,2022-04-16 00:00:00,silver,4.1
+9698,Tangerang,motorcycle,2022-08-25 00:00:00,bronze,3.4
+5118,Jakarta Timur,motorcycle,2022-06-02 00:00:00,bronze,4.0
+4033,Depok,motorcycle,2022-04-08 00:00:00,bronze,4.0
+9595,Jakarta Pusat,bicycle,2023-02-02 00:00:00,silver,4.0
+3939,Jakarta Barat,motorcycle,2023-10-08 00:00:00,bronze,3.6
+3068,Depok,motorcycle,2023-11-20 00:00:00,silver,4.2
+8690,Tangerang,motorcycle,2023-10-11 00:00:00,silver,4.0
+8827,Jakarta Pusat,motorcycle,2023-09-18 00:00:00,bronze,3.7
+1878,Jakarta Utara,motorcycle,2023-03-23 00:00:00,bronze,3.3
+7818,Jakarta Timur,bicycle,2022-11-08 00:00:00,silver,4.1
+8253,Bekasi,motorcycle,2022-03-07 00:00:00,bronze,3.2
+2625,Jakarta Timur,motorcycle,2023-03-07 00:00:00,gold,4.8
+3573,Jakarta Pusat,motorcycle,2022-10-10 00:00:00,bronze,3.6
+8699,Jakarta Timur,motorcycle,2023-02-16 00:00:00,bronze,3.8
+8438,Jakarta Timur,car,2022-03-02 00:00:00,bronze,3.7
+4241,Jakarta Timur,motorcycle,2023-03-05 00:00:00,silver,4.4
+2169,Jakarta Utara,motorcycle,2022-04-29 00:00:00,bronze,3.9
+8195,Jakarta Utara,motorcycle,2023-02-27 00:00:00,bronze,3.6
+9090,Jakarta Selatan,bicycle,2023-01-06 00:00:00,silver,4.2
+1423,Jakarta Selatan,car,2023-03-02 00:00:00,bronze,3.7
+3870,Depok,car,2023-05-31 00:00:00,silver,4.5
+8141,Depok,car,2022-08-08 00:00:00,silver,4.0
+6460,Jakarta Pusat,bicycle,2022-12-30 00:00:00,bronze,3.5
+9117,Bekasi,bicycle,2022-05-18 00:00:00,bronze,3.2
+2442,Tangerang,motorcycle,2022-10-15 00:00:00,bronze,3.9
+1018,Depok,motorcycle,2023-05-24 00:00:00,silver,4.2
+9167,Jakarta Selatan,motorcycle,2022-05-19 00:00:00,silver,3.9
+5719,Depok,motorcycle,2022-02-25 00:00:00,silver,4.2
+4920,Jakarta Utara,motorcycle,2022-05-16 00:00:00,silver,4.1
+4681,Jakarta Pusat,motorcycle,2023-08-04 00:00:00,gold,4.8
+3522,Jakarta Utara,motorcycle,2023-02-26 00:00:00,silver,4.1
+8905,Jakarta Timur,motorcycle,2023-07-07 00:00:00,gold,4.6
+9327,Jakarta Barat,bicycle,2023-02-23 00:00:00,silver,4.3
+7798,Jakarta Utara,bicycle,2023-02-16 00:00:00,bronze,3.8
+9022,Depok,motorcycle,2022-12-14 00:00:00,gold,4.5
+9903,Tangerang,bicycle,2023-04-02 00:00:00,bronze,3.7
+4826,Bekasi,motorcycle,2022-08-05 00:00:00,gold,4.8
+7246,Jakarta Barat,motorcycle,2023-10-26 00:00:00,bronze,3.3
+6439,Depok,motorcycle,2022-08-22 00:00:00,gold,4.3
+3361,Jakarta Barat,motorcycle,2023-03-06 00:00:00,silver,4.0
+7512,Tangerang,bicycle,2022-06-04 00:00:00,silver,4.1
+6188,Depok,bicycle,2023-10-27 00:00:00,silver,4.2
+4846,Jakarta Utara,car,2023-09-01 00:00:00,silver,4.1
+2612,Jakarta Pusat,motorcycle,2023-01-30 00:00:00,gold,4.9
+1753,Jakarta Selatan,motorcycle,2022-11-14 00:00:00,bronze,3.5
+5000,Jakarta Barat,motorcycle,2023-09-13 00:00:00,silver,4.2
+7267,Jakarta Timur,motorcycle,2022-04-14 00:00:00,silver,3.9
+8555,Depok,motorcycle,2023-11-23 00:00:00,silver,4.4
+8622,Jakarta Barat,motorcycle,2022-12-14 00:00:00,gold,5.0
+5901,Bekasi,motorcycle,2022-08-22 00:00:00,silver,4.4
+4263,Depok,motorcycle,2022-11-07 00:00:00,gold,4.7
+5847,Jakarta Utara,motorcycle,2022-10-23 00:00:00,gold,4.5

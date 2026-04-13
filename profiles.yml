@@ -1,0 +1,11 @@
+servicefood:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: YOUR_GCP_PROJECT_ID   # replace with your project ID
+      dataset: servicefood_dev
+      threads: 4
+      timeout_seconds: 300
+      location: asia-southeast1

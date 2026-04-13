@@ -1,0 +1,4590 @@
+item_id,order_id,item_name,cuisine_type,unit_price,quantity
+1,100001,Tteokbokki,Korean,62000.0,1
+2,100002,Rendang,Indonesian,22000.0,3
+3,100003,Butter Chicken,Indian,56000.0,3
+4,100003,Naan,Indian,59000.0,1
+5,100003,Masala Chai,Indian,77000.0,1
+6,100003,Tandoori Chicken,Indian,19000.0,1
+7,100004,Club Sandwich,Western,54000.0,2
+8,100004,Fish & Chips,Western,68000.0,1
+9,100004,Grilled Chicken,Western,63000.0,2
+10,100005,Ice Cream,Dessert & Drinks,71000.0,2
+11,100005,Matcha Latte,Dessert & Drinks,45000.0,3
+12,100006,Ice Cream,Dessert & Drinks,24000.0,2
+13,100006,Waffle,Dessert & Drinks,66000.0,2
+14,100007,Burger,Western,49000.0,1
+15,100007,Pasta,Western,17000.0,1
+16,100008,Sundubu Jjigae,Korean,41000.0,2
+17,100009,Matcha Latte,Dessert & Drinks,52000.0,3
+18,100009,Boba Tea,Dessert & Drinks,23000.0,3
+19,100010,Bulgogi,Korean,43000.0,2
+20,100010,Sundubu Jjigae,Korean,58000.0,1
+21,100010,Japchae,Korean,65000.0,2
+22,100010,Tteokbokki,Korean,58000.0,2
+23,100011,Bulgogi,Korean,70000.0,3
+24,100011,Bibimbap,Korean,58000.0,3
+25,100011,Kimchi Jjigae,Korean,42000.0,1
+26,100011,Japchae,Korean,18000.0,2
+27,100012,Noodle Soup,Chinese,53000.0,3
+28,100012,Fried Rice,Chinese,23000.0,1
+29,100012,Wonton Soup,Chinese,39000.0,2
+30,100013,BBQ Ribs,Western,21000.0,1
+31,100014,Onigiri,Japanese,29000.0,2
+32,100014,Katsu Curry,Japanese,76000.0,3
+33,100014,Udon,Japanese,55000.0,2
+34,100014,Gyudon,Japanese,36000.0,3
+35,100015,Fattoush,Middle Eastern,24000.0,3
+36,100015,Falafel,Middle Eastern,20000.0,1
+37,100015,Hummus Plate,Middle Eastern,25000.0,1
+38,100016,Lamb Chops,Middle Eastern,77000.0,3
+39,100016,Mezze Platter,Middle Eastern,32000.0,1
+40,100016,Shawarma,Middle Eastern,67000.0,3
+41,100017,Chop Suey,Chinese,33000.0,1
+42,100017,Fried Rice,Chinese,42000.0,3
+43,100017,Wonton Soup,Chinese,67000.0,3
+44,100017,Peking Duck,Chinese,62000.0,3
+45,100018,Shawarma,Middle Eastern,62000.0,1
+46,100018,Kebab,Middle Eastern,26000.0,2
+47,100018,Falafel,Middle Eastern,78000.0,2
+48,100018,Lamb Chops,Middle Eastern,15000.0,3
+49,100019,Gado-Gado,Indonesian,68000.0,2
+50,100020,Grilled Chicken,Western,17000.0,3
+51,100020,Club Sandwich,Western,83000.0,2
+52,100021,Falafel,Middle Eastern,81000.0,2
+53,100021,Fattoush,Middle Eastern,28000.0,2
+54,100022,Samosa,Indian,49000.0,2
+55,100022,Palak Paneer,Indian,53000.0,2
+56,100023,Gado-Gado,Indonesian,56000.0,1
+57,100023,Soto Ayam,Indonesian,74000.0,1
+58,100023,Nasi Goreng,Indonesian,72000.0,2
+59,100024,Kebab,Middle Eastern,34000.0,2
+60,100025,Samosa,Indian,78000.0,2
+61,100025,Tandoori Chicken,Indian,61000.0,3
+62,100025,Butter Chicken,Indian,43000.0,1
+63,100026,Fattoush,Middle Eastern,67000.0,2
+64,100026,Manakish,Middle Eastern,20000.0,2
+65,100027,Mie Goreng,Indonesian,60000.0,2
+66,100028,Fish & Chips,Western,30000.0,3
+67,100028,BBQ Ribs,Western,67000.0,3
+68,100028,Grilled Chicken,Western,49000.0,3
+69,100028,Pasta,Western,29000.0,1
+70,100029,Spring Roll,Chinese,84000.0,2
+71,100030,Bakso,Indonesian,73000.0,2
+72,100030,Soto Ayam,Indonesian,24000.0,3
+73,100030,Mie Goreng,Indonesian,50000.0,1
+74,100031,Korean BBQ,Korean,26000.0,1
+75,100031,Tteokbokki,Korean,63000.0,2
+76,100031,Kimbap,Korean,58000.0,1
+77,100032,Boba Tea,Dessert & Drinks,46000.0,3
+78,100033,Falafel,Middle Eastern,57000.0,1
+79,100033,Shawarma,Middle Eastern,57000.0,1
+80,100034,Kimchi Jjigae,Korean,22000.0,1
+81,100034,Japchae,Korean,50000.0,1
+82,100034,Korean BBQ,Korean,60000.0,1
+83,100035,Sundubu Jjigae,Korean,39000.0,1
+84,100035,Bulgogi,Korean,36000.0,1
+85,100036,Noodle Soup,Chinese,74000.0,2
+86,100036,Fried Rice,Chinese,53000.0,3
+87,100036,Dim Sum,Chinese,70000.0,1
+88,100037,Sundubu Jjigae,Korean,19000.0,2
+89,100037,Japchae,Korean,28000.0,2
+90,100037,Tteokbokki,Korean,38000.0,1
+91,100038,Bulgogi,Korean,47000.0,2
+92,100038,Kimchi Jjigae,Korean,18000.0,3
+93,100039,Bakso,Indonesian,32000.0,3
+94,100039,Nasi Goreng,Indonesian,25000.0,2
+95,100039,Nasi Padang,Indonesian,74000.0,2
+96,100039,Gado-Gado,Indonesian,74000.0,1
+97,100040,Kimchi Jjigae,Korean,65000.0,1
+98,100040,Sundubu Jjigae,Korean,27000.0,3
+99,100040,Kimbap,Korean,57000.0,1
+100,100040,Japchae,Korean,64000.0,3
+101,100041,Bulgogi,Korean,70000.0,3
+102,100041,Tteokbokki,Korean,51000.0,1
+103,100041,Korean BBQ,Korean,60000.0,2
+104,100041,Kimbap,Korean,68000.0,2
+105,100042,Dim Sum,Chinese,55000.0,1
+106,100043,Ice Cream,Dessert & Drinks,50000.0,3
+107,100043,Crepes,Dessert & Drinks,65000.0,3
+108,100043,Churros,Dessert & Drinks,68000.0,2
+109,100044,Dal Tadka,Indian,59000.0,3
+110,100044,Tandoori Chicken,Indian,31000.0,1
+111,100045,Fish & Chips,Western,65000.0,3
+112,100045,Steak,Western,20000.0,2
+113,100045,Grilled Chicken,Western,52000.0,2
+114,100046,Noodle Soup,Chinese,42000.0,2
+115,100047,Sushi Set,Japanese,16000.0,2
+116,100047,Udon,Japanese,68000.0,2
+117,100047,Takoyaki,Japanese,50000.0,2
+118,100047,Tempura,Japanese,68000.0,2
+119,100048,Onigiri,Japanese,35000.0,1
+120,100048,Ramen,Japanese,40000.0,2
+121,100049,Lamb Chops,Middle Eastern,23000.0,2
+122,100049,Fattoush,Middle Eastern,43000.0,3
+123,100050,Peking Duck,Chinese,32000.0,2
+124,100050,Noodle Soup,Chinese,28000.0,2
+125,100050,Chop Suey,Chinese,43000.0,3
+126,100051,Wonton Soup,Chinese,61000.0,2
+127,100051,Spring Roll,Chinese,21000.0,2
+128,100052,Fattoush,Middle Eastern,63000.0,1
+129,100052,Falafel,Middle Eastern,35000.0,3
+130,100052,Hummus Plate,Middle Eastern,22000.0,2
+131,100052,Lamb Chops,Middle Eastern,37000.0,3
+132,100053,Fattoush,Middle Eastern,68000.0,3
+133,100054,Churros,Dessert & Drinks,28000.0,1
+134,100054,Ice Cream,Dessert & Drinks,72000.0,2
+135,100054,Cheesecake,Dessert & Drinks,84000.0,3
+136,100055,Kimchi Jjigae,Korean,26000.0,3
+137,100055,Bulgogi,Korean,22000.0,3
+138,100055,Japchae,Korean,30000.0,1
+139,100056,Dumplings,Chinese,30000.0,1
+140,100057,BBQ Ribs,Western,57000.0,2
+141,100057,Grilled Chicken,Western,54000.0,1
+142,100057,Burger,Western,76000.0,3
+143,100057,Steak,Western,25000.0,3
+144,100058,Shawarma,Middle Eastern,61000.0,3
+145,100058,Mezze Platter,Middle Eastern,58000.0,3
+146,100058,Hummus Plate,Middle Eastern,79000.0,1
+147,100058,Lamb Chops,Middle Eastern,82000.0,2
+148,100059,Tempura,Japanese,75000.0,1
+149,100059,Sushi Set,Japanese,31000.0,1
+150,100059,Udon,Japanese,22000.0,3
+151,100060,Kimbap,Korean,61000.0,2
+152,100061,Mie Goreng,Indonesian,20000.0,1
+153,100062,Cheesecake,Dessert & Drinks,18000.0,2
+154,100062,Boba Tea,Dessert & Drinks,49000.0,2
+155,100062,Crepes,Dessert & Drinks,30000.0,3
+156,100062,Churros,Dessert & Drinks,56000.0,1
+157,100063,Sushi Set,Japanese,33000.0,2
+158,100063,Tempura,Japanese,67000.0,2
+159,100064,BBQ Ribs,Western,36000.0,1
+160,100064,Grilled Chicken,Western,85000.0,2
+161,100065,Onigiri,Japanese,56000.0,1
+162,100065,Udon,Japanese,66000.0,1
+163,100065,Tempura,Japanese,27000.0,2
+164,100065,Ramen,Japanese,22000.0,3
+165,100066,Spring Roll,Chinese,23000.0,1
+166,100067,Bakso,Indonesian,73000.0,2
+167,100067,Rendang,Indonesian,32000.0,3
+168,100068,Chop Suey,Chinese,36000.0,1
+169,100069,Dumplings,Chinese,63000.0,3
+170,100069,Wonton Soup,Chinese,34000.0,1
+171,100069,Spring Roll,Chinese,18000.0,3
+172,100069,Fried Rice,Chinese,79000.0,2
+173,100070,Onigiri,Japanese,77000.0,3
+174,100070,Takoyaki,Japanese,68000.0,3
+175,100070,Tempura,Japanese,50000.0,2
+176,100070,Sushi Set,Japanese,42000.0,3
+177,100071,Samosa,Indian,63000.0,2
+178,100071,Biryani,Indian,70000.0,2
+179,100072,Boba Tea,Dessert & Drinks,56000.0,1
+180,100072,Ice Cream,Dessert & Drinks,48000.0,3
+181,100072,Churros,Dessert & Drinks,53000.0,1
+182,100073,Peking Duck,Chinese,81000.0,2
+183,100073,Spring Roll,Chinese,48000.0,3
+184,100074,Pasta,Western,21000.0,3
+185,100074,Fish & Chips,Western,70000.0,3
+186,100074,Burger,Western,26000.0,3
+187,100075,Takoyaki,Japanese,39000.0,3
+188,100076,Sundubu Jjigae,Korean,18000.0,3
+189,100077,Fattoush,Middle Eastern,24000.0,3
+190,100077,Manakish,Middle Eastern,83000.0,1
+191,100077,Shawarma,Middle Eastern,23000.0,1
+192,100078,Noodle Soup,Chinese,47000.0,3
+193,100078,Chop Suey,Chinese,77000.0,1
+194,100078,Peking Duck,Chinese,39000.0,3
+195,100079,Manakish,Middle Eastern,29000.0,2
+196,100079,Mezze Platter,Middle Eastern,49000.0,3
+197,100079,Kebab,Middle Eastern,71000.0,2
+198,100079,Falafel,Middle Eastern,68000.0,2
+199,100080,Steak,Western,17000.0,2
+200,100080,BBQ Ribs,Western,80000.0,1
+201,100081,Gyudon,Japanese,44000.0,2
+202,100081,Ramen,Japanese,47000.0,2
+203,100082,Caesar Salad,Western,84000.0,3
+204,100082,Pasta,Western,80000.0,2
+205,100082,Burger,Western,55000.0,3
+206,100082,Club Sandwich,Western,78000.0,2
+207,100083,Shawarma,Middle Eastern,71000.0,1
+208,100084,Japchae,Korean,64000.0,1
+209,100084,Bulgogi,Korean,28000.0,1
+210,100085,Crepes,Dessert & Drinks,18000.0,1
+211,100085,Milkshake,Dessert & Drinks,44000.0,2
+212,100086,Waffle,Dessert & Drinks,71000.0,2
+213,100086,Ice Cream,Dessert & Drinks,49000.0,2
+214,100086,Milkshake,Dessert & Drinks,59000.0,2
+215,100087,Udon,Japanese,54000.0,2
+216,100087,Gyudon,Japanese,46000.0,3
+217,100088,Biryani,Indian,31000.0,3
+218,100089,Onigiri,Japanese,42000.0,3
+219,100089,Udon,Japanese,68000.0,1
+220,100089,Takoyaki,Japanese,38000.0,2
+221,100090,Gado-Gado,Indonesian,23000.0,3
+222,100091,Boba Tea,Dessert & Drinks,53000.0,3
+223,100091,Matcha Latte,Dessert & Drinks,48000.0,2
+224,100091,Milkshake,Dessert & Drinks,46000.0,2
+225,100091,Waffle,Dessert & Drinks,45000.0,3
+226,100092,Crepes,Dessert & Drinks,77000.0,1
+227,100092,Ice Cream,Dessert & Drinks,35000.0,1
+228,100092,Cheesecake,Dessert & Drinks,32000.0,1
+229,100092,Milkshake,Dessert & Drinks,45000.0,2
+230,100093,Masala Chai,Indian,68000.0,3
+231,100094,Mezze Platter,Middle Eastern,25000.0,1
+232,100094,Kebab,Middle Eastern,78000.0,1
+233,100095,BBQ Ribs,Western,70000.0,3
+234,100095,Caesar Salad,Western,67000.0,3
+235,100095,Club Sandwich,Western,20000.0,3
+236,100095,Burger,Western,80000.0,1
+237,100096,Tandoori Chicken,Indian,80000.0,1
+238,100096,Dal Tadka,Indian,60000.0,3
+239,100097,Peking Duck,Chinese,25000.0,2
+240,100097,Noodle Soup,Chinese,18000.0,1
+241,100097,Wonton Soup,Chinese,56000.0,1
+242,100098,Dim Sum,Chinese,30000.0,2
+243,100099,Ayam Geprek,Indonesian,60000.0,2
+244,100099,Gado-Gado,Indonesian,29000.0,2
+245,100099,Mie Goreng,Indonesian,74000.0,2
+246,100099,Soto Ayam,Indonesian,34000.0,2
+247,100100,Shawarma,Middle Eastern,27000.0,3
+248,100100,Falafel,Middle Eastern,23000.0,2
+249,100100,Hummus Plate,Middle Eastern,30000.0,1
+250,100100,Lamb Chops,Middle Eastern,44000.0,1
+251,100101,Udon,Japanese,84000.0,2
+252,100101,Ramen,Japanese,17000.0,2
+253,100101,Gyudon,Japanese,70000.0,1
+254,100102,Peking Duck,Chinese,51000.0,3
+255,100103,Rendang,Indonesian,36000.0,1
+256,100103,Gado-Gado,Indonesian,17000.0,3
+257,100103,Bakso,Indonesian,48000.0,1
+258,100104,Japchae,Korean,22000.0,1
+259,100104,Sundubu Jjigae,Korean,47000.0,3
+260,100104,Tteokbokki,Korean,65000.0,2
+261,100104,Bibimbap,Korean,53000.0,1
+262,100105,Soto Ayam,Indonesian,81000.0,2
+263,100105,Rendang,Indonesian,22000.0,1
+264,100105,Mie Goreng,Indonesian,69000.0,1
+265,100105,Nasi Goreng,Indonesian,78000.0,2
+266,100106,Caesar Salad,Western,57000.0,1
+267,100106,Fish & Chips,Western,51000.0,1
+268,100106,BBQ Ribs,Western,56000.0,3
+269,100107,Dumplings,Chinese,78000.0,3
+270,100107,Chop Suey,Chinese,74000.0,1
+271,100107,Noodle Soup,Chinese,73000.0,2
+272,100108,Chop Suey,Chinese,34000.0,2
+273,100108,Spring Roll,Chinese,32000.0,1
+274,100108,Dim Sum,Chinese,63000.0,1
+275,100108,Peking Duck,Chinese,43000.0,1
+276,100109,Tteokbokki,Korean,38000.0,1
+277,100109,Kimchi Jjigae,Korean,83000.0,2
+278,100110,Bulgogi,Korean,29000.0,3
+279,100110,Kimchi Jjigae,Korean,18000.0,3
+280,100111,Pasta,Western,46000.0,3
+281,100111,Caesar Salad,Western,55000.0,1
+282,100111,Grilled Chicken,Western,20000.0,2
+283,100111,Club Sandwich,Western,38000.0,1
+284,100112,Sundubu Jjigae,Korean,29000.0,1
+285,100112,Bibimbap,Korean,83000.0,2
+286,100113,Udon,Japanese,50000.0,3
+287,100113,Ramen,Japanese,27000.0,1
+288,100114,Kimchi Jjigae,Korean,73000.0,2
+289,100114,Sundubu Jjigae,Korean,40000.0,1
+290,100114,Japchae,Korean,52000.0,1
+291,100114,Bulgogi,Korean,64000.0,1
+292,100115,Ayam Geprek,Indonesian,20000.0,1
+293,100115,Gado-Gado,Indonesian,27000.0,2
+294,100115,Mie Goreng,Indonesian,74000.0,2
+295,100116,Palak Paneer,Indian,40000.0,2
+296,100116,Masala Chai,Indian,56000.0,2
+297,100117,Kimchi Jjigae,Korean,52000.0,2
+298,100117,Kimbap,Korean,31000.0,3
+299,100118,Gado-Gado,Indonesian,43000.0,2
+300,100118,Nasi Goreng,Indonesian,48000.0,1
+301,100118,Bakso,Indonesian,49000.0,3
+302,100119,Nasi Goreng,Indonesian,16000.0,1
+303,100119,Soto Ayam,Indonesian,37000.0,2
+304,100119,Mie Goreng,Indonesian,49000.0,2
+305,100119,Nasi Padang,Indonesian,39000.0,2
+306,100120,Matcha Latte,Dessert & Drinks,72000.0,3
+307,100121,Bakso,Indonesian,78000.0,2
+308,100122,Caesar Salad,Western,74000.0,1
+309,100122,Club Sandwich,Western,84000.0,2
+310,100122,Steak,Western,33000.0,2
+311,100122,BBQ Ribs,Western,82000.0,3
+312,100123,Falafel,Middle Eastern,35000.0,3
+313,100123,Hummus Plate,Middle Eastern,60000.0,2
+314,100123,Shawarma,Middle Eastern,81000.0,3
+315,100123,Lamb Chops,Middle Eastern,51000.0,3
+316,100124,Lamb Chops,Middle Eastern,85000.0,3
+317,100125,Onigiri,Japanese,49000.0,1
+318,100125,Sushi Set,Japanese,81000.0,3
+319,100125,Tempura,Japanese,28000.0,3
+320,100126,Caesar Salad,Western,84000.0,1
+321,100126,Pasta,Western,77000.0,2
+322,100126,Club Sandwich,Western,50000.0,3
+323,100126,Fish & Chips,Western,36000.0,3
+324,100127,Ayam Geprek,Indonesian,42000.0,2
+325,100127,Nasi Goreng,Indonesian,71000.0,1
+326,100128,Nasi Goreng,Indonesian,54000.0,1
+327,100128,Bakso,Indonesian,36000.0,3
+328,100129,Bakso,Indonesian,40000.0,2
+329,100129,Mie Goreng,Indonesian,22000.0,3
+330,100130,Biryani,Indian,45000.0,1
+331,100130,Dal Tadka,Indian,21000.0,1
+332,100131,Fish & Chips,Western,36000.0,2
+333,100131,Club Sandwich,Western,28000.0,2
+334,100131,Grilled Chicken,Western,16000.0,1
+335,100132,Udon,Japanese,24000.0,2
+336,100132,Katsu Curry,Japanese,43000.0,2
+337,100133,Butter Chicken,Indian,83000.0,3
+338,100134,Kebab,Middle Eastern,19000.0,3
+339,100134,Shawarma,Middle Eastern,63000.0,2
+340,100134,Manakish,Middle Eastern,34000.0,2
+341,100134,Fattoush,Middle Eastern,15000.0,1
+342,100135,Fish & Chips,Western,36000.0,1
+343,100135,Steak,Western,68000.0,2
+344,100135,Grilled Chicken,Western,67000.0,2
+345,100135,Caesar Salad,Western,65000.0,2
+346,100136,Sushi Set,Japanese,58000.0,3
+347,100136,Onigiri,Japanese,33000.0,1
+348,100136,Katsu Curry,Japanese,54000.0,2
+349,100136,Udon,Japanese,33000.0,1
+350,100137,Kimbap,Korean,77000.0,2
+351,100138,Japchae,Korean,34000.0,1
+352,100138,Bulgogi,Korean,30000.0,2
+353,100138,Bibimbap,Korean,81000.0,1
+354,100139,Club Sandwich,Western,25000.0,3
+355,100139,Caesar Salad,Western,49000.0,1
+356,100139,Fish & Chips,Western,28000.0,3
+357,100140,Fattoush,Middle Eastern,66000.0,3
+358,100140,Falafel,Middle Eastern,68000.0,3
+359,100141,Takoyaki,Japanese,18000.0,1
+360,100141,Tempura,Japanese,27000.0,2
+361,100141,Gyudon,Japanese,79000.0,3
+362,100142,Nasi Goreng,Indonesian,63000.0,3
+363,100142,Soto Ayam,Indonesian,74000.0,2
+364,100143,Tandoori Chicken,Indian,68000.0,2
+365,100143,Butter Chicken,Indian,41000.0,3
+366,100143,Palak Paneer,Indian,27000.0,3
+367,100143,Masala Chai,Indian,78000.0,3
+368,100144,Soto Ayam,Indonesian,56000.0,2
+369,100144,Nasi Padang,Indonesian,19000.0,2
+370,100144,Gado-Gado,Indonesian,55000.0,2
+371,100144,Mie Goreng,Indonesian,49000.0,2
+372,100145,Waffle,Dessert & Drinks,24000.0,1
+373,100145,Churros,Dessert & Drinks,38000.0,1
+374,100146,Noodle Soup,Chinese,70000.0,3
+375,100147,Onigiri,Japanese,60000.0,2
+376,100147,Takoyaki,Japanese,69000.0,2
+377,100147,Katsu Curry,Japanese,46000.0,2
+378,100147,Ramen,Japanese,66000.0,3
+379,100148,Nasi Goreng,Indonesian,18000.0,1
+380,100149,Onigiri,Japanese,19000.0,2
+381,100150,Tempura,Japanese,27000.0,2
+382,100150,Sushi Set,Japanese,41000.0,1
+383,100150,Takoyaki,Japanese,33000.0,2
+384,100150,Ramen,Japanese,63000.0,3
+385,100151,Sushi Set,Japanese,38000.0,3
+386,100152,Falafel,Middle Eastern,28000.0,1
+387,100152,Manakish,Middle Eastern,71000.0,1
+388,100152,Kebab,Middle Eastern,37000.0,2
+389,100152,Fattoush,Middle Eastern,69000.0,3
+390,100153,Biryani,Indian,62000.0,1
+391,100153,Dal Tadka,Indian,60000.0,2
+392,100153,Samosa,Indian,37000.0,2
+393,100153,Butter Chicken,Indian,80000.0,1
+394,100154,Nasi Goreng,Indonesian,37000.0,2
+395,100154,Bakso,Indonesian,17000.0,2
+396,100154,Gado-Gado,Indonesian,31000.0,3
+397,100154,Rendang,Indonesian,54000.0,3
+398,100155,Nasi Goreng,Indonesian,38000.0,1
+399,100155,Bakso,Indonesian,34000.0,1
+400,100155,Soto Ayam,Indonesian,17000.0,2
+401,100156,Spring Roll,Chinese,75000.0,2
+402,100157,Pasta,Western,28000.0,1
+403,100157,BBQ Ribs,Western,72000.0,1
+404,100157,Burger,Western,37000.0,2
+405,100158,Japchae,Korean,77000.0,3
+406,100158,Bulgogi,Korean,59000.0,3
+407,100159,Ramen,Japanese,73000.0,1
+408,100159,Sushi Set,Japanese,24000.0,2
+409,100159,Katsu Curry,Japanese,71000.0,2
+410,100159,Udon,Japanese,49000.0,3
+411,100160,Gado-Gado,Indonesian,48000.0,1
+412,100160,Ayam Geprek,Indonesian,67000.0,2
+413,100161,Waffle,Dessert & Drinks,67000.0,1
+414,100161,Boba Tea,Dessert & Drinks,71000.0,3
+415,100162,Caesar Salad,Western,20000.0,1
+416,100162,Grilled Chicken,Western,37000.0,2
+417,100163,Hummus Plate,Middle Eastern,80000.0,3
+418,100164,Wonton Soup,Chinese,27000.0,2
+419,100164,Noodle Soup,Chinese,28000.0,2
+420,100164,Fried Rice,Chinese,77000.0,2
+421,100165,Katsu Curry,Japanese,53000.0,1
+422,100165,Takoyaki,Japanese,24000.0,1
+423,100166,Spring Roll,Chinese,40000.0,1
+424,100166,Chop Suey,Chinese,69000.0,2
+425,100166,Dim Sum,Chinese,67000.0,2
+426,100167,Gado-Gado,Indonesian,43000.0,1
+427,100167,Ayam Geprek,Indonesian,21000.0,2
+428,100167,Mie Goreng,Indonesian,74000.0,2
+429,100168,Nasi Goreng,Indonesian,36000.0,3
+430,100168,Nasi Padang,Indonesian,25000.0,1
+431,100168,Rendang,Indonesian,64000.0,1
+432,100169,Ramen,Japanese,16000.0,1
+433,100170,Nasi Padang,Indonesian,67000.0,2
+434,100170,Ayam Geprek,Indonesian,31000.0,3
+435,100170,Gado-Gado,Indonesian,76000.0,1
+436,100170,Nasi Goreng,Indonesian,81000.0,3
+437,100171,Wonton Soup,Chinese,79000.0,3
+438,100171,Noodle Soup,Chinese,60000.0,1
+439,100171,Chop Suey,Chinese,43000.0,2
+440,100172,Fried Rice,Chinese,38000.0,3
+441,100173,Bulgogi,Korean,18000.0,2
+442,100173,Tteokbokki,Korean,72000.0,2
+443,100173,Kimchi Jjigae,Korean,19000.0,1
+444,100173,Bibimbap,Korean,56000.0,1
+445,100174,Grilled Chicken,Western,45000.0,1
+446,100174,Burger,Western,41000.0,1
+447,100174,Caesar Salad,Western,66000.0,1
+448,100174,Fish & Chips,Western,21000.0,3
+449,100175,Fried Rice,Chinese,20000.0,2
+450,100175,Noodle Soup,Chinese,56000.0,1
+451,100175,Spring Roll,Chinese,46000.0,2
+452,100176,Matcha Latte,Dessert & Drinks,48000.0,3
+453,100177,Tempura,Japanese,25000.0,2
+454,100177,Katsu Curry,Japanese,80000.0,3
+455,100178,Gyudon,Japanese,47000.0,3
+456,100178,Katsu Curry,Japanese,64000.0,3
+457,100179,Boba Tea,Dessert & Drinks,75000.0,3
+458,100179,Churros,Dessert & Drinks,26000.0,2
+459,100180,Fried Rice,Chinese,33000.0,2
+460,100180,Spring Roll,Chinese,56000.0,3
+461,100181,Nasi Goreng,Indonesian,84000.0,3
+462,100181,Ayam Geprek,Indonesian,38000.0,1
+463,100181,Mie Goreng,Indonesian,72000.0,2
+464,100182,Falafel,Middle Eastern,81000.0,3
+465,100182,Hummus Plate,Middle Eastern,47000.0,2
+466,100183,Ramen,Japanese,62000.0,2
+467,100183,Udon,Japanese,64000.0,2
+468,100183,Takoyaki,Japanese,64000.0,1
+469,100184,Waffle,Dessert & Drinks,24000.0,1
+470,100185,Pasta,Western,42000.0,3
+471,100186,Hummus Plate,Middle Eastern,71000.0,2
+472,100186,Manakish,Middle Eastern,53000.0,1
+473,100186,Shawarma,Middle Eastern,18000.0,1
+474,100186,Fattoush,Middle Eastern,43000.0,3
+475,100187,Peking Duck,Chinese,62000.0,1
+476,100187,Chop Suey,Chinese,44000.0,1
+477,100187,Spring Roll,Chinese,43000.0,1
+478,100187,Dumplings,Chinese,25000.0,3
+479,100188,Butter Chicken,Indian,21000.0,3
+480,100188,Naan,Indian,23000.0,1
+481,100188,Samosa,Indian,47000.0,3
+482,100188,Palak Paneer,Indian,36000.0,3
+483,100189,Kimbap,Korean,78000.0,2
+484,100189,Bulgogi,Korean,25000.0,1
+485,100190,Lamb Chops,Middle Eastern,41000.0,1
+486,100190,Mezze Platter,Middle Eastern,64000.0,1
+487,100190,Shawarma,Middle Eastern,39000.0,1
+488,100191,Chop Suey,Chinese,49000.0,1
+489,100192,Tandoori Chicken,Indian,73000.0,1
+490,100193,Waffle,Dessert & Drinks,17000.0,1
+491,100193,Churros,Dessert & Drinks,44000.0,1
+492,100194,Dumplings,Chinese,29000.0,1
+493,100194,Fried Rice,Chinese,24000.0,2
+494,100194,Noodle Soup,Chinese,56000.0,2
+495,100194,Peking Duck,Chinese,76000.0,1
+496,100195,Ramen,Japanese,25000.0,1
+497,100196,Tandoori Chicken,Indian,57000.0,2
+498,100196,Dal Tadka,Indian,15000.0,1
+499,100196,Samosa,Indian,15000.0,1
+500,100197,Grilled Chicken,Western,71000.0,2
+501,100197,Club Sandwich,Western,47000.0,2
+502,100197,Fish & Chips,Western,82000.0,3
+503,100197,Pasta,Western,23000.0,1
+504,100198,Kebab,Middle Eastern,79000.0,2
+505,100198,Manakish,Middle Eastern,47000.0,3
+506,100198,Hummus Plate,Middle Eastern,79000.0,3
+507,100199,Sushi Set,Japanese,31000.0,3
+508,100199,Onigiri,Japanese,64000.0,2
+509,100200,Caesar Salad,Western,56000.0,1
+510,100200,Grilled Chicken,Western,45000.0,1
+511,100201,Fish & Chips,Western,55000.0,1
+512,100201,Grilled Chicken,Western,56000.0,1
+513,100201,Club Sandwich,Western,76000.0,2
+514,100201,Caesar Salad,Western,71000.0,2
+515,100202,Steak,Western,45000.0,3
+516,100202,Grilled Chicken,Western,64000.0,2
+517,100202,Fish & Chips,Western,47000.0,3
+518,100203,Club Sandwich,Western,85000.0,2
+519,100203,Pasta,Western,39000.0,3
+520,100203,Fish & Chips,Western,17000.0,3
+521,100204,Kimchi Jjigae,Korean,39000.0,1
+522,100205,Korean BBQ,Korean,66000.0,3
+523,100205,Bulgogi,Korean,31000.0,2
+524,100206,Crepes,Dessert & Drinks,29000.0,3
+525,100206,Boba Tea,Dessert & Drinks,32000.0,2
+526,100206,Milkshake,Dessert & Drinks,41000.0,3
+527,100207,Biryani,Indian,31000.0,1
+528,100207,Butter Chicken,Indian,53000.0,3
+529,100208,Fish & Chips,Western,28000.0,1
+530,100209,Crepes,Dessert & Drinks,74000.0,1
+531,100209,Cheesecake,Dessert & Drinks,37000.0,2
+532,100209,Waffle,Dessert & Drinks,83000.0,3
+533,100209,Churros,Dessert & Drinks,57000.0,2
+534,100210,Bulgogi,Korean,56000.0,3
+535,100210,Sundubu Jjigae,Korean,61000.0,3
+536,100210,Kimchi Jjigae,Korean,77000.0,2
+537,100210,Bibimbap,Korean,53000.0,3
+538,100211,Boba Tea,Dessert & Drinks,83000.0,1
+539,100211,Milkshake,Dessert & Drinks,59000.0,3
+540,100211,Waffle,Dessert & Drinks,71000.0,3
+541,100212,Crepes,Dessert & Drinks,66000.0,2
+542,100212,Matcha Latte,Dessert & Drinks,32000.0,2
+543,100213,Crepes,Dessert & Drinks,23000.0,2
+544,100213,Matcha Latte,Dessert & Drinks,67000.0,3
+545,100213,Waffle,Dessert & Drinks,57000.0,1
+546,100213,Churros,Dessert & Drinks,25000.0,1
+547,100214,Pasta,Western,30000.0,3
+548,100215,Falafel,Middle Eastern,49000.0,2
+549,100216,Masala Chai,Indian,17000.0,3
+550,100217,Rendang,Indonesian,51000.0,1
+551,100217,Gado-Gado,Indonesian,28000.0,2
+552,100217,Ayam Geprek,Indonesian,44000.0,3
+553,100217,Mie Goreng,Indonesian,48000.0,3
+554,100218,Lamb Chops,Middle Eastern,34000.0,3
+555,100218,Hummus Plate,Middle Eastern,64000.0,2
+556,100218,Manakish,Middle Eastern,41000.0,1
+557,100219,Fish & Chips,Western,78000.0,1
+558,100219,Steak,Western,28000.0,1
+559,100220,Falafel,Middle Eastern,42000.0,2
+560,100221,Nasi Padang,Indonesian,44000.0,3
+561,100221,Gado-Gado,Indonesian,42000.0,2
+562,100221,Soto Ayam,Indonesian,66000.0,3
+563,100222,Fried Rice,Chinese,53000.0,2
+564,100222,Noodle Soup,Chinese,79000.0,3
+565,100222,Peking Duck,Chinese,29000.0,2
+566,100222,Dim Sum,Chinese,28000.0,1
+567,100223,Matcha Latte,Dessert & Drinks,70000.0,2
+568,100223,Waffle,Dessert & Drinks,32000.0,2
+569,100223,Milkshake,Dessert & Drinks,82000.0,1
+570,100224,Korean BBQ,Korean,25000.0,1
+571,100225,Palak Paneer,Indian,83000.0,3
+572,100226,Steak,Western,79000.0,2
+573,100226,BBQ Ribs,Western,49000.0,2
+574,100226,Pasta,Western,44000.0,2
+575,100226,Grilled Chicken,Western,77000.0,1
+576,100227,Gado-Gado,Indonesian,60000.0,1
+577,100228,Naan,Indian,65000.0,2
+578,100228,Tandoori Chicken,Indian,81000.0,2
+579,100228,Butter Chicken,Indian,52000.0,2
+580,100229,Sushi Set,Japanese,79000.0,1
+581,100230,Nasi Padang,Indonesian,52000.0,1
+582,100230,Mie Goreng,Indonesian,49000.0,1
+583,100231,Chop Suey,Chinese,50000.0,1
+584,100231,Noodle Soup,Chinese,61000.0,3
+585,100232,Burger,Western,36000.0,2
+586,100232,Fish & Chips,Western,51000.0,1
+587,100232,Caesar Salad,Western,65000.0,3
+588,100233,Korean BBQ,Korean,43000.0,3
+589,100233,Japchae,Korean,27000.0,1
+590,100233,Kimbap,Korean,18000.0,1
+591,100234,Shawarma,Middle Eastern,22000.0,3
+592,100234,Mezze Platter,Middle Eastern,43000.0,1
+593,100234,Falafel,Middle Eastern,35000.0,3
+594,100234,Manakish,Middle Eastern,72000.0,1
+595,100235,Nasi Padang,Indonesian,45000.0,2
+596,100236,Chop Suey,Chinese,82000.0,2
+597,100237,Biryani,Indian,36000.0,1
+598,100237,Samosa,Indian,40000.0,1
+599,100237,Butter Chicken,Indian,72000.0,2
+600,100237,Tandoori Chicken,Indian,58000.0,3
+601,100238,Kimchi Jjigae,Korean,63000.0,2
+602,100238,Japchae,Korean,24000.0,1
+603,100239,Peking Duck,Chinese,59000.0,2
+604,100239,Wonton Soup,Chinese,33000.0,1
+605,100239,Dim Sum,Chinese,19000.0,3
+606,100240,Fried Rice,Chinese,62000.0,2
+607,100241,Churros,Dessert & Drinks,81000.0,3
+608,100242,Steak,Western,65000.0,3
+609,100242,Grilled Chicken,Western,60000.0,3
+610,100243,Palak Paneer,Indian,37000.0,3
+611,100243,Samosa,Indian,39000.0,1
+612,100243,Masala Chai,Indian,61000.0,2
+613,100243,Dal Tadka,Indian,58000.0,3
+614,100244,Butter Chicken,Indian,36000.0,2
+615,100244,Biryani,Indian,73000.0,1
+616,100245,Mie Goreng,Indonesian,63000.0,1
+617,100245,Bakso,Indonesian,45000.0,3
+618,100246,Ramen,Japanese,24000.0,1
+619,100246,Katsu Curry,Japanese,46000.0,1
+620,100247,Rendang,Indonesian,65000.0,2
+621,100247,Mie Goreng,Indonesian,21000.0,2
+622,100248,Bulgogi,Korean,29000.0,1
+623,100249,Kimchi Jjigae,Korean,67000.0,1
+624,100249,Korean BBQ,Korean,56000.0,1
+625,100250,Tandoori Chicken,Indian,35000.0,1
+626,100250,Butter Chicken,Indian,23000.0,1
+627,100250,Naan,Indian,26000.0,1
+628,100250,Dal Tadka,Indian,58000.0,1
+629,100251,Noodle Soup,Chinese,77000.0,1
+630,100251,Chop Suey,Chinese,35000.0,2
+631,100252,Ice Cream,Dessert & Drinks,83000.0,3
+632,100253,Lamb Chops,Middle Eastern,34000.0,1
+633,100254,Ayam Geprek,Indonesian,65000.0,2
+634,100254,Rendang,Indonesian,42000.0,3
+635,100255,BBQ Ribs,Western,84000.0,3
+636,100256,Nasi Goreng,Indonesian,20000.0,2
+637,100256,Rendang,Indonesian,81000.0,3
+638,100256,Gado-Gado,Indonesian,66000.0,2
+639,100256,Nasi Padang,Indonesian,23000.0,1
+640,100257,Sundubu Jjigae,Korean,19000.0,1
+641,100257,Kimchi Jjigae,Korean,74000.0,1
+642,100258,Tandoori Chicken,Indian,57000.0,2
+643,100258,Palak Paneer,Indian,29000.0,1
+644,100259,Naan,Indian,17000.0,3
+645,100259,Palak Paneer,Indian,16000.0,2
+646,100259,Tandoori Chicken,Indian,45000.0,2
+647,100260,Fattoush,Middle Eastern,65000.0,1
+648,100260,Manakish,Middle Eastern,27000.0,1
+649,100260,Kebab,Middle Eastern,29000.0,3
+650,100261,Chop Suey,Chinese,66000.0,2
+651,100261,Dumplings,Chinese,24000.0,3
+652,100261,Fried Rice,Chinese,77000.0,3
+653,100261,Wonton Soup,Chinese,21000.0,2
+654,100262,Japchae,Korean,84000.0,1
+655,100262,Sundubu Jjigae,Korean,20000.0,1
+656,100262,Kimchi Jjigae,Korean,72000.0,2
+657,100262,Bibimbap,Korean,22000.0,2
+658,100263,Naan,Indian,79000.0,3
+659,100264,Kebab,Middle Eastern,65000.0,1
+660,100264,Fattoush,Middle Eastern,34000.0,3
+661,100264,Shawarma,Middle Eastern,16000.0,2
+662,100265,Dim Sum,Chinese,80000.0,1
+663,100265,Wonton Soup,Chinese,80000.0,2
+664,100265,Noodle Soup,Chinese,31000.0,1
+665,100266,Gyudon,Japanese,67000.0,2
+666,100266,Takoyaki,Japanese,60000.0,1
+667,100267,Tteokbokki,Korean,65000.0,1
+668,100267,Bulgogi,Korean,54000.0,2
+669,100268,Kebab,Middle Eastern,70000.0,2
+670,100268,Falafel,Middle Eastern,27000.0,2
+671,100268,Fattoush,Middle Eastern,74000.0,2
+672,100269,Katsu Curry,Japanese,57000.0,3
+673,100269,Ramen,Japanese,72000.0,3
+674,100270,Tempura,Japanese,66000.0,1
+675,100270,Onigiri,Japanese,32000.0,1
+676,100270,Ramen,Japanese,42000.0,3
+677,100271,Chop Suey,Chinese,56000.0,3
+678,100271,Peking Duck,Chinese,17000.0,2
+679,100271,Dumplings,Chinese,62000.0,2
+680,100272,Bakso,Indonesian,61000.0,2
+681,100272,Ayam Geprek,Indonesian,62000.0,3
+682,100272,Mie Goreng,Indonesian,76000.0,2
+683,100273,Katsu Curry,Japanese,73000.0,3
+684,100273,Sushi Set,Japanese,79000.0,1
+685,100274,Palak Paneer,Indian,73000.0,3
+686,100274,Samosa,Indian,63000.0,3
+687,100274,Biryani,Indian,47000.0,2
+688,100275,Kimchi Jjigae,Korean,67000.0,1
+689,100275,Sundubu Jjigae,Korean,31000.0,3
+690,100276,Palak Paneer,Indian,47000.0,2
+691,100276,Biryani,Indian,78000.0,1
+692,100276,Naan,Indian,32000.0,3
+693,100277,Burger,Western,65000.0,2
+694,100277,Steak,Western,64000.0,2
+695,100278,Dumplings,Chinese,17000.0,2
+696,100278,Wonton Soup,Chinese,75000.0,2
+697,100278,Fried Rice,Chinese,76000.0,2
+698,100279,Chop Suey,Chinese,28000.0,1
+699,100279,Dumplings,Chinese,43000.0,1
+700,100279,Spring Roll,Chinese,56000.0,3
+701,100279,Dim Sum,Chinese,67000.0,2
+702,100280,Nasi Goreng,Indonesian,38000.0,2
+703,100280,Nasi Padang,Indonesian,55000.0,2
+704,100280,Gado-Gado,Indonesian,31000.0,2
+705,100280,Rendang,Indonesian,60000.0,3
+706,100281,Naan,Indian,55000.0,2
+707,100281,Butter Chicken,Indian,23000.0,2
+708,100282,Ramen,Japanese,22000.0,3
+709,100282,Katsu Curry,Japanese,66000.0,2
+710,100282,Gyudon,Japanese,27000.0,3
+711,100283,Bulgogi,Korean,36000.0,3
+712,100283,Kimbap,Korean,65000.0,1
+713,100283,Japchae,Korean,63000.0,1
+714,100284,Lamb Chops,Middle Eastern,66000.0,1
+715,100284,Hummus Plate,Middle Eastern,40000.0,1
+716,100285,Dumplings,Chinese,25000.0,3
+717,100285,Chop Suey,Chinese,23000.0,2
+718,100285,Fried Rice,Chinese,23000.0,2
+719,100286,Bakso,Indonesian,78000.0,2
+720,100286,Gado-Gado,Indonesian,61000.0,2
+721,100286,Ayam Geprek,Indonesian,16000.0,2
+722,100286,Nasi Padang,Indonesian,25000.0,1
+723,100287,Spring Roll,Chinese,52000.0,1
+724,100287,Peking Duck,Chinese,75000.0,1
+725,100288,Gyudon,Japanese,70000.0,2
+726,100288,Sushi Set,Japanese,29000.0,1
+727,100288,Katsu Curry,Japanese,16000.0,1
+728,100288,Takoyaki,Japanese,52000.0,3
+729,100289,Mezze Platter,Middle Eastern,27000.0,2
+730,100289,Manakish,Middle Eastern,82000.0,2
+731,100289,Kebab,Middle Eastern,53000.0,1
+732,100289,Falafel,Middle Eastern,35000.0,1
+733,100290,Ramen,Japanese,43000.0,3
+734,100290,Tempura,Japanese,28000.0,3
+735,100290,Udon,Japanese,51000.0,3
+736,100291,Fattoush,Middle Eastern,25000.0,3
+737,100291,Kebab,Middle Eastern,66000.0,3
+738,100291,Shawarma,Middle Eastern,20000.0,2
+739,100292,Bibimbap,Korean,50000.0,2
+740,100292,Japchae,Korean,39000.0,2
+741,100292,Korean BBQ,Korean,37000.0,2
+742,100293,Ramen,Japanese,19000.0,1
+743,100293,Gyudon,Japanese,52000.0,2
+744,100293,Takoyaki,Japanese,68000.0,1
+745,100294,Tteokbokki,Korean,29000.0,2
+746,100294,Japchae,Korean,72000.0,1
+747,100294,Korean BBQ,Korean,41000.0,3
+748,100295,Club Sandwich,Western,27000.0,2
+749,100296,Spring Roll,Chinese,59000.0,1
+750,100296,Noodle Soup,Chinese,16000.0,3
+751,100296,Dim Sum,Chinese,22000.0,1
+752,100296,Peking Duck,Chinese,49000.0,2
+753,100297,Chop Suey,Chinese,55000.0,3
+754,100297,Peking Duck,Chinese,28000.0,1
+755,100298,Ramen,Japanese,68000.0,3
+756,100299,Bakso,Indonesian,33000.0,3
+757,100299,Nasi Goreng,Indonesian,58000.0,2
+758,100299,Ayam Geprek,Indonesian,66000.0,1
+759,100299,Mie Goreng,Indonesian,61000.0,3
+760,100300,Dal Tadka,Indian,58000.0,1
+761,100300,Palak Paneer,Indian,60000.0,2
+762,100300,Naan,Indian,63000.0,3
+763,100301,Grilled Chicken,Western,21000.0,1
+764,100301,Steak,Western,48000.0,1
+765,100301,BBQ Ribs,Western,77000.0,2
+766,100302,Steak,Western,19000.0,1
+767,100302,Burger,Western,77000.0,2
+768,100303,Naan,Indian,57000.0,3
+769,100304,Gyudon,Japanese,66000.0,3
+770,100304,Tempura,Japanese,78000.0,1
+771,100305,Caesar Salad,Western,78000.0,2
+772,100306,Hummus Plate,Middle Eastern,76000.0,2
+773,100306,Manakish,Middle Eastern,29000.0,2
+774,100306,Kebab,Middle Eastern,24000.0,2
+775,100307,Crepes,Dessert & Drinks,66000.0,2
+776,100308,Tandoori Chicken,Indian,17000.0,2
+777,100308,Dal Tadka,Indian,42000.0,2
+778,100309,Butter Chicken,Indian,33000.0,3
+779,100309,Masala Chai,Indian,52000.0,2
+780,100309,Naan,Indian,63000.0,3
+781,100310,Caesar Salad,Western,46000.0,1
+782,100310,Steak,Western,77000.0,1
+783,100310,Pasta,Western,85000.0,3
+784,100310,Grilled Chicken,Western,63000.0,3
+785,100311,Tteokbokki,Korean,59000.0,3
+786,100311,Kimbap,Korean,31000.0,2
+787,100311,Korean BBQ,Korean,26000.0,1
+788,100311,Bibimbap,Korean,19000.0,3
+789,100312,Bibimbap,Korean,85000.0,3
+790,100312,Bulgogi,Korean,63000.0,2
+791,100312,Kimbap,Korean,29000.0,1
+792,100313,Club Sandwich,Western,40000.0,2
+793,100313,Fish & Chips,Western,42000.0,3
+794,100313,Burger,Western,64000.0,3
+795,100313,Grilled Chicken,Western,76000.0,3
+796,100314,Soto Ayam,Indonesian,51000.0,2
+797,100314,Rendang,Indonesian,55000.0,2
+798,100314,Nasi Padang,Indonesian,24000.0,3
+799,100315,Spring Roll,Chinese,45000.0,2
+800,100315,Wonton Soup,Chinese,82000.0,2
+801,100315,Chop Suey,Chinese,48000.0,2
+802,100315,Dim Sum,Chinese,59000.0,3
+803,100316,Tempura,Japanese,41000.0,3
+804,100316,Sushi Set,Japanese,31000.0,3
+805,100316,Ramen,Japanese,65000.0,2
+806,100317,Gyudon,Japanese,46000.0,3
+807,100318,Lamb Chops,Middle Eastern,62000.0,1
+808,100318,Hummus Plate,Middle Eastern,36000.0,1
+809,100318,Shawarma,Middle Eastern,56000.0,3
+810,100319,Soto Ayam,Indonesian,58000.0,3
+811,100320,Cheesecake,Dessert & Drinks,41000.0,2
+812,100321,Udon,Japanese,75000.0,2
+813,100321,Ramen,Japanese,32000.0,2
+814,100322,Spring Roll,Chinese,73000.0,1
+815,100322,Wonton Soup,Chinese,49000.0,1
+816,100323,Mie Goreng,Indonesian,66000.0,1
+817,100323,Rendang,Indonesian,40000.0,2
+818,100323,Gado-Gado,Indonesian,79000.0,3
+819,100323,Nasi Goreng,Indonesian,53000.0,3
+820,100324,Bulgogi,Korean,60000.0,3
+821,100324,Japchae,Korean,49000.0,2
+822,100325,Nasi Padang,Indonesian,36000.0,1
+823,100325,Ayam Geprek,Indonesian,61000.0,3
+824,100326,Peking Duck,Chinese,70000.0,3
+825,100326,Dim Sum,Chinese,25000.0,3
+826,100327,Samosa,Indian,55000.0,1
+827,100328,Dim Sum,Chinese,84000.0,1
+828,100328,Peking Duck,Chinese,34000.0,3
+829,100328,Chop Suey,Chinese,43000.0,2
+830,100328,Noodle Soup,Chinese,31000.0,1
+831,100329,Waffle,Dessert & Drinks,52000.0,2
+832,100329,Crepes,Dessert & Drinks,59000.0,3
+833,100329,Boba Tea,Dessert & Drinks,57000.0,3
+834,100330,Peking Duck,Chinese,67000.0,2
+835,100331,Club Sandwich,Western,17000.0,2
+836,100331,Caesar Salad,Western,60000.0,2
+837,100331,Steak,Western,22000.0,2
+838,100331,Burger,Western,77000.0,3
+839,100332,Spring Roll,Chinese,32000.0,3
+840,100333,Biryani,Indian,25000.0,3
+841,100334,Onigiri,Japanese,77000.0,2
+842,100334,Katsu Curry,Japanese,19000.0,2
+843,100334,Ramen,Japanese,81000.0,2
+844,100334,Gyudon,Japanese,55000.0,1
+845,100335,Fattoush,Middle Eastern,18000.0,3
+846,100335,Shawarma,Middle Eastern,57000.0,2
+847,100335,Lamb Chops,Middle Eastern,21000.0,3
+848,100335,Falafel,Middle Eastern,23000.0,3
+849,100336,Tteokbokki,Korean,50000.0,2
+850,100336,Japchae,Korean,63000.0,2
+851,100336,Korean BBQ,Korean,25000.0,2
+852,100336,Kimbap,Korean,22000.0,2
+853,100337,Rendang,Indonesian,27000.0,3
+854,100337,Mie Goreng,Indonesian,67000.0,2
+855,100337,Nasi Goreng,Indonesian,75000.0,2
+856,100338,Nasi Goreng,Indonesian,30000.0,1
+857,100338,Rendang,Indonesian,67000.0,3
+858,100338,Soto Ayam,Indonesian,76000.0,1
+859,100339,Cheesecake,Dessert & Drinks,74000.0,3
+860,100339,Ice Cream,Dessert & Drinks,21000.0,3
+861,100340,BBQ Ribs,Western,51000.0,2
+862,100340,Grilled Chicken,Western,18000.0,2
+863,100341,Bibimbap,Korean,34000.0,2
+864,100342,Butter Chicken,Indian,42000.0,1
+865,100343,Sundubu Jjigae,Korean,80000.0,3
+866,100343,Japchae,Korean,62000.0,2
+867,100343,Bibimbap,Korean,47000.0,3
+868,100344,Pasta,Western,44000.0,3
+869,100344,Steak,Western,48000.0,1
+870,100345,Waffle,Dessert & Drinks,70000.0,2
+871,100346,Rendang,Indonesian,30000.0,1
+872,100347,Caesar Salad,Western,53000.0,3
+873,100348,Takoyaki,Japanese,56000.0,3
+874,100348,Udon,Japanese,36000.0,3
+875,100348,Gyudon,Japanese,30000.0,1
+876,100348,Sushi Set,Japanese,53000.0,1
+877,100349,Chop Suey,Chinese,65000.0,1
+878,100349,Dumplings,Chinese,77000.0,3
+879,100349,Noodle Soup,Chinese,24000.0,1
+880,100349,Spring Roll,Chinese,40000.0,2
+881,100350,Club Sandwich,Western,20000.0,1
+882,100351,Rendang,Indonesian,66000.0,3
+883,100351,Gado-Gado,Indonesian,42000.0,2
+884,100351,Bakso,Indonesian,35000.0,3
+885,100352,Katsu Curry,Japanese,46000.0,1
+886,100352,Udon,Japanese,49000.0,1
+887,100353,Shawarma,Middle Eastern,19000.0,2
+888,100353,Mezze Platter,Middle Eastern,20000.0,3
+889,100353,Hummus Plate,Middle Eastern,32000.0,2
+890,100354,Tteokbokki,Korean,28000.0,2
+891,100354,Bulgogi,Korean,43000.0,2
+892,100354,Kimbap,Korean,75000.0,3
+893,100355,Tandoori Chicken,Indian,23000.0,1
+894,100355,Butter Chicken,Indian,47000.0,2
+895,100356,Ramen,Japanese,18000.0,3
+896,100356,Onigiri,Japanese,24000.0,3
+897,100356,Gyudon,Japanese,81000.0,2
+898,100357,Biryani,Indian,70000.0,3
+899,100357,Palak Paneer,Indian,54000.0,1
+900,100357,Naan,Indian,39000.0,2
+901,100357,Dal Tadka,Indian,61000.0,1
+902,100358,Steak,Western,15000.0,2
+903,100358,Club Sandwich,Western,84000.0,3
+904,100359,Pasta,Western,71000.0,2
+905,100359,Steak,Western,46000.0,1
+906,100360,Tteokbokki,Korean,43000.0,2
+907,100360,Kimchi Jjigae,Korean,66000.0,2
+908,100360,Japchae,Korean,44000.0,3
+909,100360,Kimbap,Korean,78000.0,2
+910,100361,Udon,Japanese,28000.0,3
+911,100361,Ramen,Japanese,74000.0,1
+912,100361,Sushi Set,Japanese,68000.0,1
+913,100361,Takoyaki,Japanese,66000.0,3
+914,100362,Lamb Chops,Middle Eastern,30000.0,2
+915,100363,Masala Chai,Indian,20000.0,2
+916,100364,Katsu Curry,Japanese,45000.0,3
+917,100364,Tempura,Japanese,70000.0,2
+918,100364,Gyudon,Japanese,81000.0,1
+919,100365,Masala Chai,Indian,78000.0,2
+920,100366,Kimbap,Korean,21000.0,2
+921,100366,Sundubu Jjigae,Korean,78000.0,3
+922,100366,Tteokbokki,Korean,31000.0,1
+923,100366,Kimchi Jjigae,Korean,83000.0,1
+924,100367,Nasi Padang,Indonesian,51000.0,2
+925,100367,Bakso,Indonesian,81000.0,2
+926,100367,Gado-Gado,Indonesian,44000.0,1
+927,100368,Grilled Chicken,Western,35000.0,3
+928,100368,Steak,Western,60000.0,1
+929,100369,Crepes,Dessert & Drinks,61000.0,2
+930,100369,Waffle,Dessert & Drinks,51000.0,3
+931,100370,Falafel,Middle Eastern,41000.0,2
+932,100370,Manakish,Middle Eastern,62000.0,2
+933,100370,Fattoush,Middle Eastern,30000.0,2
+934,100371,Nasi Padang,Indonesian,76000.0,3
+935,100371,Gado-Gado,Indonesian,60000.0,1
+936,100371,Soto Ayam,Indonesian,51000.0,2
+937,100371,Rendang,Indonesian,17000.0,1
+938,100372,Grilled Chicken,Western,44000.0,3
+939,100372,Pasta,Western,60000.0,1
+940,100372,Steak,Western,41000.0,3
+941,100373,Fried Rice,Chinese,32000.0,3
+942,100373,Spring Roll,Chinese,60000.0,1
+943,100374,Club Sandwich,Western,54000.0,2
+944,100374,Burger,Western,77000.0,3
+945,100374,Steak,Western,30000.0,1
+946,100374,Pasta,Western,46000.0,3
+947,100375,Kimchi Jjigae,Korean,57000.0,3
+948,100376,Bakso,Indonesian,33000.0,1
+949,100376,Nasi Padang,Indonesian,58000.0,2
+950,100377,Dumplings,Chinese,18000.0,2
+951,100377,Wonton Soup,Chinese,16000.0,3
+952,100377,Noodle Soup,Chinese,66000.0,3
+953,100378,Japchae,Korean,72000.0,2
+954,100378,Bulgogi,Korean,60000.0,2
+955,100378,Bibimbap,Korean,75000.0,3
+956,100379,Tempura,Japanese,39000.0,1
+957,100379,Sushi Set,Japanese,70000.0,3
+958,100380,Mie Goreng,Indonesian,34000.0,1
+959,100380,Bakso,Indonesian,48000.0,2
+960,100381,Tandoori Chicken,Indian,66000.0,1
+961,100381,Butter Chicken,Indian,51000.0,2
+962,100381,Dal Tadka,Indian,18000.0,1
+963,100381,Samosa,Indian,83000.0,3
+964,100382,Burger,Western,51000.0,1
+965,100383,Ice Cream,Dessert & Drinks,77000.0,1
+966,100384,Churros,Dessert & Drinks,22000.0,2
+967,100384,Milkshake,Dessert & Drinks,37000.0,1
+968,100385,Steak,Western,19000.0,2
+969,100386,Lamb Chops,Middle Eastern,47000.0,2
+970,100386,Shawarma,Middle Eastern,50000.0,3
+971,100387,Samosa,Indian,39000.0,2
+972,100387,Palak Paneer,Indian,57000.0,2
+973,100387,Tandoori Chicken,Indian,72000.0,3
+974,100388,Ayam Geprek,Indonesian,22000.0,2
+975,100388,Rendang,Indonesian,67000.0,3
+976,100388,Bakso,Indonesian,59000.0,2
+977,100389,Nasi Padang,Indonesian,68000.0,2
+978,100390,Dumplings,Chinese,45000.0,2
+979,100390,Chop Suey,Chinese,15000.0,3
+980,100391,BBQ Ribs,Western,45000.0,1
+981,100391,Burger,Western,37000.0,1
+982,100391,Grilled Chicken,Western,31000.0,1
+983,100392,Steak,Western,60000.0,3
+984,100392,Caesar Salad,Western,31000.0,2
+985,100393,Matcha Latte,Dessert & Drinks,20000.0,1
+986,100393,Cheesecake,Dessert & Drinks,80000.0,3
+987,100393,Ice Cream,Dessert & Drinks,64000.0,3
+988,100394,Tteokbokki,Korean,31000.0,2
+989,100394,Japchae,Korean,80000.0,2
+990,100394,Kimchi Jjigae,Korean,60000.0,3
+991,100395,Kebab,Middle Eastern,76000.0,3
+992,100395,Falafel,Middle Eastern,65000.0,3
+993,100395,Lamb Chops,Middle Eastern,63000.0,3
+994,100395,Hummus Plate,Middle Eastern,66000.0,1
+995,100396,Crepes,Dessert & Drinks,24000.0,1
+996,100396,Boba Tea,Dessert & Drinks,31000.0,3
+997,100396,Cheesecake,Dessert & Drinks,51000.0,3
+998,100396,Ice Cream,Dessert & Drinks,50000.0,3
+999,100397,Falafel,Middle Eastern,18000.0,3
+1000,100398,Fish & Chips,Western,22000.0,1
+1001,100398,BBQ Ribs,Western,61000.0,3
+1002,100399,BBQ Ribs,Western,70000.0,3
+1003,100400,Cheesecake,Dessert & Drinks,63000.0,3
+1004,100400,Waffle,Dessert & Drinks,19000.0,1
+1005,100400,Boba Tea,Dessert & Drinks,24000.0,1
+1006,100400,Matcha Latte,Dessert & Drinks,62000.0,3
+1007,100401,Churros,Dessert & Drinks,59000.0,1
+1008,100401,Ice Cream,Dessert & Drinks,58000.0,3
+1009,100401,Milkshake,Dessert & Drinks,81000.0,2
+1010,100401,Crepes,Dessert & Drinks,74000.0,2
+1011,100402,Falafel,Middle Eastern,23000.0,1
+1012,100402,Shawarma,Middle Eastern,56000.0,3
+1013,100403,Waffle,Dessert & Drinks,21000.0,3
+1014,100403,Milkshake,Dessert & Drinks,43000.0,2
+1015,100404,Masala Chai,Indian,22000.0,3
+1016,100404,Butter Chicken,Indian,55000.0,3
+1017,100405,Onigiri,Japanese,70000.0,1
+1018,100405,Sushi Set,Japanese,28000.0,1
+1019,100406,Samosa,Indian,17000.0,1
+1020,100406,Tandoori Chicken,Indian,69000.0,2
+1021,100407,Udon,Japanese,65000.0,2
+1022,100407,Onigiri,Japanese,59000.0,3
+1023,100407,Tempura,Japanese,53000.0,3
+1024,100408,Crepes,Dessert & Drinks,66000.0,2
+1025,100408,Churros,Dessert & Drinks,20000.0,1
+1026,100409,Fried Rice,Chinese,41000.0,3
+1027,100409,Wonton Soup,Chinese,47000.0,2
+1028,100409,Noodle Soup,Chinese,77000.0,3
+1029,100409,Dumplings,Chinese,24000.0,2
+1030,100410,Butter Chicken,Indian,56000.0,3
+1031,100410,Naan,Indian,41000.0,1
+1032,100411,Kebab,Middle Eastern,29000.0,3
+1033,100411,Falafel,Middle Eastern,52000.0,1
+1034,100412,Caesar Salad,Western,56000.0,3
+1035,100412,BBQ Ribs,Western,77000.0,3
+1036,100413,Katsu Curry,Japanese,44000.0,1
+1037,100413,Takoyaki,Japanese,41000.0,3
+1038,100414,Falafel,Middle Eastern,25000.0,1
+1039,100415,Falafel,Middle Eastern,21000.0,2
+1040,100415,Manakish,Middle Eastern,20000.0,1
+1041,100416,Rendang,Indonesian,78000.0,3
+1042,100416,Soto Ayam,Indonesian,24000.0,3
+1043,100416,Nasi Goreng,Indonesian,41000.0,1
+1044,100417,Fish & Chips,Western,53000.0,1
+1045,100417,Steak,Western,42000.0,1
+1046,100417,Club Sandwich,Western,82000.0,1
+1047,100418,BBQ Ribs,Western,54000.0,1
+1048,100418,Club Sandwich,Western,40000.0,1
+1049,100419,Fattoush,Middle Eastern,77000.0,1
+1050,100419,Manakish,Middle Eastern,38000.0,1
+1051,100419,Falafel,Middle Eastern,17000.0,2
+1052,100419,Kebab,Middle Eastern,56000.0,3
+1053,100420,Kebab,Middle Eastern,40000.0,2
+1054,100420,Shawarma,Middle Eastern,20000.0,2
+1055,100420,Fattoush,Middle Eastern,80000.0,1
+1056,100421,Sushi Set,Japanese,66000.0,3
+1057,100421,Gyudon,Japanese,56000.0,3
+1058,100421,Onigiri,Japanese,24000.0,2
+1059,100422,Ice Cream,Dessert & Drinks,39000.0,3
+1060,100422,Churros,Dessert & Drinks,81000.0,2
+1061,100422,Boba Tea,Dessert & Drinks,43000.0,3
+1062,100423,Ramen,Japanese,15000.0,2
+1063,100423,Tempura,Japanese,81000.0,3
+1064,100424,Bulgogi,Korean,20000.0,3
+1065,100424,Japchae,Korean,44000.0,1
+1066,100425,Naan,Indian,59000.0,1
+1067,100426,BBQ Ribs,Western,72000.0,3
+1068,100426,Grilled Chicken,Western,28000.0,2
+1069,100426,Fish & Chips,Western,76000.0,3
+1070,100427,Udon,Japanese,40000.0,2
+1071,100428,Soto Ayam,Indonesian,77000.0,2
+1072,100428,Gado-Gado,Indonesian,34000.0,3
+1073,100429,Dumplings,Chinese,56000.0,1
+1074,100429,Peking Duck,Chinese,63000.0,1
+1075,100429,Chop Suey,Chinese,25000.0,1
+1076,100430,Nasi Goreng,Indonesian,23000.0,3
+1077,100430,Mie Goreng,Indonesian,24000.0,1
+1078,100431,Ice Cream,Dessert & Drinks,28000.0,2
+1079,100431,Churros,Dessert & Drinks,70000.0,1
+1080,100431,Boba Tea,Dessert & Drinks,38000.0,2
+1081,100432,Gado-Gado,Indonesian,80000.0,3
+1082,100432,Soto Ayam,Indonesian,16000.0,2
+1083,100432,Mie Goreng,Indonesian,29000.0,3
+1084,100433,Kimbap,Korean,44000.0,2
+1085,100433,Japchae,Korean,57000.0,3
+1086,100434,Tandoori Chicken,Indian,66000.0,3
+1087,100434,Biryani,Indian,74000.0,2
+1088,100434,Dal Tadka,Indian,46000.0,2
+1089,100434,Masala Chai,Indian,57000.0,2
+1090,100435,Rendang,Indonesian,43000.0,2
+1091,100435,Soto Ayam,Indonesian,19000.0,1
+1092,100436,Grilled Chicken,Western,75000.0,3
+1093,100436,Caesar Salad,Western,33000.0,3
+1094,100436,Steak,Western,80000.0,2
+1095,100437,Steak,Western,21000.0,1
+1096,100438,Wonton Soup,Chinese,32000.0,1
+1097,100439,Gado-Gado,Indonesian,15000.0,1
+1098,100439,Soto Ayam,Indonesian,56000.0,2
+1099,100440,Dal Tadka,Indian,41000.0,3
+1100,100440,Butter Chicken,Indian,45000.0,3
+1101,100441,Ice Cream,Dessert & Drinks,29000.0,1
+1102,100441,Churros,Dessert & Drinks,60000.0,3
+1103,100441,Crepes,Dessert & Drinks,28000.0,2
+1104,100441,Matcha Latte,Dessert & Drinks,15000.0,2
+1105,100442,Ramen,Japanese,58000.0,3
+1106,100442,Katsu Curry,Japanese,18000.0,3
+1107,100442,Tempura,Japanese,26000.0,1
+1108,100442,Udon,Japanese,68000.0,2
+1109,100443,Lamb Chops,Middle Eastern,53000.0,2
+1110,100443,Fattoush,Middle Eastern,40000.0,3
+1111,100443,Manakish,Middle Eastern,43000.0,3
+1112,100444,Palak Paneer,Indian,69000.0,3
+1113,100444,Masala Chai,Indian,46000.0,1
+1114,100445,Dim Sum,Chinese,32000.0,3
+1115,100445,Fried Rice,Chinese,55000.0,3
+1116,100446,Masala Chai,Indian,18000.0,3
+1117,100446,Samosa,Indian,69000.0,1
+1118,100446,Biryani,Indian,83000.0,2
+1119,100447,Samosa,Indian,78000.0,1
+1120,100448,Ramen,Japanese,67000.0,1
+1121,100448,Sushi Set,Japanese,71000.0,1
+1122,100448,Tempura,Japanese,47000.0,3
+1123,100449,Soto Ayam,Indonesian,64000.0,1
+1124,100449,Nasi Padang,Indonesian,80000.0,3
+1125,100450,Ice Cream,Dessert & Drinks,39000.0,2
+1126,100450,Churros,Dessert & Drinks,73000.0,2
+1127,100451,Udon,Japanese,41000.0,3
+1128,100452,Masala Chai,Indian,42000.0,3
+1129,100452,Biryani,Indian,31000.0,3
+1130,100452,Butter Chicken,Indian,60000.0,3
+1131,100453,Naan,Indian,41000.0,1
+1132,100453,Samosa,Indian,53000.0,2
+1133,100453,Biryani,Indian,39000.0,3
+1134,100454,Tteokbokki,Korean,15000.0,3
+1135,100454,Japchae,Korean,28000.0,2
+1136,100454,Kimbap,Korean,59000.0,2
+1137,100455,BBQ Ribs,Western,20000.0,2
+1138,100456,Crepes,Dessert & Drinks,33000.0,1
+1139,100456,Matcha Latte,Dessert & Drinks,61000.0,1
+1140,100457,Falafel,Middle Eastern,47000.0,2
+1141,100458,Burger,Western,35000.0,3
+1142,100459,Peking Duck,Chinese,76000.0,2
+1143,100459,Dim Sum,Chinese,25000.0,3
+1144,100460,Milkshake,Dessert & Drinks,33000.0,2
+1145,100461,Soto Ayam,Indonesian,74000.0,1
+1146,100461,Ayam Geprek,Indonesian,42000.0,2
+1147,100461,Bakso,Indonesian,48000.0,2
+1148,100462,Nasi Padang,Indonesian,24000.0,3
+1149,100463,Korean BBQ,Korean,74000.0,2
+1150,100463,Tteokbokki,Korean,39000.0,1
+1151,100464,Masala Chai,Indian,68000.0,3
+1152,100464,Dal Tadka,Indian,27000.0,1
+1153,100464,Palak Paneer,Indian,79000.0,3
+1154,100464,Biryani,Indian,30000.0,3
+1155,100465,Noodle Soup,Chinese,35000.0,1
+1156,100465,Spring Roll,Chinese,17000.0,2
+1157,100466,Fried Rice,Chinese,73000.0,1
+1158,100467,Biryani,Indian,22000.0,2
+1159,100467,Tandoori Chicken,Indian,80000.0,1
+1160,100467,Samosa,Indian,33000.0,1
+1161,100468,Cheesecake,Dessert & Drinks,60000.0,2
+1162,100468,Ice Cream,Dessert & Drinks,78000.0,2
+1163,100469,Udon,Japanese,71000.0,3
+1164,100469,Tempura,Japanese,35000.0,2
+1165,100470,Burger,Western,46000.0,2
+1166,100470,Caesar Salad,Western,33000.0,3
+1167,100470,Club Sandwich,Western,68000.0,3
+1168,100471,Dim Sum,Chinese,48000.0,3
+1169,100471,Wonton Soup,Chinese,84000.0,1
+1170,100472,Sushi Set,Japanese,66000.0,3
+1171,100472,Gyudon,Japanese,78000.0,3
+1172,100473,Nasi Goreng,Indonesian,29000.0,2
+1173,100473,Mie Goreng,Indonesian,25000.0,2
+1174,100473,Ayam Geprek,Indonesian,28000.0,2
+1175,100473,Gado-Gado,Indonesian,38000.0,2
+1176,100474,Gado-Gado,Indonesian,38000.0,3
+1177,100474,Soto Ayam,Indonesian,53000.0,2
+1178,100474,Nasi Goreng,Indonesian,57000.0,2
+1179,100475,Lamb Chops,Middle Eastern,55000.0,1
+1180,100475,Kebab,Middle Eastern,25000.0,3
+1181,100475,Shawarma,Middle Eastern,53000.0,1
+1182,100475,Hummus Plate,Middle Eastern,64000.0,1
+1183,100476,Lamb Chops,Middle Eastern,59000.0,3
+1184,100476,Falafel,Middle Eastern,64000.0,1
+1185,100476,Shawarma,Middle Eastern,81000.0,3
+1186,100476,Mezze Platter,Middle Eastern,16000.0,2
+1187,100477,Onigiri,Japanese,67000.0,3
+1188,100478,Ayam Geprek,Indonesian,34000.0,2
+1189,100478,Gado-Gado,Indonesian,18000.0,2
+1190,100479,Tteokbokki,Korean,50000.0,3
+1191,100479,Korean BBQ,Korean,79000.0,2
+1192,100480,Mezze Platter,Middle Eastern,26000.0,1
+1193,100480,Shawarma,Middle Eastern,56000.0,1
+1194,100480,Kebab,Middle Eastern,72000.0,2
+1195,100481,Ramen,Japanese,61000.0,3
+1196,100482,Chop Suey,Chinese,31000.0,3
+1197,100483,Fish & Chips,Western,52000.0,3
+1198,100483,Burger,Western,59000.0,1
+1199,100483,BBQ Ribs,Western,46000.0,1
+1200,100484,Boba Tea,Dessert & Drinks,49000.0,1
+1201,100485,Tandoori Chicken,Indian,59000.0,3
+1202,100486,Mie Goreng,Indonesian,67000.0,2
+1203,100486,Nasi Padang,Indonesian,67000.0,2
+1204,100486,Soto Ayam,Indonesian,26000.0,1
+1205,100487,Onigiri,Japanese,44000.0,2
+1206,100488,Onigiri,Japanese,81000.0,2
+1207,100488,Tempura,Japanese,25000.0,2
+1208,100488,Udon,Japanese,49000.0,1
+1209,100488,Gyudon,Japanese,30000.0,3
+1210,100489,Club Sandwich,Western,81000.0,2
+1211,100489,Steak,Western,77000.0,2
+1212,100490,Waffle,Dessert & Drinks,71000.0,3
+1213,100490,Milkshake,Dessert & Drinks,29000.0,2
+1214,100491,Korean BBQ,Korean,51000.0,3
+1215,100491,Japchae,Korean,63000.0,1
+1216,100491,Bibimbap,Korean,75000.0,3
+1217,100492,Japchae,Korean,61000.0,2
+1218,100493,Bakso,Indonesian,29000.0,2
+1219,100493,Mie Goreng,Indonesian,55000.0,2
+1220,100494,Fried Rice,Chinese,74000.0,3
+1221,100495,Korean BBQ,Korean,29000.0,2
+1222,100496,Kebab,Middle Eastern,49000.0,1
+1223,100496,Shawarma,Middle Eastern,55000.0,1
+1224,100496,Manakish,Middle Eastern,62000.0,3
+1225,100496,Mezze Platter,Middle Eastern,42000.0,2
+1226,100497,Pasta,Western,57000.0,1
+1227,100497,BBQ Ribs,Western,36000.0,2
+1228,100497,Fish & Chips,Western,51000.0,2
+1229,100498,Palak Paneer,Indian,28000.0,3
+1230,100498,Butter Chicken,Indian,41000.0,2
+1231,100498,Samosa,Indian,17000.0,2
+1232,100498,Dal Tadka,Indian,50000.0,2
+1233,100499,Spring Roll,Chinese,80000.0,2
+1234,100500,Fish & Chips,Western,47000.0,1
+1235,100500,Pasta,Western,25000.0,3
+1236,100501,Fish & Chips,Western,59000.0,3
+1237,100501,BBQ Ribs,Western,46000.0,2
+1238,100501,Grilled Chicken,Western,75000.0,3
+1239,100502,Spring Roll,Chinese,85000.0,3
+1240,100502,Dumplings,Chinese,51000.0,1
+1241,100503,Nasi Padang,Indonesian,32000.0,2
+1242,100503,Soto Ayam,Indonesian,27000.0,2
+1243,100503,Rendang,Indonesian,50000.0,1
+1244,100503,Nasi Goreng,Indonesian,81000.0,2
+1245,100504,Peking Duck,Chinese,23000.0,2
+1246,100504,Chop Suey,Chinese,62000.0,2
+1247,100505,Fish & Chips,Western,84000.0,1
+1248,100505,Club Sandwich,Western,59000.0,1
+1249,100505,BBQ Ribs,Western,73000.0,3
+1250,100505,Caesar Salad,Western,31000.0,3
+1251,100506,Hummus Plate,Middle Eastern,85000.0,2
+1252,100506,Falafel,Middle Eastern,33000.0,1
+1253,100506,Mezze Platter,Middle Eastern,68000.0,1
+1254,100507,Dim Sum,Chinese,75000.0,2
+1255,100507,Dumplings,Chinese,27000.0,1
+1256,100507,Fried Rice,Chinese,70000.0,3
+1257,100507,Chop Suey,Chinese,17000.0,2
+1258,100508,Grilled Chicken,Western,56000.0,1
+1259,100509,Korean BBQ,Korean,27000.0,1
+1260,100510,Boba Tea,Dessert & Drinks,82000.0,3
+1261,100510,Matcha Latte,Dessert & Drinks,72000.0,1
+1262,100511,Churros,Dessert & Drinks,73000.0,3
+1263,100512,Churros,Dessert & Drinks,30000.0,2
+1264,100512,Cheesecake,Dessert & Drinks,85000.0,3
+1265,100512,Matcha Latte,Dessert & Drinks,29000.0,1
+1266,100512,Boba Tea,Dessert & Drinks,74000.0,3
+1267,100513,Biryani,Indian,71000.0,2
+1268,100513,Dal Tadka,Indian,20000.0,3
+1269,100513,Butter Chicken,Indian,57000.0,3
+1270,100514,Milkshake,Dessert & Drinks,71000.0,1
+1271,100515,Ramen,Japanese,67000.0,3
+1272,100516,Churros,Dessert & Drinks,28000.0,3
+1273,100517,Gyudon,Japanese,47000.0,2
+1274,100517,Tempura,Japanese,70000.0,2
+1275,100518,Noodle Soup,Chinese,62000.0,3
+1276,100518,Fried Rice,Chinese,83000.0,2
+1277,100518,Dim Sum,Chinese,65000.0,3
+1278,100518,Dumplings,Chinese,38000.0,1
+1279,100519,Samosa,Indian,53000.0,1
+1280,100519,Palak Paneer,Indian,20000.0,2
+1281,100519,Tandoori Chicken,Indian,44000.0,3
+1282,100520,Burger,Western,60000.0,2
+1283,100520,BBQ Ribs,Western,62000.0,1
+1284,100520,Pasta,Western,38000.0,1
+1285,100521,Club Sandwich,Western,69000.0,1
+1286,100521,Caesar Salad,Western,17000.0,1
+1287,100521,BBQ Ribs,Western,25000.0,2
+1288,100522,Manakish,Middle Eastern,44000.0,3
+1289,100522,Kebab,Middle Eastern,19000.0,2
+1290,100522,Lamb Chops,Middle Eastern,46000.0,1
+1291,100523,Falafel,Middle Eastern,70000.0,3
+1292,100523,Hummus Plate,Middle Eastern,59000.0,3
+1293,100523,Mezze Platter,Middle Eastern,25000.0,2
+1294,100524,Bibimbap,Korean,47000.0,3
+1295,100525,Naan,Indian,79000.0,1
+1296,100526,Korean BBQ,Korean,38000.0,2
+1297,100527,Club Sandwich,Western,38000.0,2
+1298,100527,Fish & Chips,Western,67000.0,1
+1299,100528,Bakso,Indonesian,36000.0,3
+1300,100528,Nasi Padang,Indonesian,74000.0,2
+1301,100529,Nasi Padang,Indonesian,33000.0,3
+1302,100530,Boba Tea,Dessert & Drinks,47000.0,1
+1303,100530,Matcha Latte,Dessert & Drinks,17000.0,2
+1304,100530,Cheesecake,Dessert & Drinks,62000.0,3
+1305,100531,Spring Roll,Chinese,77000.0,3
+1306,100532,Naan,Indian,66000.0,3
+1307,100532,Tandoori Chicken,Indian,33000.0,3
+1308,100532,Butter Chicken,Indian,78000.0,1
+1309,100533,BBQ Ribs,Western,70000.0,2
+1310,100534,Dumplings,Chinese,54000.0,1
+1311,100534,Dim Sum,Chinese,60000.0,3
+1312,100534,Wonton Soup,Chinese,31000.0,3
+1313,100534,Fried Rice,Chinese,59000.0,1
+1314,100535,Waffle,Dessert & Drinks,62000.0,1
+1315,100535,Ice Cream,Dessert & Drinks,52000.0,2
+1316,100535,Matcha Latte,Dessert & Drinks,30000.0,1
+1317,100535,Churros,Dessert & Drinks,61000.0,1
+1318,100536,Caesar Salad,Western,23000.0,2
+1319,100536,Steak,Western,22000.0,3
+1320,100536,Fish & Chips,Western,61000.0,2
+1321,100536,Club Sandwich,Western,64000.0,3
+1322,100537,Bibimbap,Korean,79000.0,1
+1323,100537,Bulgogi,Korean,77000.0,2
+1324,100537,Kimbap,Korean,32000.0,1
+1325,100537,Sundubu Jjigae,Korean,37000.0,3
+1326,100538,BBQ Ribs,Western,79000.0,2
+1327,100538,Steak,Western,49000.0,1
+1328,100539,Kebab,Middle Eastern,65000.0,3
+1329,100539,Hummus Plate,Middle Eastern,61000.0,1
+1330,100539,Fattoush,Middle Eastern,21000.0,2
+1331,100540,Korean BBQ,Korean,33000.0,2
+1332,100540,Bulgogi,Korean,72000.0,2
+1333,100541,Spring Roll,Chinese,49000.0,3
+1334,100541,Fried Rice,Chinese,77000.0,2
+1335,100541,Dumplings,Chinese,45000.0,1
+1336,100542,Chop Suey,Chinese,78000.0,3
+1337,100543,Steak,Western,81000.0,1
+1338,100544,Fattoush,Middle Eastern,46000.0,2
+1339,100544,Hummus Plate,Middle Eastern,20000.0,1
+1340,100544,Lamb Chops,Middle Eastern,80000.0,1
+1341,100545,Noodle Soup,Chinese,29000.0,3
+1342,100545,Chop Suey,Chinese,55000.0,2
+1343,100545,Spring Roll,Chinese,23000.0,1
+1344,100546,Waffle,Dessert & Drinks,20000.0,2
+1345,100547,Crepes,Dessert & Drinks,34000.0,2
+1346,100547,Cheesecake,Dessert & Drinks,75000.0,3
+1347,100547,Boba Tea,Dessert & Drinks,47000.0,3
+1348,100547,Matcha Latte,Dessert & Drinks,79000.0,1
+1349,100548,Gyudon,Japanese,26000.0,1
+1350,100548,Sushi Set,Japanese,65000.0,1
+1351,100548,Takoyaki,Japanese,83000.0,1
+1352,100548,Udon,Japanese,54000.0,2
+1353,100549,Milkshake,Dessert & Drinks,83000.0,3
+1354,100549,Churros,Dessert & Drinks,41000.0,3
+1355,100549,Boba Tea,Dessert & Drinks,47000.0,1
+1356,100549,Waffle,Dessert & Drinks,83000.0,2
+1357,100550,Fattoush,Middle Eastern,22000.0,2
+1358,100550,Shawarma,Middle Eastern,16000.0,1
+1359,100550,Falafel,Middle Eastern,29000.0,1
+1360,100551,Tempura,Japanese,23000.0,1
+1361,100551,Katsu Curry,Japanese,71000.0,2
+1362,100552,Kebab,Middle Eastern,38000.0,2
+1363,100552,Falafel,Middle Eastern,23000.0,3
+1364,100552,Manakish,Middle Eastern,68000.0,1
+1365,100552,Mezze Platter,Middle Eastern,24000.0,3
+1366,100553,Ramen,Japanese,38000.0,2
+1367,100553,Udon,Japanese,61000.0,1
+1368,100554,Gado-Gado,Indonesian,31000.0,2
+1369,100554,Nasi Goreng,Indonesian,79000.0,2
+1370,100555,Tteokbokki,Korean,74000.0,2
+1371,100555,Kimchi Jjigae,Korean,32000.0,1
+1372,100555,Korean BBQ,Korean,52000.0,1
+1373,100556,Biryani,Indian,28000.0,1
+1374,100557,Spring Roll,Chinese,61000.0,2
+1375,100557,Dumplings,Chinese,46000.0,2
+1376,100558,Club Sandwich,Western,38000.0,3
+1377,100558,Pasta,Western,64000.0,2
+1378,100558,Steak,Western,24000.0,1
+1379,100559,Manakish,Middle Eastern,38000.0,3
+1380,100560,Noodle Soup,Chinese,25000.0,1
+1381,100560,Chop Suey,Chinese,20000.0,1
+1382,100560,Dim Sum,Chinese,73000.0,1
+1383,100561,Udon,Japanese,27000.0,3
+1384,100562,Sushi Set,Japanese,53000.0,2
+1385,100563,Fattoush,Middle Eastern,57000.0,3
+1386,100563,Falafel,Middle Eastern,56000.0,2
+1387,100563,Shawarma,Middle Eastern,58000.0,2
+1388,100563,Mezze Platter,Middle Eastern,54000.0,2
+1389,100564,Fried Rice,Chinese,38000.0,3
+1390,100564,Dim Sum,Chinese,48000.0,3
+1391,100564,Dumplings,Chinese,51000.0,1
+1392,100565,Fish & Chips,Western,51000.0,3
+1393,100565,Grilled Chicken,Western,25000.0,2
+1394,100565,Burger,Western,31000.0,3
+1395,100565,BBQ Ribs,Western,17000.0,3
+1396,100566,Burger,Western,47000.0,3
+1397,100566,Caesar Salad,Western,54000.0,1
+1398,100566,Club Sandwich,Western,37000.0,2
+1399,100566,Pasta,Western,43000.0,2
+1400,100567,Kimchi Jjigae,Korean,84000.0,2
+1401,100568,Onigiri,Japanese,78000.0,3
+1402,100568,Sushi Set,Japanese,66000.0,2
+1403,100569,Burger,Western,42000.0,1
+1404,100569,Pasta,Western,44000.0,3
+1405,100569,Steak,Western,21000.0,1
+1406,100569,Caesar Salad,Western,29000.0,3
+1407,100570,Hummus Plate,Middle Eastern,25000.0,2
+1408,100570,Kebab,Middle Eastern,56000.0,1
+1409,100571,Lamb Chops,Middle Eastern,70000.0,3
+1410,100571,Hummus Plate,Middle Eastern,26000.0,2
+1411,100571,Shawarma,Middle Eastern,63000.0,3
+1412,100572,Sundubu Jjigae,Korean,19000.0,3
+1413,100572,Kimchi Jjigae,Korean,30000.0,2
+1414,100572,Kimbap,Korean,36000.0,3
+1415,100572,Japchae,Korean,22000.0,1
+1416,100573,Katsu Curry,Japanese,23000.0,2
+1417,100574,Churros,Dessert & Drinks,28000.0,3
+1418,100575,Mie Goreng,Indonesian,79000.0,1
+1419,100576,Onigiri,Japanese,71000.0,3
+1420,100576,Takoyaki,Japanese,76000.0,3
+1421,100576,Sushi Set,Japanese,70000.0,2
+1422,100577,Gado-Gado,Indonesian,43000.0,2
+1423,100577,Rendang,Indonesian,48000.0,1
+1424,100578,Fish & Chips,Western,52000.0,2
+1425,100578,Burger,Western,62000.0,1
+1426,100578,BBQ Ribs,Western,31000.0,3
+1427,100578,Club Sandwich,Western,58000.0,1
+1428,100579,Bulgogi,Korean,46000.0,1
+1429,100579,Kimbap,Korean,71000.0,3
+1430,100579,Tteokbokki,Korean,71000.0,3
+1431,100580,Crepes,Dessert & Drinks,68000.0,2
+1432,100580,Boba Tea,Dessert & Drinks,79000.0,2
+1433,100580,Churros,Dessert & Drinks,82000.0,2
+1434,100580,Milkshake,Dessert & Drinks,18000.0,2
+1435,100581,Spring Roll,Chinese,34000.0,3
+1436,100581,Fried Rice,Chinese,60000.0,2
+1437,100581,Noodle Soup,Chinese,81000.0,3
+1438,100582,Grilled Chicken,Western,22000.0,3
+1439,100582,Fish & Chips,Western,66000.0,3
+1440,100583,Ayam Geprek,Indonesian,72000.0,2
+1441,100584,Biryani,Indian,22000.0,1
+1442,100584,Dal Tadka,Indian,39000.0,3
+1443,100584,Naan,Indian,75000.0,2
+1444,100584,Samosa,Indian,29000.0,2
+1445,100585,Tteokbokki,Korean,29000.0,2
+1446,100586,Grilled Chicken,Western,49000.0,2
+1447,100587,Steak,Western,57000.0,2
+1448,100587,Grilled Chicken,Western,57000.0,2
+1449,100587,BBQ Ribs,Western,47000.0,1
+1450,100588,Hummus Plate,Middle Eastern,58000.0,2
+1451,100588,Falafel,Middle Eastern,41000.0,1
+1452,100589,Sushi Set,Japanese,68000.0,3
+1453,100589,Gyudon,Japanese,45000.0,1
+1454,100590,Churros,Dessert & Drinks,73000.0,2
+1455,100590,Matcha Latte,Dessert & Drinks,64000.0,3
+1456,100590,Milkshake,Dessert & Drinks,33000.0,3
+1457,100590,Boba Tea,Dessert & Drinks,78000.0,2
+1458,100591,Steak,Western,47000.0,1
+1459,100591,Caesar Salad,Western,58000.0,1
+1460,100592,Dim Sum,Chinese,83000.0,3
+1461,100593,Chop Suey,Chinese,71000.0,3
+1462,100593,Spring Roll,Chinese,85000.0,3
+1463,100593,Noodle Soup,Chinese,83000.0,2
+1464,100593,Wonton Soup,Chinese,72000.0,1
+1465,100594,Nasi Padang,Indonesian,84000.0,2
+1466,100594,Ayam Geprek,Indonesian,18000.0,2
+1467,100595,Lamb Chops,Middle Eastern,79000.0,3
+1468,100595,Kebab,Middle Eastern,48000.0,3
+1469,100595,Fattoush,Middle Eastern,75000.0,1
+1470,100595,Manakish,Middle Eastern,59000.0,3
+1471,100596,Gado-Gado,Indonesian,28000.0,3
+1472,100597,Dim Sum,Chinese,47000.0,3
+1473,100598,Burger,Western,53000.0,1
+1474,100598,Steak,Western,35000.0,2
+1475,100598,Pasta,Western,17000.0,3
+1476,100598,Club Sandwich,Western,39000.0,1
+1477,100599,Falafel,Middle Eastern,72000.0,2
+1478,100599,Mezze Platter,Middle Eastern,23000.0,2
+1479,100599,Hummus Plate,Middle Eastern,66000.0,3
+1480,100599,Kebab,Middle Eastern,38000.0,2
+1481,100600,Fried Rice,Chinese,70000.0,1
+1482,100601,Burger,Western,80000.0,1
+1483,100601,Fish & Chips,Western,32000.0,1
+1484,100601,Pasta,Western,77000.0,1
+1485,100602,Steak,Western,80000.0,3
+1486,100602,Grilled Chicken,Western,66000.0,1
+1487,100602,Pasta,Western,68000.0,2
+1488,100603,Spring Roll,Chinese,59000.0,1
+1489,100603,Wonton Soup,Chinese,63000.0,2
+1490,100604,Dim Sum,Chinese,28000.0,2
+1491,100605,Hummus Plate,Middle Eastern,22000.0,1
+1492,100605,Lamb Chops,Middle Eastern,63000.0,1
+1493,100606,Spring Roll,Chinese,40000.0,3
+1494,100606,Dim Sum,Chinese,20000.0,3
+1495,100607,Tempura,Japanese,74000.0,2
+1496,100608,Kimbap,Korean,24000.0,3
+1497,100609,Nasi Padang,Indonesian,57000.0,1
+1498,100609,Mie Goreng,Indonesian,18000.0,3
+1499,100609,Ayam Geprek,Indonesian,55000.0,2
+1500,100610,Bibimbap,Korean,71000.0,1
+1501,100610,Bulgogi,Korean,31000.0,3
+1502,100610,Kimbap,Korean,50000.0,3
+1503,100611,Nasi Padang,Indonesian,25000.0,2
+1504,100611,Rendang,Indonesian,40000.0,3
+1505,100611,Bakso,Indonesian,17000.0,1
+1506,100612,Mie Goreng,Indonesian,49000.0,3
+1507,100612,Gado-Gado,Indonesian,63000.0,2
+1508,100613,Kimchi Jjigae,Korean,59000.0,3
+1509,100613,Japchae,Korean,63000.0,2
+1510,100614,Crepes,Dessert & Drinks,20000.0,3
+1511,100614,Boba Tea,Dessert & Drinks,24000.0,1
+1512,100614,Matcha Latte,Dessert & Drinks,36000.0,3
+1513,100615,Peking Duck,Chinese,59000.0,2
+1514,100616,Tandoori Chicken,Indian,17000.0,1
+1515,100617,Katsu Curry,Japanese,82000.0,1
+1516,100618,Bibimbap,Korean,80000.0,3
+1517,100618,Kimbap,Korean,57000.0,1
+1518,100619,Biryani,Indian,19000.0,1
+1519,100619,Samosa,Indian,76000.0,3
+1520,100620,Dal Tadka,Indian,37000.0,3
+1521,100620,Palak Paneer,Indian,16000.0,1
+1522,100621,Mie Goreng,Indonesian,73000.0,2
+1523,100622,Caesar Salad,Western,41000.0,2
+1524,100623,Dim Sum,Chinese,41000.0,2
+1525,100623,Peking Duck,Chinese,29000.0,1
+1526,100623,Wonton Soup,Chinese,70000.0,1
+1527,100623,Fried Rice,Chinese,63000.0,1
+1528,100624,BBQ Ribs,Western,44000.0,3
+1529,100624,Club Sandwich,Western,54000.0,3
+1530,100624,Steak,Western,67000.0,1
+1531,100624,Burger,Western,39000.0,1
+1532,100625,Mie Goreng,Indonesian,83000.0,3
+1533,100625,Nasi Goreng,Indonesian,26000.0,1
+1534,100625,Gado-Gado,Indonesian,55000.0,3
+1535,100626,Udon,Japanese,40000.0,3
+1536,100627,Crepes,Dessert & Drinks,73000.0,3
+1537,100628,Kimchi Jjigae,Korean,33000.0,2
+1538,100628,Kimbap,Korean,60000.0,3
+1539,100628,Tteokbokki,Korean,46000.0,1
+1540,100628,Korean BBQ,Korean,35000.0,2
+1541,100629,Dim Sum,Chinese,18000.0,3
+1542,100630,Noodle Soup,Chinese,70000.0,3
+1543,100630,Spring Roll,Chinese,26000.0,1
+1544,100630,Chop Suey,Chinese,56000.0,1
+1545,100630,Peking Duck,Chinese,65000.0,3
+1546,100631,Rendang,Indonesian,71000.0,2
+1547,100632,Spring Roll,Chinese,84000.0,2
+1548,100632,Dim Sum,Chinese,17000.0,2
+1549,100632,Chop Suey,Chinese,54000.0,1
+1550,100632,Dumplings,Chinese,59000.0,1
+1551,100633,Ayam Geprek,Indonesian,19000.0,1
+1552,100633,Mie Goreng,Indonesian,17000.0,1
+1553,100633,Gado-Gado,Indonesian,42000.0,2
+1554,100633,Bakso,Indonesian,21000.0,2
+1555,100634,Boba Tea,Dessert & Drinks,62000.0,3
+1556,100634,Churros,Dessert & Drinks,73000.0,3
+1557,100634,Ice Cream,Dessert & Drinks,54000.0,1
+1558,100634,Matcha Latte,Dessert & Drinks,80000.0,3
+1559,100635,Gado-Gado,Indonesian,84000.0,3
+1560,100635,Nasi Goreng,Indonesian,73000.0,3
+1561,100636,Noodle Soup,Chinese,63000.0,2
+1562,100637,Mezze Platter,Middle Eastern,18000.0,2
+1563,100638,Noodle Soup,Chinese,45000.0,1
+1564,100638,Dim Sum,Chinese,57000.0,1
+1565,100639,Rendang,Indonesian,48000.0,1
+1566,100640,Ice Cream,Dessert & Drinks,83000.0,3
+1567,100640,Crepes,Dessert & Drinks,24000.0,2
+1568,100641,Naan,Indian,17000.0,1
+1569,100641,Biryani,Indian,41000.0,2
+1570,100641,Samosa,Indian,63000.0,2
+1571,100641,Butter Chicken,Indian,16000.0,1
+1572,100642,Steak,Western,70000.0,3
+1573,100642,Grilled Chicken,Western,17000.0,3
+1574,100642,Burger,Western,47000.0,2
+1575,100643,Boba Tea,Dessert & Drinks,39000.0,1
+1576,100643,Matcha Latte,Dessert & Drinks,38000.0,2
+1577,100643,Churros,Dessert & Drinks,37000.0,1
+1578,100644,Chop Suey,Chinese,71000.0,1
+1579,100644,Wonton Soup,Chinese,65000.0,1
+1580,100644,Peking Duck,Chinese,72000.0,3
+1581,100645,Tandoori Chicken,Indian,69000.0,3
+1582,100645,Palak Paneer,Indian,80000.0,1
+1583,100646,Ayam Geprek,Indonesian,23000.0,3
+1584,100647,Spring Roll,Chinese,41000.0,2
+1585,100647,Peking Duck,Chinese,57000.0,2
+1586,100648,Soto Ayam,Indonesian,52000.0,2
+1587,100648,Mie Goreng,Indonesian,70000.0,2
+1588,100648,Nasi Goreng,Indonesian,23000.0,2
+1589,100648,Gado-Gado,Indonesian,83000.0,1
+1590,100649,Boba Tea,Dessert & Drinks,52000.0,2
+1591,100650,Crepes,Dessert & Drinks,19000.0,2
+1592,100650,Waffle,Dessert & Drinks,72000.0,1
+1593,100650,Boba Tea,Dessert & Drinks,80000.0,2
+1594,100651,Nasi Goreng,Indonesian,44000.0,1
+1595,100651,Ayam Geprek,Indonesian,21000.0,3
+1596,100652,Lamb Chops,Middle Eastern,52000.0,3
+1597,100652,Shawarma,Middle Eastern,74000.0,1
+1598,100652,Falafel,Middle Eastern,71000.0,2
+1599,100652,Hummus Plate,Middle Eastern,49000.0,2
+1600,100653,Waffle,Dessert & Drinks,29000.0,1
+1601,100654,Udon,Japanese,77000.0,1
+1602,100654,Onigiri,Japanese,79000.0,3
+1603,100655,Falafel,Middle Eastern,22000.0,1
+1604,100655,Hummus Plate,Middle Eastern,33000.0,3
+1605,100655,Lamb Chops,Middle Eastern,77000.0,2
+1606,100656,Takoyaki,Japanese,25000.0,1
+1607,100656,Onigiri,Japanese,58000.0,1
+1608,100656,Udon,Japanese,26000.0,3
+1609,100656,Katsu Curry,Japanese,70000.0,1
+1610,100657,Takoyaki,Japanese,78000.0,1
+1611,100657,Katsu Curry,Japanese,81000.0,3
+1612,100657,Ramen,Japanese,21000.0,3
+1613,100657,Sushi Set,Japanese,51000.0,3
+1614,100658,Onigiri,Japanese,61000.0,2
+1615,100658,Gyudon,Japanese,60000.0,2
+1616,100659,Mezze Platter,Middle Eastern,73000.0,1
+1617,100660,Palak Paneer,Indian,20000.0,1
+1618,100660,Butter Chicken,Indian,36000.0,3
+1619,100660,Dal Tadka,Indian,31000.0,1
+1620,100661,Nasi Goreng,Indonesian,23000.0,2
+1621,100661,Soto Ayam,Indonesian,78000.0,3
+1622,100661,Bakso,Indonesian,70000.0,1
+1623,100661,Ayam Geprek,Indonesian,18000.0,1
+1624,100662,Crepes,Dessert & Drinks,39000.0,1
+1625,100662,Boba Tea,Dessert & Drinks,39000.0,3
+1626,100662,Ice Cream,Dessert & Drinks,30000.0,1
+1627,100663,Takoyaki,Japanese,56000.0,2
+1628,100664,Ayam Geprek,Indonesian,75000.0,2
+1629,100664,Soto Ayam,Indonesian,23000.0,2
+1630,100664,Gado-Gado,Indonesian,36000.0,3
+1631,100665,Japchae,Korean,80000.0,1
+1632,100665,Bulgogi,Korean,62000.0,2
+1633,100665,Kimbap,Korean,72000.0,2
+1634,100666,Shawarma,Middle Eastern,43000.0,2
+1635,100667,Peking Duck,Chinese,22000.0,1
+1636,100667,Noodle Soup,Chinese,21000.0,2
+1637,100667,Fried Rice,Chinese,73000.0,3
+1638,100667,Spring Roll,Chinese,44000.0,1
+1639,100668,Ayam Geprek,Indonesian,17000.0,3
+1640,100668,Rendang,Indonesian,28000.0,3
+1641,100668,Mie Goreng,Indonesian,72000.0,1
+1642,100669,Noodle Soup,Chinese,52000.0,3
+1643,100669,Peking Duck,Chinese,53000.0,2
+1644,100669,Dumplings,Chinese,23000.0,3
+1645,100669,Dim Sum,Chinese,25000.0,3
+1646,100670,Club Sandwich,Western,74000.0,1
+1647,100670,Steak,Western,39000.0,3
+1648,100671,Wonton Soup,Chinese,19000.0,3
+1649,100671,Dim Sum,Chinese,51000.0,3
+1650,100671,Peking Duck,Chinese,54000.0,1
+1651,100672,Nasi Goreng,Indonesian,65000.0,3
+1652,100672,Nasi Padang,Indonesian,41000.0,2
+1653,100672,Ayam Geprek,Indonesian,65000.0,3
+1654,100672,Mie Goreng,Indonesian,62000.0,2
+1655,100673,Dumplings,Chinese,30000.0,1
+1656,100673,Fried Rice,Chinese,67000.0,3
+1657,100673,Wonton Soup,Chinese,23000.0,1
+1658,100674,Rendang,Indonesian,82000.0,2
+1659,100674,Mie Goreng,Indonesian,34000.0,3
+1660,100674,Nasi Goreng,Indonesian,27000.0,1
+1661,100674,Nasi Padang,Indonesian,28000.0,1
+1662,100675,Sundubu Jjigae,Korean,33000.0,1
+1663,100675,Kimbap,Korean,32000.0,3
+1664,100675,Kimchi Jjigae,Korean,59000.0,1
+1665,100675,Bulgogi,Korean,83000.0,2
+1666,100676,Japchae,Korean,84000.0,3
+1667,100676,Tteokbokki,Korean,25000.0,3
+1668,100677,Waffle,Dessert & Drinks,62000.0,1
+1669,100677,Matcha Latte,Dessert & Drinks,74000.0,1
+1670,100677,Milkshake,Dessert & Drinks,34000.0,3
+1671,100678,Biryani,Indian,45000.0,3
+1672,100678,Masala Chai,Indian,26000.0,3
+1673,100679,Naan,Indian,41000.0,2
+1674,100679,Masala Chai,Indian,16000.0,3
+1675,100679,Biryani,Indian,72000.0,1
+1676,100679,Palak Paneer,Indian,39000.0,2
+1677,100680,Kimbap,Korean,60000.0,1
+1678,100680,Kimchi Jjigae,Korean,67000.0,3
+1679,100680,Tteokbokki,Korean,77000.0,2
+1680,100680,Bulgogi,Korean,64000.0,1
+1681,100681,Mie Goreng,Indonesian,67000.0,2
+1682,100681,Soto Ayam,Indonesian,59000.0,1
+1683,100682,Bulgogi,Korean,42000.0,1
+1684,100682,Korean BBQ,Korean,21000.0,1
+1685,100683,Matcha Latte,Dessert & Drinks,64000.0,3
+1686,100683,Milkshake,Dessert & Drinks,85000.0,2
+1687,100684,Crepes,Dessert & Drinks,78000.0,3
+1688,100685,Japchae,Korean,45000.0,3
+1689,100685,Tteokbokki,Korean,26000.0,1
+1690,100685,Bibimbap,Korean,65000.0,2
+1691,100686,Nasi Padang,Indonesian,61000.0,1
+1692,100687,Wonton Soup,Chinese,80000.0,2
+1693,100687,Noodle Soup,Chinese,42000.0,2
+1694,100687,Chop Suey,Chinese,25000.0,1
+1695,100688,Tempura,Japanese,73000.0,1
+1696,100689,Peking Duck,Chinese,17000.0,2
+1697,100689,Spring Roll,Chinese,70000.0,3
+1698,100689,Chop Suey,Chinese,80000.0,2
+1699,100689,Wonton Soup,Chinese,71000.0,3
+1700,100690,Mie Goreng,Indonesian,81000.0,3
+1701,100690,Nasi Goreng,Indonesian,46000.0,2
+1702,100690,Soto Ayam,Indonesian,30000.0,2
+1703,100691,Spring Roll,Chinese,75000.0,1
+1704,100691,Dim Sum,Chinese,45000.0,2
+1705,100691,Dumplings,Chinese,59000.0,2
+1706,100692,Sushi Set,Japanese,71000.0,3
+1707,100692,Udon,Japanese,31000.0,2
+1708,100693,Waffle,Dessert & Drinks,44000.0,2
+1709,100693,Milkshake,Dessert & Drinks,44000.0,2
+1710,100693,Boba Tea,Dessert & Drinks,57000.0,2
+1711,100693,Cheesecake,Dessert & Drinks,24000.0,1
+1712,100694,Ice Cream,Dessert & Drinks,29000.0,1
+1713,100694,Boba Tea,Dessert & Drinks,45000.0,3
+1714,100694,Matcha Latte,Dessert & Drinks,80000.0,1
+1715,100694,Cheesecake,Dessert & Drinks,58000.0,3
+1716,100695,Grilled Chicken,Western,67000.0,1
+1717,100695,Caesar Salad,Western,57000.0,1
+1718,100695,Fish & Chips,Western,65000.0,1
+1719,100696,Shawarma,Middle Eastern,55000.0,2
+1720,100697,Takoyaki,Japanese,75000.0,3
+1721,100697,Gyudon,Japanese,29000.0,3
+1722,100697,Tempura,Japanese,18000.0,2
+1723,100698,Tempura,Japanese,41000.0,3
+1724,100699,Burger,Western,69000.0,2
+1725,100699,Pasta,Western,49000.0,2
+1726,100700,Milkshake,Dessert & Drinks,47000.0,3
+1727,100700,Boba Tea,Dessert & Drinks,26000.0,2
+1728,100701,Fried Rice,Chinese,23000.0,3
+1729,100701,Spring Roll,Chinese,15000.0,2
+1730,100702,Churros,Dessert & Drinks,76000.0,3
+1731,100703,Dal Tadka,Indian,73000.0,3
+1732,100703,Palak Paneer,Indian,45000.0,2
+1733,100704,Shawarma,Middle Eastern,74000.0,3
+1734,100704,Lamb Chops,Middle Eastern,21000.0,3
+1735,100705,Bulgogi,Korean,83000.0,3
+1736,100705,Japchae,Korean,74000.0,2
+1737,100705,Sundubu Jjigae,Korean,83000.0,2
+1738,100705,Tteokbokki,Korean,53000.0,3
+1739,100706,BBQ Ribs,Western,79000.0,3
+1740,100706,Grilled Chicken,Western,50000.0,1
+1741,100706,Caesar Salad,Western,67000.0,3
+1742,100707,Waffle,Dessert & Drinks,61000.0,3
+1743,100707,Churros,Dessert & Drinks,65000.0,1
+1744,100707,Crepes,Dessert & Drinks,71000.0,2
+1745,100707,Boba Tea,Dessert & Drinks,47000.0,1
+1746,100708,Manakish,Middle Eastern,74000.0,1
+1747,100708,Hummus Plate,Middle Eastern,69000.0,3
+1748,100708,Falafel,Middle Eastern,53000.0,1
+1749,100709,Soto Ayam,Indonesian,48000.0,3
+1750,100709,Rendang,Indonesian,48000.0,3
+1751,100709,Bakso,Indonesian,41000.0,1
+1752,100710,Dal Tadka,Indian,73000.0,3
+1753,100710,Tandoori Chicken,Indian,23000.0,2
+1754,100711,Sundubu Jjigae,Korean,35000.0,2
+1755,100712,Bulgogi,Korean,23000.0,3
+1756,100712,Bibimbap,Korean,82000.0,1
+1757,100712,Tteokbokki,Korean,34000.0,3
+1758,100713,Steak,Western,84000.0,1
+1759,100713,Caesar Salad,Western,80000.0,2
+1760,100714,Butter Chicken,Indian,79000.0,2
+1761,100714,Naan,Indian,68000.0,2
+1762,100714,Masala Chai,Indian,74000.0,2
+1763,100714,Biryani,Indian,60000.0,1
+1764,100715,Korean BBQ,Korean,49000.0,3
+1765,100716,Katsu Curry,Japanese,19000.0,2
+1766,100716,Udon,Japanese,78000.0,1
+1767,100716,Ramen,Japanese,18000.0,3
+1768,100717,Nasi Padang,Indonesian,58000.0,1
+1769,100717,Ayam Geprek,Indonesian,81000.0,1
+1770,100718,Katsu Curry,Japanese,82000.0,2
+1771,100718,Ramen,Japanese,60000.0,1
+1772,100718,Onigiri,Japanese,52000.0,1
+1773,100719,Takoyaki,Japanese,28000.0,1
+1774,100720,Katsu Curry,Japanese,54000.0,2
+1775,100720,Takoyaki,Japanese,31000.0,2
+1776,100720,Tempura,Japanese,69000.0,1
+1777,100720,Udon,Japanese,55000.0,1
+1778,100721,Spring Roll,Chinese,38000.0,2
+1779,100721,Dim Sum,Chinese,60000.0,1
+1780,100721,Fried Rice,Chinese,76000.0,1
+1781,100722,Katsu Curry,Japanese,35000.0,2
+1782,100722,Udon,Japanese,62000.0,3
+1783,100722,Sushi Set,Japanese,20000.0,2
+1784,100723,Butter Chicken,Indian,69000.0,3
+1785,100723,Biryani,Indian,62000.0,3
+1786,100723,Tandoori Chicken,Indian,82000.0,3
+1787,100723,Masala Chai,Indian,39000.0,2
+1788,100724,Kimbap,Korean,40000.0,3
+1789,100724,Bulgogi,Korean,83000.0,2
+1790,100724,Tteokbokki,Korean,73000.0,2
+1791,100724,Japchae,Korean,81000.0,1
+1792,100725,Cheesecake,Dessert & Drinks,52000.0,2
+1793,100726,Lamb Chops,Middle Eastern,30000.0,2
+1794,100727,Palak Paneer,Indian,78000.0,2
+1795,100727,Samosa,Indian,65000.0,1
+1796,100728,Fish & Chips,Western,80000.0,2
+1797,100728,Caesar Salad,Western,29000.0,3
+1798,100728,Burger,Western,58000.0,3
+1799,100728,BBQ Ribs,Western,54000.0,1
+1800,100729,Hummus Plate,Middle Eastern,83000.0,2
+1801,100729,Fattoush,Middle Eastern,30000.0,1
+1802,100729,Mezze Platter,Middle Eastern,44000.0,1
+1803,100729,Lamb Chops,Middle Eastern,52000.0,2
+1804,100730,Falafel,Middle Eastern,80000.0,2
+1805,100730,Kebab,Middle Eastern,73000.0,2
+1806,100731,Japchae,Korean,32000.0,1
+1807,100732,Fattoush,Middle Eastern,26000.0,1
+1808,100732,Mezze Platter,Middle Eastern,44000.0,1
+1809,100732,Kebab,Middle Eastern,52000.0,3
+1810,100733,Palak Paneer,Indian,33000.0,1
+1811,100734,Dal Tadka,Indian,63000.0,2
+1812,100735,Korean BBQ,Korean,37000.0,3
+1813,100735,Kimbap,Korean,21000.0,1
+1814,100736,Cheesecake,Dessert & Drinks,76000.0,2
+1815,100737,Butter Chicken,Indian,78000.0,3
+1816,100737,Samosa,Indian,82000.0,2
+1817,100737,Biryani,Indian,21000.0,2
+1818,100738,Boba Tea,Dessert & Drinks,19000.0,2
+1819,100738,Crepes,Dessert & Drinks,78000.0,2
+1820,100739,Masala Chai,Indian,34000.0,2
+1821,100740,Gado-Gado,Indonesian,78000.0,1
+1822,100740,Bakso,Indonesian,74000.0,3
+1823,100741,Noodle Soup,Chinese,47000.0,1
+1824,100741,Fried Rice,Chinese,62000.0,1
+1825,100742,Steak,Western,85000.0,3
+1826,100743,Steak,Western,39000.0,2
+1827,100743,Grilled Chicken,Western,81000.0,2
+1828,100744,Fried Rice,Chinese,42000.0,3
+1829,100744,Dumplings,Chinese,50000.0,1
+1830,100745,Masala Chai,Indian,16000.0,2
+1831,100746,Rendang,Indonesian,17000.0,1
+1832,100746,Nasi Padang,Indonesian,46000.0,1
+1833,100746,Gado-Gado,Indonesian,56000.0,3
+1834,100747,Shawarma,Middle Eastern,39000.0,3
+1835,100747,Lamb Chops,Middle Eastern,27000.0,2
+1836,100747,Fattoush,Middle Eastern,19000.0,2
+1837,100747,Mezze Platter,Middle Eastern,59000.0,1
+1838,100748,Katsu Curry,Japanese,64000.0,2
+1839,100748,Takoyaki,Japanese,66000.0,1
+1840,100748,Gyudon,Japanese,45000.0,2
+1841,100748,Tempura,Japanese,25000.0,2
+1842,100749,Falafel,Middle Eastern,74000.0,3
+1843,100750,Pasta,Western,59000.0,2
+1844,100751,Burger,Western,48000.0,2
+1845,100751,Caesar Salad,Western,42000.0,3
+1846,100751,BBQ Ribs,Western,62000.0,3
+1847,100752,Caesar Salad,Western,59000.0,2
+1848,100752,Steak,Western,59000.0,3
+1849,100753,Milkshake,Dessert & Drinks,57000.0,3
+1850,100753,Ice Cream,Dessert & Drinks,29000.0,2
+1851,100753,Churros,Dessert & Drinks,76000.0,2
+1852,100753,Boba Tea,Dessert & Drinks,62000.0,1
+1853,100754,Japchae,Korean,50000.0,1
+1854,100754,Kimchi Jjigae,Korean,40000.0,2
+1855,100754,Bulgogi,Korean,82000.0,2
+1856,100755,Ayam Geprek,Indonesian,83000.0,1
+1857,100756,Fish & Chips,Western,36000.0,2
+1858,100757,Crepes,Dessert & Drinks,29000.0,2
+1859,100757,Churros,Dessert & Drinks,50000.0,1
+1860,100758,Gyudon,Japanese,23000.0,3
+1861,100758,Takoyaki,Japanese,42000.0,1
+1862,100759,Kimchi Jjigae,Korean,43000.0,2
+1863,100759,Tteokbokki,Korean,83000.0,3
+1864,100759,Sundubu Jjigae,Korean,20000.0,3
+1865,100760,Tteokbokki,Korean,75000.0,1
+1866,100760,Korean BBQ,Korean,38000.0,1
+1867,100760,Kimbap,Korean,30000.0,3
+1868,100761,Butter Chicken,Indian,32000.0,1
+1869,100761,Tandoori Chicken,Indian,33000.0,3
+1870,100761,Dal Tadka,Indian,51000.0,2
+1871,100762,Noodle Soup,Chinese,51000.0,2
+1872,100763,Takoyaki,Japanese,23000.0,1
+1873,100763,Ramen,Japanese,45000.0,3
+1874,100763,Katsu Curry,Japanese,70000.0,2
+1875,100764,Ramen,Japanese,69000.0,1
+1876,100765,Falafel,Middle Eastern,52000.0,3
+1877,100765,Fattoush,Middle Eastern,76000.0,1
+1878,100765,Mezze Platter,Middle Eastern,61000.0,1
+1879,100765,Shawarma,Middle Eastern,77000.0,2
+1880,100766,Tteokbokki,Korean,68000.0,1
+1881,100766,Kimchi Jjigae,Korean,39000.0,3
+1882,100767,Tteokbokki,Korean,68000.0,3
+1883,100768,Sushi Set,Japanese,37000.0,2
+1884,100768,Tempura,Japanese,42000.0,2
+1885,100768,Gyudon,Japanese,43000.0,3
+1886,100769,Onigiri,Japanese,66000.0,2
+1887,100769,Ramen,Japanese,39000.0,1
+1888,100769,Gyudon,Japanese,44000.0,1
+1889,100770,Ice Cream,Dessert & Drinks,74000.0,1
+1890,100770,Cheesecake,Dessert & Drinks,17000.0,2
+1891,100771,Tempura,Japanese,68000.0,2
+1892,100772,Japchae,Korean,64000.0,3
+1893,100772,Bibimbap,Korean,77000.0,1
+1894,100772,Korean BBQ,Korean,17000.0,1
+1895,100773,Sushi Set,Japanese,85000.0,3
+1896,100774,Soto Ayam,Indonesian,84000.0,1
+1897,100774,Mie Goreng,Indonesian,67000.0,1
+1898,100774,Nasi Padang,Indonesian,26000.0,1
+1899,100774,Bakso,Indonesian,71000.0,1
+1900,100775,Fried Rice,Chinese,27000.0,2
+1901,100775,Chop Suey,Chinese,16000.0,2
+1902,100775,Wonton Soup,Chinese,51000.0,1
+1903,100775,Peking Duck,Chinese,16000.0,3
+1904,100776,Tandoori Chicken,Indian,42000.0,2
+1905,100776,Samosa,Indian,51000.0,3
+1906,100776,Biryani,Indian,67000.0,2
+1907,100777,Dal Tadka,Indian,15000.0,1
+1908,100777,Biryani,Indian,47000.0,3
+1909,100777,Masala Chai,Indian,22000.0,3
+1910,100777,Palak Paneer,Indian,53000.0,3
+1911,100778,Caesar Salad,Western,29000.0,2
+1912,100779,Grilled Chicken,Western,26000.0,2
+1913,100779,Caesar Salad,Western,47000.0,2
+1914,100779,Club Sandwich,Western,77000.0,3
+1915,100779,Burger,Western,46000.0,1
+1916,100780,Palak Paneer,Indian,36000.0,3
+1917,100780,Dal Tadka,Indian,44000.0,1
+1918,100780,Samosa,Indian,80000.0,2
+1919,100780,Biryani,Indian,34000.0,1
+1920,100781,Soto Ayam,Indonesian,46000.0,2
+1921,100781,Mie Goreng,Indonesian,39000.0,2
+1922,100782,Matcha Latte,Dessert & Drinks,49000.0,3
+1923,100782,Crepes,Dessert & Drinks,17000.0,3
+1924,100782,Boba Tea,Dessert & Drinks,77000.0,2
+1925,100783,Dumplings,Chinese,24000.0,1
+1926,100783,Peking Duck,Chinese,47000.0,1
+1927,100784,Japchae,Korean,20000.0,3
+1928,100785,Milkshake,Dessert & Drinks,69000.0,1
+1929,100786,Fish & Chips,Western,58000.0,2
+1930,100786,Club Sandwich,Western,47000.0,2
+1931,100786,Steak,Western,48000.0,3
+1932,100786,Pasta,Western,47000.0,1
+1933,100787,Kimchi Jjigae,Korean,66000.0,1
+1934,100787,Sundubu Jjigae,Korean,49000.0,2
+1935,100787,Bibimbap,Korean,58000.0,1
+1936,100787,Tteokbokki,Korean,67000.0,3
+1937,100788,Dim Sum,Chinese,84000.0,3
+1938,100788,Dumplings,Chinese,82000.0,1
+1939,100789,Rendang,Indonesian,80000.0,3
+1940,100789,Ayam Geprek,Indonesian,68000.0,3
+1941,100789,Mie Goreng,Indonesian,43000.0,2
+1942,100790,Peking Duck,Chinese,64000.0,3
+1943,100790,Chop Suey,Chinese,80000.0,1
+1944,100791,Cheesecake,Dessert & Drinks,72000.0,1
+1945,100791,Boba Tea,Dessert & Drinks,42000.0,3
+1946,100792,Lamb Chops,Middle Eastern,54000.0,1
+1947,100793,Palak Paneer,Indian,73000.0,3
+1948,100793,Masala Chai,Indian,25000.0,2
+1949,100794,Korean BBQ,Korean,15000.0,1
+1950,100794,Japchae,Korean,82000.0,3
+1951,100795,Dal Tadka,Indian,16000.0,2
+1952,100796,Rendang,Indonesian,23000.0,1
+1953,100796,Mie Goreng,Indonesian,46000.0,2
+1954,100797,Mie Goreng,Indonesian,46000.0,1
+1955,100797,Ayam Geprek,Indonesian,48000.0,1
+1956,100798,Nasi Padang,Indonesian,71000.0,2
+1957,100799,Tteokbokki,Korean,67000.0,1
+1958,100800,Takoyaki,Japanese,43000.0,3
+1959,100801,Japchae,Korean,78000.0,2
+1960,100802,Nasi Goreng,Indonesian,48000.0,2
+1961,100802,Nasi Padang,Indonesian,37000.0,2
+1962,100803,Lamb Chops,Middle Eastern,38000.0,2
+1963,100804,Shawarma,Middle Eastern,33000.0,3
+1964,100804,Fattoush,Middle Eastern,61000.0,1
+1965,100804,Hummus Plate,Middle Eastern,40000.0,1
+1966,100804,Falafel,Middle Eastern,47000.0,3
+1967,100805,Hummus Plate,Middle Eastern,84000.0,1
+1968,100806,Shawarma,Middle Eastern,82000.0,3
+1969,100806,Lamb Chops,Middle Eastern,38000.0,2
+1970,100806,Mezze Platter,Middle Eastern,69000.0,2
+1971,100806,Manakish,Middle Eastern,29000.0,1
+1972,100807,Caesar Salad,Western,46000.0,3
+1973,100807,Pasta,Western,62000.0,2
+1974,100808,Nasi Padang,Indonesian,67000.0,1
+1975,100809,Samosa,Indian,39000.0,2
+1976,100809,Dal Tadka,Indian,37000.0,3
+1977,100809,Biryani,Indian,32000.0,3
+1978,100810,Takoyaki,Japanese,31000.0,2
+1979,100810,Onigiri,Japanese,57000.0,3
+1980,100810,Sushi Set,Japanese,27000.0,3
+1981,100810,Katsu Curry,Japanese,20000.0,2
+1982,100811,Caesar Salad,Western,73000.0,2
+1983,100812,Churros,Dessert & Drinks,32000.0,3
+1984,100812,Milkshake,Dessert & Drinks,25000.0,3
+1985,100812,Waffle,Dessert & Drinks,76000.0,3
+1986,100812,Boba Tea,Dessert & Drinks,28000.0,2
+1987,100813,Milkshake,Dessert & Drinks,59000.0,1
+1988,100814,Tteokbokki,Korean,79000.0,3
+1989,100814,Kimchi Jjigae,Korean,57000.0,1
+1990,100814,Kimbap,Korean,44000.0,3
+1991,100814,Korean BBQ,Korean,52000.0,2
+1992,100815,Dim Sum,Chinese,16000.0,3
+1993,100815,Fried Rice,Chinese,16000.0,1
+1994,100815,Dumplings,Chinese,41000.0,2
+1995,100815,Noodle Soup,Chinese,79000.0,2
+1996,100816,Rendang,Indonesian,69000.0,2
+1997,100816,Ayam Geprek,Indonesian,35000.0,2
+1998,100816,Bakso,Indonesian,60000.0,2
+1999,100817,Fattoush,Middle Eastern,66000.0,3
+2000,100817,Shawarma,Middle Eastern,33000.0,2
+2001,100818,Mezze Platter,Middle Eastern,39000.0,2
+2002,100819,Peking Duck,Chinese,33000.0,2
+2003,100819,Dim Sum,Chinese,60000.0,2
+2004,100819,Fried Rice,Chinese,43000.0,2
+2005,100819,Wonton Soup,Chinese,81000.0,3
+2006,100820,Churros,Dessert & Drinks,46000.0,3
+2007,100820,Cheesecake,Dessert & Drinks,22000.0,1
+2008,100820,Boba Tea,Dessert & Drinks,73000.0,3
+2009,100820,Waffle,Dessert & Drinks,72000.0,2
+2010,100821,Gyudon,Japanese,66000.0,2
+2011,100822,Fish & Chips,Western,47000.0,3
+2012,100823,Soto Ayam,Indonesian,42000.0,3
+2013,100823,Gado-Gado,Indonesian,33000.0,2
+2014,100823,Ayam Geprek,Indonesian,16000.0,2
+2015,100824,Takoyaki,Japanese,17000.0,1
+2016,100825,Caesar Salad,Western,78000.0,3
+2017,100826,Fattoush,Middle Eastern,74000.0,3
+2018,100826,Hummus Plate,Middle Eastern,71000.0,1
+2019,100826,Falafel,Middle Eastern,75000.0,2
+2020,100826,Mezze Platter,Middle Eastern,32000.0,1
+2021,100827,BBQ Ribs,Western,75000.0,2
+2022,100827,Steak,Western,38000.0,3
+2023,100827,Pasta,Western,74000.0,2
+2024,100828,Butter Chicken,Indian,40000.0,1
+2025,100828,Dal Tadka,Indian,71000.0,2
+2026,100829,Crepes,Dessert & Drinks,85000.0,2
+2027,100829,Matcha Latte,Dessert & Drinks,49000.0,1
+2028,100830,Kebab,Middle Eastern,77000.0,3
+2029,100830,Lamb Chops,Middle Eastern,34000.0,1
+2030,100831,Caesar Salad,Western,74000.0,1
+2031,100831,Steak,Western,70000.0,3
+2032,100831,Fish & Chips,Western,18000.0,2
+2033,100831,Pasta,Western,25000.0,3
+2034,100832,Korean BBQ,Korean,46000.0,3
+2035,100832,Kimchi Jjigae,Korean,42000.0,3
+2036,100832,Kimbap,Korean,19000.0,2
+2037,100833,Sundubu Jjigae,Korean,31000.0,2
+2038,100833,Kimbap,Korean,66000.0,1
+2039,100834,Caesar Salad,Western,66000.0,1
+2040,100834,Burger,Western,16000.0,1
+2041,100834,Club Sandwich,Western,25000.0,3
+2042,100834,Grilled Chicken,Western,81000.0,1
+2043,100835,Matcha Latte,Dessert & Drinks,51000.0,3
+2044,100835,Milkshake,Dessert & Drinks,80000.0,1
+2045,100835,Ice Cream,Dessert & Drinks,61000.0,2
+2046,100835,Boba Tea,Dessert & Drinks,22000.0,3
+2047,100836,Steak,Western,81000.0,3
+2048,100836,BBQ Ribs,Western,83000.0,2
+2049,100836,Fish & Chips,Western,29000.0,1
+2050,100837,Grilled Chicken,Western,19000.0,3
+2051,100837,Steak,Western,74000.0,1
+2052,100837,Burger,Western,72000.0,2
+2053,100837,Fish & Chips,Western,29000.0,3
+2054,100838,Fried Rice,Chinese,84000.0,2
+2055,100838,Spring Roll,Chinese,79000.0,3
+2056,100839,Cheesecake,Dessert & Drinks,48000.0,2
+2057,100839,Churros,Dessert & Drinks,67000.0,1
+2058,100839,Waffle,Dessert & Drinks,44000.0,3
+2059,100840,Katsu Curry,Japanese,48000.0,3
+2060,100841,Boba Tea,Dessert & Drinks,51000.0,3
+2061,100841,Milkshake,Dessert & Drinks,76000.0,2
+2062,100841,Matcha Latte,Dessert & Drinks,76000.0,2
+2063,100841,Cheesecake,Dessert & Drinks,35000.0,3
+2064,100842,Kimchi Jjigae,Korean,52000.0,1
+2065,100842,Bibimbap,Korean,40000.0,1
+2066,100843,Waffle,Dessert & Drinks,33000.0,3
+2067,100843,Milkshake,Dessert & Drinks,29000.0,3
+2068,100844,Korean BBQ,Korean,74000.0,3
+2069,100845,Soto Ayam,Indonesian,76000.0,3
+2070,100846,Bulgogi,Korean,51000.0,1
+2071,100847,Samosa,Indian,70000.0,3
+2072,100848,Mie Goreng,Indonesian,34000.0,1
+2073,100848,Nasi Goreng,Indonesian,18000.0,1
+2074,100849,Bakso,Indonesian,70000.0,1
+2075,100850,Takoyaki,Japanese,23000.0,3
+2076,100850,Sushi Set,Japanese,80000.0,1
+2077,100850,Katsu Curry,Japanese,44000.0,3
+2078,100851,Club Sandwich,Western,40000.0,1
+2079,100852,Shawarma,Middle Eastern,78000.0,2
+2080,100852,Falafel,Middle Eastern,73000.0,2
+2081,100852,Manakish,Middle Eastern,63000.0,2
+2082,100853,Samosa,Indian,39000.0,1
+2083,100853,Naan,Indian,30000.0,3
+2084,100853,Masala Chai,Indian,50000.0,2
+2085,100854,Peking Duck,Chinese,73000.0,1
+2086,100854,Spring Roll,Chinese,75000.0,1
+2087,100855,Bibimbap,Korean,75000.0,2
+2088,100856,Tandoori Chicken,Indian,29000.0,1
+2089,100857,Fattoush,Middle Eastern,25000.0,3
+2090,100857,Shawarma,Middle Eastern,22000.0,3
+2091,100858,Udon,Japanese,24000.0,3
+2092,100858,Sushi Set,Japanese,75000.0,2
+2093,100859,Falafel,Middle Eastern,27000.0,3
+2094,100859,Mezze Platter,Middle Eastern,41000.0,2
+2095,100859,Manakish,Middle Eastern,46000.0,3
+2096,100859,Hummus Plate,Middle Eastern,22000.0,3
+2097,100860,Dim Sum,Chinese,76000.0,1
+2098,100860,Peking Duck,Chinese,32000.0,2
+2099,100860,Spring Roll,Chinese,69000.0,3
+2100,100860,Fried Rice,Chinese,34000.0,2
+2101,100861,Dumplings,Chinese,47000.0,1
+2102,100861,Peking Duck,Chinese,35000.0,1
+2103,100861,Dim Sum,Chinese,24000.0,2
+2104,100861,Wonton Soup,Chinese,32000.0,2
+2105,100862,Ice Cream,Dessert & Drinks,26000.0,2
+2106,100862,Cheesecake,Dessert & Drinks,75000.0,2
+2107,100862,Waffle,Dessert & Drinks,69000.0,3
+2108,100863,Fried Rice,Chinese,40000.0,3
+2109,100863,Noodle Soup,Chinese,69000.0,3
+2110,100863,Spring Roll,Chinese,57000.0,3
+2111,100863,Wonton Soup,Chinese,67000.0,2
+2112,100864,Chop Suey,Chinese,71000.0,3
+2113,100864,Peking Duck,Chinese,41000.0,1
+2114,100865,Pasta,Western,76000.0,3
+2115,100865,Burger,Western,23000.0,2
+2116,100865,Club Sandwich,Western,35000.0,3
+2117,100865,Steak,Western,68000.0,3
+2118,100866,Katsu Curry,Japanese,28000.0,3
+2119,100867,Gyudon,Japanese,58000.0,1
+2120,100867,Sushi Set,Japanese,15000.0,2
+2121,100867,Takoyaki,Japanese,30000.0,3
+2122,100867,Tempura,Japanese,43000.0,1
+2123,100868,Ice Cream,Dessert & Drinks,59000.0,1
+2124,100868,Boba Tea,Dessert & Drinks,60000.0,3
+2125,100868,Milkshake,Dessert & Drinks,20000.0,2
+2126,100868,Churros,Dessert & Drinks,23000.0,3
+2127,100869,Dal Tadka,Indian,32000.0,1
+2128,100869,Butter Chicken,Indian,32000.0,2
+2129,100870,Kimchi Jjigae,Korean,75000.0,3
+2130,100870,Kimbap,Korean,30000.0,1
+2131,100870,Bibimbap,Korean,64000.0,2
+2132,100870,Sundubu Jjigae,Korean,84000.0,3
+2133,100871,Takoyaki,Japanese,68000.0,2
+2134,100872,Dim Sum,Chinese,84000.0,3
+2135,100872,Fried Rice,Chinese,17000.0,1
+2136,100873,Ramen,Japanese,64000.0,1
+2137,100873,Katsu Curry,Japanese,47000.0,3
+2138,100873,Onigiri,Japanese,45000.0,3
+2139,100873,Tempura,Japanese,34000.0,1
+2140,100874,Udon,Japanese,75000.0,3
+2141,100874,Katsu Curry,Japanese,61000.0,1
+2142,100874,Gyudon,Japanese,23000.0,2
+2143,100874,Ramen,Japanese,28000.0,2
+2144,100875,Lamb Chops,Middle Eastern,55000.0,2
+2145,100875,Mezze Platter,Middle Eastern,57000.0,1
+2146,100876,Tteokbokki,Korean,58000.0,1
+2147,100876,Bibimbap,Korean,34000.0,2
+2148,100877,Samosa,Indian,36000.0,2
+2149,100877,Palak Paneer,Indian,40000.0,1
+2150,100877,Biryani,Indian,41000.0,2
+2151,100878,Rendang,Indonesian,55000.0,2
+2152,100878,Ayam Geprek,Indonesian,66000.0,3
+2153,100878,Nasi Padang,Indonesian,64000.0,2
+2154,100878,Mie Goreng,Indonesian,27000.0,1
+2155,100879,Dim Sum,Chinese,42000.0,3
+2156,100879,Dumplings,Chinese,44000.0,3
+2157,100880,Sushi Set,Japanese,74000.0,3
+2158,100880,Gyudon,Japanese,26000.0,2
+2159,100880,Katsu Curry,Japanese,20000.0,1
+2160,100881,Cheesecake,Dessert & Drinks,85000.0,1
+2161,100882,Gyudon,Japanese,39000.0,2
+2162,100882,Ramen,Japanese,16000.0,2
+2163,100882,Udon,Japanese,37000.0,3
+2164,100882,Takoyaki,Japanese,82000.0,3
+2165,100883,Dim Sum,Chinese,78000.0,3
+2166,100883,Peking Duck,Chinese,57000.0,1
+2167,100884,Takoyaki,Japanese,56000.0,1
+2168,100884,Katsu Curry,Japanese,78000.0,2
+2169,100884,Onigiri,Japanese,83000.0,3
+2170,100884,Tempura,Japanese,35000.0,1
+2171,100885,Wonton Soup,Chinese,40000.0,3
+2172,100885,Dumplings,Chinese,70000.0,2
+2173,100885,Dim Sum,Chinese,19000.0,3
+2174,100885,Noodle Soup,Chinese,35000.0,3
+2175,100886,Noodle Soup,Chinese,20000.0,2
+2176,100887,Cheesecake,Dessert & Drinks,22000.0,3
+2177,100887,Ice Cream,Dessert & Drinks,49000.0,2
+2178,100887,Milkshake,Dessert & Drinks,74000.0,3
+2179,100887,Churros,Dessert & Drinks,83000.0,1
+2180,100888,Caesar Salad,Western,18000.0,2
+2181,100888,Pasta,Western,74000.0,3
+2182,100889,Chop Suey,Chinese,64000.0,1
+2183,100889,Fried Rice,Chinese,21000.0,3
+2184,100889,Wonton Soup,Chinese,70000.0,2
+2185,100890,Ramen,Japanese,30000.0,1
+2186,100890,Udon,Japanese,60000.0,2
+2187,100890,Gyudon,Japanese,62000.0,3
+2188,100890,Onigiri,Japanese,50000.0,1
+2189,100891,Soto Ayam,Indonesian,48000.0,3
+2190,100892,Tteokbokki,Korean,16000.0,2
+2191,100892,Japchae,Korean,37000.0,3
+2192,100892,Kimchi Jjigae,Korean,22000.0,1
+2193,100893,Sundubu Jjigae,Korean,68000.0,3
+2194,100893,Bibimbap,Korean,25000.0,1
+2195,100893,Tteokbokki,Korean,29000.0,1
+2196,100893,Korean BBQ,Korean,81000.0,3
+2197,100894,Spring Roll,Chinese,27000.0,3
+2198,100895,Korean BBQ,Korean,79000.0,3
+2199,100895,Kimbap,Korean,49000.0,3
+2200,100895,Bibimbap,Korean,57000.0,3
+2201,100896,Kimchi Jjigae,Korean,49000.0,2
+2202,100896,Bulgogi,Korean,47000.0,3
+2203,100897,Steak,Western,42000.0,3
+2204,100897,BBQ Ribs,Western,71000.0,3
+2205,100897,Pasta,Western,52000.0,3
+2206,100897,Club Sandwich,Western,39000.0,1
+2207,100898,Noodle Soup,Chinese,56000.0,2
+2208,100898,Chop Suey,Chinese,82000.0,1
+2209,100898,Spring Roll,Chinese,67000.0,1
+2210,100898,Dumplings,Chinese,18000.0,2
+2211,100899,Burger,Western,34000.0,3
+2212,100900,Cheesecake,Dessert & Drinks,19000.0,3
+2213,100900,Matcha Latte,Dessert & Drinks,41000.0,1
+2214,100900,Milkshake,Dessert & Drinks,35000.0,1
+2215,100901,Naan,Indian,73000.0,2
+2216,100901,Tandoori Chicken,Indian,30000.0,2
+2217,100901,Dal Tadka,Indian,63000.0,1
+2218,100902,Sundubu Jjigae,Korean,74000.0,2
+2219,100902,Tteokbokki,Korean,56000.0,3
+2220,100902,Kimbap,Korean,80000.0,1
+2221,100902,Japchae,Korean,60000.0,1
+2222,100903,Korean BBQ,Korean,75000.0,2
+2223,100903,Bibimbap,Korean,45000.0,3
+2224,100904,Churros,Dessert & Drinks,29000.0,1
+2225,100904,Crepes,Dessert & Drinks,45000.0,2
+2226,100904,Boba Tea,Dessert & Drinks,43000.0,2
+2227,100904,Cheesecake,Dessert & Drinks,39000.0,3
+2228,100905,Cheesecake,Dessert & Drinks,21000.0,3
+2229,100906,Matcha Latte,Dessert & Drinks,20000.0,1
+2230,100906,Crepes,Dessert & Drinks,83000.0,1
+2231,100906,Churros,Dessert & Drinks,41000.0,3
+2232,100906,Boba Tea,Dessert & Drinks,20000.0,3
+2233,100907,Milkshake,Dessert & Drinks,63000.0,2
+2234,100907,Ice Cream,Dessert & Drinks,80000.0,1
+2235,100907,Churros,Dessert & Drinks,30000.0,3
+2236,100908,Peking Duck,Chinese,59000.0,3
+2237,100908,Noodle Soup,Chinese,69000.0,1
+2238,100908,Dim Sum,Chinese,56000.0,2
+2239,100909,Boba Tea,Dessert & Drinks,76000.0,1
+2240,100909,Milkshake,Dessert & Drinks,20000.0,1
+2241,100909,Churros,Dessert & Drinks,70000.0,3
+2242,100910,Nasi Goreng,Indonesian,59000.0,3
+2243,100910,Gado-Gado,Indonesian,74000.0,1
+2244,100910,Rendang,Indonesian,18000.0,3
+2245,100910,Nasi Padang,Indonesian,35000.0,1
+2246,100911,Onigiri,Japanese,34000.0,2
+2247,100911,Gyudon,Japanese,27000.0,3
+2248,100911,Katsu Curry,Japanese,47000.0,3
+2249,100911,Takoyaki,Japanese,83000.0,3
+2250,100912,Ice Cream,Dessert & Drinks,66000.0,3
+2251,100913,Gado-Gado,Indonesian,55000.0,1
+2252,100913,Ayam Geprek,Indonesian,84000.0,1
+2253,100913,Mie Goreng,Indonesian,56000.0,3
+2254,100914,Katsu Curry,Japanese,19000.0,2
+2255,100915,Club Sandwich,Western,15000.0,2
+2256,100915,Caesar Salad,Western,48000.0,2
+2257,100915,BBQ Ribs,Western,68000.0,3
+2258,100916,Hummus Plate,Middle Eastern,45000.0,2
+2259,100916,Kebab,Middle Eastern,65000.0,3
+2260,100916,Lamb Chops,Middle Eastern,71000.0,2
+2261,100916,Manakish,Middle Eastern,21000.0,3
+2262,100917,Biryani,Indian,40000.0,3
+2263,100917,Dal Tadka,Indian,59000.0,3
+2264,100918,Ramen,Japanese,18000.0,2
+2265,100919,Boba Tea,Dessert & Drinks,81000.0,1
+2266,100920,Tempura,Japanese,31000.0,2
+2267,100920,Onigiri,Japanese,80000.0,3
+2268,100920,Gyudon,Japanese,74000.0,3
+2269,100921,Takoyaki,Japanese,63000.0,3
+2270,100921,Onigiri,Japanese,52000.0,2
+2271,100922,Bakso,Indonesian,20000.0,3
+2272,100923,Dal Tadka,Indian,28000.0,3
+2273,100923,Naan,Indian,38000.0,3
+2274,100924,Gyudon,Japanese,77000.0,1
+2275,100924,Tempura,Japanese,27000.0,3
+2276,100925,Crepes,Dessert & Drinks,66000.0,3
+2277,100925,Milkshake,Dessert & Drinks,61000.0,2
+2278,100925,Cheesecake,Dessert & Drinks,22000.0,1
+2279,100925,Ice Cream,Dessert & Drinks,37000.0,2
+2280,100926,Shawarma,Middle Eastern,40000.0,2
+2281,100927,Lamb Chops,Middle Eastern,41000.0,1
+2282,100927,Hummus Plate,Middle Eastern,28000.0,2
+2283,100927,Fattoush,Middle Eastern,17000.0,3
+2284,100927,Kebab,Middle Eastern,35000.0,3
+2285,100928,Soto Ayam,Indonesian,18000.0,1
+2286,100928,Gado-Gado,Indonesian,80000.0,2
+2287,100929,BBQ Ribs,Western,43000.0,3
+2288,100929,Fish & Chips,Western,76000.0,1
+2289,100929,Grilled Chicken,Western,55000.0,1
+2290,100929,Steak,Western,36000.0,1
+2291,100930,BBQ Ribs,Western,57000.0,3
+2292,100930,Steak,Western,21000.0,2
+2293,100931,Fattoush,Middle Eastern,60000.0,2
+2294,100931,Shawarma,Middle Eastern,68000.0,2
+2295,100932,Fried Rice,Chinese,58000.0,1
+2296,100932,Wonton Soup,Chinese,26000.0,2
+2297,100932,Noodle Soup,Chinese,32000.0,3
+2298,100932,Spring Roll,Chinese,54000.0,2
+2299,100933,Kimchi Jjigae,Korean,49000.0,1
+2300,100933,Japchae,Korean,54000.0,3
+2301,100934,Gado-Gado,Indonesian,66000.0,3
+2302,100934,Mie Goreng,Indonesian,46000.0,3
+2303,100934,Nasi Padang,Indonesian,68000.0,3
+2304,100934,Soto Ayam,Indonesian,65000.0,1
+2305,100935,Masala Chai,Indian,80000.0,2
+2306,100935,Tandoori Chicken,Indian,18000.0,1
+2307,100935,Butter Chicken,Indian,22000.0,1
+2308,100936,Churros,Dessert & Drinks,65000.0,3
+2309,100936,Cheesecake,Dessert & Drinks,80000.0,1
+2310,100936,Milkshake,Dessert & Drinks,52000.0,2
+2311,100936,Crepes,Dessert & Drinks,36000.0,2
+2312,100937,Sushi Set,Japanese,62000.0,3
+2313,100938,Bakso,Indonesian,44000.0,1
+2314,100938,Ayam Geprek,Indonesian,79000.0,1
+2315,100939,Mezze Platter,Middle Eastern,47000.0,1
+2316,100939,Kebab,Middle Eastern,28000.0,2
+2317,100940,Soto Ayam,Indonesian,38000.0,2
+2318,100940,Ayam Geprek,Indonesian,64000.0,1
+2319,100940,Gado-Gado,Indonesian,16000.0,3
+2320,100940,Nasi Padang,Indonesian,38000.0,3
+2321,100941,Dim Sum,Chinese,80000.0,3
+2322,100941,Fried Rice,Chinese,46000.0,3
+2323,100942,Spring Roll,Chinese,84000.0,2
+2324,100942,Dim Sum,Chinese,39000.0,1
+2325,100942,Peking Duck,Chinese,33000.0,2
+2326,100942,Wonton Soup,Chinese,28000.0,1
+2327,100943,Gyudon,Japanese,41000.0,2
+2328,100943,Tempura,Japanese,29000.0,1
+2329,100943,Udon,Japanese,24000.0,3
+2330,100944,Kebab,Middle Eastern,28000.0,2
+2331,100945,Shawarma,Middle Eastern,78000.0,3
+2332,100946,Pasta,Western,43000.0,2
+2333,100946,Club Sandwich,Western,48000.0,3
+2334,100946,Grilled Chicken,Western,68000.0,2
+2335,100946,Caesar Salad,Western,76000.0,2
+2336,100947,Sushi Set,Japanese,19000.0,2
+2337,100947,Tempura,Japanese,56000.0,1
+2338,100947,Udon,Japanese,25000.0,1
+2339,100948,Shawarma,Middle Eastern,27000.0,2
+2340,100948,Fattoush,Middle Eastern,33000.0,3
+2341,100948,Lamb Chops,Middle Eastern,49000.0,2
+2342,100948,Hummus Plate,Middle Eastern,59000.0,1
+2343,100949,Fattoush,Middle Eastern,18000.0,2
+2344,100949,Falafel,Middle Eastern,20000.0,2
+2345,100950,Boba Tea,Dessert & Drinks,65000.0,2
+2346,100950,Crepes,Dessert & Drinks,32000.0,1
+2347,100950,Churros,Dessert & Drinks,31000.0,2
+2348,100951,Spring Roll,Chinese,67000.0,2
+2349,100951,Fried Rice,Chinese,22000.0,2
+2350,100951,Wonton Soup,Chinese,63000.0,3
+2351,100952,Dal Tadka,Indian,57000.0,2
+2352,100952,Naan,Indian,80000.0,3
+2353,100953,Palak Paneer,Indian,18000.0,1
+2354,100953,Naan,Indian,29000.0,2
+2355,100954,Grilled Chicken,Western,16000.0,3
+2356,100954,Burger,Western,36000.0,3
+2357,100955,Katsu Curry,Japanese,82000.0,3
+2358,100955,Takoyaki,Japanese,63000.0,1
+2359,100956,Crepes,Dessert & Drinks,46000.0,1
+2360,100956,Ice Cream,Dessert & Drinks,24000.0,2
+2361,100957,Sushi Set,Japanese,52000.0,1
+2362,100958,Lamb Chops,Middle Eastern,26000.0,3
+2363,100958,Hummus Plate,Middle Eastern,72000.0,3
+2364,100959,Hummus Plate,Middle Eastern,47000.0,2
+2365,100960,Kimbap,Korean,72000.0,1
+2366,100960,Korean BBQ,Korean,70000.0,3
+2367,100960,Bulgogi,Korean,18000.0,1
+2368,100961,Mie Goreng,Indonesian,79000.0,1
+2369,100961,Bakso,Indonesian,38000.0,1
+2370,100961,Nasi Padang,Indonesian,67000.0,2
+2371,100962,Milkshake,Dessert & Drinks,75000.0,2
+2372,100962,Crepes,Dessert & Drinks,17000.0,1
+2373,100963,Dim Sum,Chinese,72000.0,3
+2374,100964,Gado-Gado,Indonesian,27000.0,3
+2375,100964,Ayam Geprek,Indonesian,79000.0,1
+2376,100965,Falafel,Middle Eastern,83000.0,3
+2377,100965,Shawarma,Middle Eastern,78000.0,3
+2378,100965,Manakish,Middle Eastern,41000.0,2
+2379,100966,Peking Duck,Chinese,71000.0,2
+2380,100966,Wonton Soup,Chinese,63000.0,2
+2381,100966,Chop Suey,Chinese,49000.0,2
+2382,100966,Fried Rice,Chinese,82000.0,3
+2383,100967,Tteokbokki,Korean,22000.0,2
+2384,100967,Kimbap,Korean,52000.0,2
+2385,100968,Bibimbap,Korean,52000.0,3
+2386,100968,Kimchi Jjigae,Korean,50000.0,2
+2387,100969,Sushi Set,Japanese,20000.0,1
+2388,100970,Crepes,Dessert & Drinks,73000.0,3
+2389,100970,Boba Tea,Dessert & Drinks,67000.0,3
+2390,100970,Milkshake,Dessert & Drinks,83000.0,1
+2391,100971,Dumplings,Chinese,85000.0,3
+2392,100971,Fried Rice,Chinese,38000.0,1
+2393,100972,Cheesecake,Dessert & Drinks,57000.0,1
+2394,100972,Ice Cream,Dessert & Drinks,63000.0,2
+2395,100972,Crepes,Dessert & Drinks,58000.0,2
+2396,100972,Churros,Dessert & Drinks,77000.0,3
+2397,100973,Sundubu Jjigae,Korean,70000.0,1
+2398,100973,Kimchi Jjigae,Korean,78000.0,1
+2399,100974,Fish & Chips,Western,84000.0,3
+2400,100974,Burger,Western,37000.0,2
+2401,100974,Steak,Western,21000.0,1
+2402,100975,Noodle Soup,Chinese,19000.0,3
+2403,100975,Dumplings,Chinese,30000.0,1
+2404,100976,Crepes,Dessert & Drinks,67000.0,1
+2405,100976,Churros,Dessert & Drinks,78000.0,1
+2406,100977,Waffle,Dessert & Drinks,21000.0,1
+2407,100977,Crepes,Dessert & Drinks,67000.0,1
+2408,100977,Matcha Latte,Dessert & Drinks,57000.0,1
+2409,100978,Caesar Salad,Western,19000.0,2
+2410,100978,Pasta,Western,19000.0,3
+2411,100978,Burger,Western,22000.0,1
+2412,100979,Shawarma,Middle Eastern,60000.0,2
+2413,100979,Mezze Platter,Middle Eastern,66000.0,1
+2414,100979,Manakish,Middle Eastern,55000.0,2
+2415,100979,Kebab,Middle Eastern,74000.0,2
+2416,100980,Bakso,Indonesian,34000.0,2
+2417,100981,Spring Roll,Chinese,27000.0,3
+2418,100981,Chop Suey,Chinese,54000.0,3
+2419,100981,Wonton Soup,Chinese,84000.0,3
+2420,100982,Pasta,Western,78000.0,3
+2421,100982,Club Sandwich,Western,34000.0,3
+2422,100982,Burger,Western,73000.0,2
+2423,100983,Tempura,Japanese,22000.0,2
+2424,100983,Sushi Set,Japanese,35000.0,3
+2425,100984,Onigiri,Japanese,47000.0,2
+2426,100984,Gyudon,Japanese,22000.0,1
+2427,100984,Sushi Set,Japanese,69000.0,1
+2428,100984,Takoyaki,Japanese,42000.0,2
+2429,100985,Nasi Goreng,Indonesian,20000.0,2
+2430,100985,Nasi Padang,Indonesian,26000.0,3
+2431,100985,Soto Ayam,Indonesian,65000.0,3
+2432,100985,Bakso,Indonesian,28000.0,3
+2433,100986,Pasta,Western,29000.0,2
+2434,100986,Grilled Chicken,Western,29000.0,2
+2435,100987,Butter Chicken,Indian,77000.0,2
+2436,100987,Dal Tadka,Indian,22000.0,2
+2437,100987,Biryani,Indian,79000.0,2
+2438,100988,Wonton Soup,Chinese,62000.0,3
+2439,100988,Dumplings,Chinese,28000.0,2
+2440,100989,Fish & Chips,Western,19000.0,3
+2441,100989,Pasta,Western,55000.0,3
+2442,100989,BBQ Ribs,Western,79000.0,3
+2443,100990,Cheesecake,Dessert & Drinks,43000.0,1
+2444,100990,Milkshake,Dessert & Drinks,55000.0,2
+2445,100990,Ice Cream,Dessert & Drinks,24000.0,3
+2446,100991,Shawarma,Middle Eastern,44000.0,2
+2447,100991,Falafel,Middle Eastern,24000.0,2
+2448,100992,Butter Chicken,Indian,79000.0,2
+2449,100993,Gado-Gado,Indonesian,49000.0,1
+2450,100994,Caesar Salad,Western,58000.0,2
+2451,100994,Steak,Western,83000.0,2
+2452,100994,Grilled Chicken,Western,71000.0,3
+2453,100994,Burger,Western,19000.0,2
+2454,100995,Rendang,Indonesian,83000.0,3
+2455,100995,Nasi Padang,Indonesian,25000.0,3
+2456,100995,Nasi Goreng,Indonesian,69000.0,1
+2457,100995,Gado-Gado,Indonesian,20000.0,2
+2458,100996,Tempura,Japanese,25000.0,2
+2459,100997,Tteokbokki,Korean,60000.0,3
+2460,100998,Kimbap,Korean,75000.0,2
+2461,100999,Onigiri,Japanese,82000.0,3
+2462,100999,Sushi Set,Japanese,84000.0,3
+2463,100999,Tempura,Japanese,63000.0,1
+2464,100999,Ramen,Japanese,62000.0,3
+2465,101000,Samosa,Indian,36000.0,2
+2466,101001,Samosa,Indian,37000.0,3
+2467,101001,Tandoori Chicken,Indian,67000.0,1
+2468,101001,Palak Paneer,Indian,24000.0,2
+2469,101001,Butter Chicken,Indian,83000.0,2
+2470,101002,Crepes,Dessert & Drinks,71000.0,3
+2471,101002,Waffle,Dessert & Drinks,72000.0,1
+2472,101003,BBQ Ribs,Western,62000.0,1
+2473,101003,Fish & Chips,Western,32000.0,2
+2474,101004,Mezze Platter,Middle Eastern,78000.0,1
+2475,101004,Falafel,Middle Eastern,59000.0,2
+2476,101005,Bulgogi,Korean,76000.0,3
+2477,101005,Kimbap,Korean,78000.0,2
+2478,101006,Sushi Set,Japanese,46000.0,1
+2479,101007,Fish & Chips,Western,40000.0,2
+2480,101007,BBQ Ribs,Western,32000.0,2
+2481,101008,Rendang,Indonesian,49000.0,1
+2482,101008,Nasi Padang,Indonesian,81000.0,1
+2483,101008,Ayam Geprek,Indonesian,61000.0,1
+2484,101009,Nasi Goreng,Indonesian,60000.0,2
+2485,101009,Nasi Padang,Indonesian,83000.0,1
+2486,101010,Boba Tea,Dessert & Drinks,22000.0,1
+2487,101011,Caesar Salad,Western,84000.0,1
+2488,101011,BBQ Ribs,Western,22000.0,1
+2489,101012,Steak,Western,52000.0,2
+2490,101012,Caesar Salad,Western,70000.0,3
+2491,101012,Grilled Chicken,Western,17000.0,3
+2492,101012,BBQ Ribs,Western,78000.0,1
+2493,101013,Butter Chicken,Indian,62000.0,1
+2494,101014,Samosa,Indian,66000.0,1
+2495,101015,Onigiri,Japanese,30000.0,2
+2496,101016,Biryani,Indian,82000.0,1
+2497,101016,Butter Chicken,Indian,58000.0,2
+2498,101017,Fried Rice,Chinese,17000.0,2
+2499,101017,Chop Suey,Chinese,76000.0,2
+2500,101017,Peking Duck,Chinese,84000.0,2
+2501,101017,Dumplings,Chinese,78000.0,1
+2502,101018,Kebab,Middle Eastern,42000.0,2
+2503,101018,Shawarma,Middle Eastern,32000.0,3
+2504,101018,Manakish,Middle Eastern,37000.0,3
+2505,101018,Hummus Plate,Middle Eastern,64000.0,1
+2506,101019,Ice Cream,Dessert & Drinks,18000.0,3
+2507,101019,Boba Tea,Dessert & Drinks,66000.0,1
+2508,101019,Matcha Latte,Dessert & Drinks,28000.0,3
+2509,101019,Crepes,Dessert & Drinks,64000.0,3
+2510,101020,Katsu Curry,Japanese,56000.0,2
+2511,101021,Cheesecake,Dessert & Drinks,56000.0,3
+2512,101021,Milkshake,Dessert & Drinks,76000.0,1
+2513,101021,Waffle,Dessert & Drinks,54000.0,2
+2514,101022,Nasi Padang,Indonesian,53000.0,1
+2515,101022,Nasi Goreng,Indonesian,16000.0,2
+2516,101022,Ayam Geprek,Indonesian,44000.0,3
+2517,101023,Tteokbokki,Korean,69000.0,2
+2518,101023,Kimbap,Korean,65000.0,3
+2519,101023,Bulgogi,Korean,35000.0,2
+2520,101023,Korean BBQ,Korean,66000.0,3
+2521,101024,Korean BBQ,Korean,60000.0,3
+2522,101024,Kimchi Jjigae,Korean,82000.0,1
+2523,101025,Steak,Western,51000.0,1
+2524,101025,Caesar Salad,Western,23000.0,3
+2525,101026,Steak,Western,34000.0,1
+2526,101027,Katsu Curry,Japanese,25000.0,1
+2527,101027,Tempura,Japanese,48000.0,2
+2528,101027,Udon,Japanese,44000.0,1
+2529,101028,Bibimbap,Korean,67000.0,2
+2530,101028,Sundubu Jjigae,Korean,54000.0,3
+2531,101028,Kimbap,Korean,43000.0,1
+2532,101028,Tteokbokki,Korean,31000.0,1
+2533,101029,Club Sandwich,Western,61000.0,2
+2534,101030,Noodle Soup,Chinese,46000.0,3
+2535,101030,Spring Roll,Chinese,58000.0,1
+2536,101030,Dim Sum,Chinese,45000.0,1
+2537,101031,Crepes,Dessert & Drinks,53000.0,2
+2538,101031,Cheesecake,Dessert & Drinks,49000.0,3
+2539,101032,Rendang,Indonesian,36000.0,3
+2540,101033,Onigiri,Japanese,40000.0,1
+2541,101033,Takoyaki,Japanese,25000.0,1
+2542,101033,Ramen,Japanese,25000.0,1
+2543,101033,Sushi Set,Japanese,68000.0,2
+2544,101034,Rendang,Indonesian,49000.0,2
+2545,101034,Gado-Gado,Indonesian,51000.0,2
+2546,101034,Ayam Geprek,Indonesian,53000.0,1
+2547,101035,Tempura,Japanese,64000.0,2
+2548,101036,Fried Rice,Chinese,77000.0,3
+2549,101037,Takoyaki,Japanese,73000.0,1
+2550,101037,Katsu Curry,Japanese,82000.0,3
+2551,101037,Gyudon,Japanese,60000.0,3
+2552,101038,Spring Roll,Chinese,21000.0,3
+2553,101038,Dim Sum,Chinese,85000.0,2
+2554,101038,Chop Suey,Chinese,46000.0,1
+2555,101039,Korean BBQ,Korean,84000.0,1
+2556,101039,Japchae,Korean,35000.0,3
+2557,101039,Sundubu Jjigae,Korean,46000.0,2
+2558,101040,Pasta,Western,75000.0,3
+2559,101040,Burger,Western,67000.0,1
+2560,101041,Korean BBQ,Korean,69000.0,2
+2561,101041,Bulgogi,Korean,77000.0,2
+2562,101041,Tteokbokki,Korean,41000.0,2
+2563,101041,Kimbap,Korean,22000.0,2
+2564,101042,Wonton Soup,Chinese,20000.0,3
+2565,101043,Mie Goreng,Indonesian,64000.0,3
+2566,101043,Rendang,Indonesian,29000.0,3
+2567,101043,Bakso,Indonesian,50000.0,2
+2568,101043,Nasi Padang,Indonesian,61000.0,3
+2569,101044,Club Sandwich,Western,59000.0,1
+2570,101044,Grilled Chicken,Western,23000.0,2
+2571,101045,Burger,Western,20000.0,1
+2572,101045,Grilled Chicken,Western,52000.0,3
+2573,101045,Caesar Salad,Western,30000.0,1
+2574,101045,Steak,Western,39000.0,1
+2575,101046,Grilled Chicken,Western,75000.0,3
+2576,101047,Burger,Western,25000.0,3
+2577,101047,BBQ Ribs,Western,59000.0,1
+2578,101047,Caesar Salad,Western,36000.0,1
+2579,101047,Grilled Chicken,Western,55000.0,3
+2580,101048,Naan,Indian,25000.0,3
+2581,101048,Samosa,Indian,51000.0,3
+2582,101048,Butter Chicken,Indian,84000.0,1
+2583,101049,Samosa,Indian,15000.0,2
+2584,101049,Tandoori Chicken,Indian,35000.0,3
+2585,101049,Masala Chai,Indian,24000.0,3
+2586,101050,Mezze Platter,Middle Eastern,25000.0,2
+2587,101050,Kebab,Middle Eastern,57000.0,2
+2588,101050,Hummus Plate,Middle Eastern,53000.0,2
+2589,101050,Fattoush,Middle Eastern,18000.0,3
+2590,101051,Gado-Gado,Indonesian,29000.0,2
+2591,101051,Ayam Geprek,Indonesian,39000.0,3
+2592,101052,Gyudon,Japanese,75000.0,1
+2593,101052,Onigiri,Japanese,16000.0,1
+2594,101053,BBQ Ribs,Western,28000.0,1
+2595,101053,Club Sandwich,Western,25000.0,1
+2596,101053,Pasta,Western,23000.0,1
+2597,101053,Burger,Western,38000.0,2
+2598,101054,Soto Ayam,Indonesian,39000.0,3
+2599,101054,Nasi Goreng,Indonesian,81000.0,2
+2600,101054,Nasi Padang,Indonesian,51000.0,3
+2601,101055,Bulgogi,Korean,82000.0,2
+2602,101055,Kimbap,Korean,17000.0,3
+2603,101055,Bibimbap,Korean,57000.0,2
+2604,101056,Dim Sum,Chinese,31000.0,2
+2605,101056,Noodle Soup,Chinese,24000.0,2
+2606,101056,Spring Roll,Chinese,50000.0,1
+2607,101056,Peking Duck,Chinese,22000.0,2
+2608,101057,Shawarma,Middle Eastern,84000.0,3
+2609,101057,Mezze Platter,Middle Eastern,48000.0,1
+2610,101058,Boba Tea,Dessert & Drinks,42000.0,3
+2611,101058,Milkshake,Dessert & Drinks,55000.0,1
+2612,101059,Biryani,Indian,33000.0,1
+2613,101059,Dal Tadka,Indian,53000.0,3
+2614,101059,Naan,Indian,33000.0,1
+2615,101059,Butter Chicken,Indian,20000.0,1
+2616,101060,Onigiri,Japanese,23000.0,2
+2617,101061,Matcha Latte,Dessert & Drinks,39000.0,3
+2618,101061,Waffle,Dessert & Drinks,69000.0,1
+2619,101061,Ice Cream,Dessert & Drinks,18000.0,3
+2620,101061,Cheesecake,Dessert & Drinks,56000.0,2
+2621,101062,Burger,Western,23000.0,3
+2622,101062,Fish & Chips,Western,47000.0,2
+2623,101062,BBQ Ribs,Western,23000.0,3
+2624,101062,Pasta,Western,35000.0,3
+2625,101063,Sushi Set,Japanese,73000.0,3
+2626,101063,Ramen,Japanese,43000.0,3
+2627,101064,Manakish,Middle Eastern,22000.0,2
+2628,101065,Milkshake,Dessert & Drinks,39000.0,3
+2629,101065,Ice Cream,Dessert & Drinks,56000.0,3
+2630,101066,Steak,Western,20000.0,1
+2631,101066,Pasta,Western,56000.0,2
+2632,101066,Club Sandwich,Western,77000.0,2
+2633,101066,Fish & Chips,Western,27000.0,1
+2634,101067,Bibimbap,Korean,31000.0,1
+2635,101067,Sundubu Jjigae,Korean,48000.0,2
+2636,101068,Shawarma,Middle Eastern,39000.0,2
+2637,101069,Butter Chicken,Indian,71000.0,3
+2638,101069,Masala Chai,Indian,63000.0,2
+2639,101069,Biryani,Indian,25000.0,2
+2640,101070,Butter Chicken,Indian,22000.0,3
+2641,101070,Samosa,Indian,60000.0,2
+2642,101070,Palak Paneer,Indian,81000.0,1
+2643,101071,Fried Rice,Chinese,19000.0,3
+2644,101072,Sushi Set,Japanese,61000.0,3
+2645,101073,Japchae,Korean,30000.0,1
+2646,101073,Bulgogi,Korean,81000.0,3
+2647,101074,Noodle Soup,Chinese,80000.0,2
+2648,101074,Dumplings,Chinese,17000.0,1
+2649,101075,Naan,Indian,57000.0,2
+2650,101075,Palak Paneer,Indian,64000.0,1
+2651,101075,Biryani,Indian,58000.0,3
+2652,101076,Crepes,Dessert & Drinks,42000.0,3
+2653,101076,Milkshake,Dessert & Drinks,77000.0,2
+2654,101076,Ice Cream,Dessert & Drinks,60000.0,2
+2655,101076,Cheesecake,Dessert & Drinks,71000.0,1
+2656,101077,Butter Chicken,Indian,78000.0,1
+2657,101077,Dal Tadka,Indian,76000.0,2
+2658,101077,Naan,Indian,79000.0,1
+2659,101077,Tandoori Chicken,Indian,35000.0,3
+2660,101078,Waffle,Dessert & Drinks,76000.0,3
+2661,101078,Milkshake,Dessert & Drinks,47000.0,3
+2662,101078,Churros,Dessert & Drinks,54000.0,1
+2663,101078,Matcha Latte,Dessert & Drinks,29000.0,3
+2664,101079,Dim Sum,Chinese,39000.0,1
+2665,101079,Chop Suey,Chinese,53000.0,2
+2666,101079,Fried Rice,Chinese,54000.0,3
+2667,101079,Wonton Soup,Chinese,74000.0,2
+2668,101080,Nasi Goreng,Indonesian,70000.0,1
+2669,101080,Bakso,Indonesian,32000.0,3
+2670,101080,Soto Ayam,Indonesian,47000.0,3
+2671,101080,Nasi Padang,Indonesian,16000.0,1
+2672,101081,Burger,Western,20000.0,2
+2673,101081,Caesar Salad,Western,38000.0,3
+2674,101081,Club Sandwich,Western,35000.0,2
+2675,101082,Ice Cream,Dessert & Drinks,40000.0,2
+2676,101082,Cheesecake,Dessert & Drinks,51000.0,3
+2677,101083,Boba Tea,Dessert & Drinks,39000.0,1
+2678,101084,Pasta,Western,42000.0,1
+2679,101085,Manakish,Middle Eastern,61000.0,3
+2680,101085,Shawarma,Middle Eastern,25000.0,2
+2681,101085,Mezze Platter,Middle Eastern,48000.0,1
+2682,101086,Masala Chai,Indian,77000.0,3
+2683,101087,Wonton Soup,Chinese,37000.0,3
+2684,101088,Sushi Set,Japanese,37000.0,3
+2685,101088,Tempura,Japanese,25000.0,3
+2686,101089,Bakso,Indonesian,42000.0,1
+2687,101089,Rendang,Indonesian,28000.0,3
+2688,101089,Soto Ayam,Indonesian,70000.0,3
+2689,101090,Manakish,Middle Eastern,33000.0,1
+2690,101090,Mezze Platter,Middle Eastern,64000.0,2
+2691,101090,Lamb Chops,Middle Eastern,53000.0,2
+2692,101091,Palak Paneer,Indian,81000.0,1
+2693,101092,Onigiri,Japanese,68000.0,1
+2694,101092,Tempura,Japanese,43000.0,2
+2695,101092,Udon,Japanese,71000.0,3
+2696,101092,Ramen,Japanese,41000.0,2
+2697,101093,Dumplings,Chinese,43000.0,1
+2698,101093,Fried Rice,Chinese,16000.0,3
+2699,101094,Japchae,Korean,57000.0,3
+2700,101095,Rendang,Indonesian,29000.0,3
+2701,101095,Nasi Goreng,Indonesian,17000.0,3
+2702,101095,Nasi Padang,Indonesian,78000.0,1
+2703,101095,Mie Goreng,Indonesian,34000.0,3
+2704,101096,Dumplings,Chinese,71000.0,1
+2705,101096,Fried Rice,Chinese,26000.0,1
+2706,101096,Dim Sum,Chinese,19000.0,2
+2707,101097,Pasta,Western,73000.0,1
+2708,101097,Steak,Western,19000.0,1
+2709,101098,Bulgogi,Korean,28000.0,3
+2710,101098,Kimbap,Korean,16000.0,1
+2711,101098,Japchae,Korean,26000.0,1
+2712,101098,Bibimbap,Korean,28000.0,1
+2713,101099,Matcha Latte,Dessert & Drinks,76000.0,3
+2714,101099,Waffle,Dessert & Drinks,76000.0,1
+2715,101099,Cheesecake,Dessert & Drinks,56000.0,1
+2716,101100,Biryani,Indian,68000.0,1
+2717,101101,Dumplings,Chinese,53000.0,3
+2718,101101,Dim Sum,Chinese,30000.0,3
+2719,101101,Noodle Soup,Chinese,21000.0,1
+2720,101101,Fried Rice,Chinese,45000.0,2
+2721,101102,Ice Cream,Dessert & Drinks,46000.0,1
+2722,101103,Butter Chicken,Indian,23000.0,1
+2723,101103,Naan,Indian,69000.0,1
+2724,101103,Biryani,Indian,82000.0,1
+2725,101104,Katsu Curry,Japanese,21000.0,1
+2726,101104,Takoyaki,Japanese,29000.0,3
+2727,101105,Manakish,Middle Eastern,21000.0,3
+2728,101106,Gyudon,Japanese,55000.0,2
+2729,101107,Soto Ayam,Indonesian,40000.0,1
+2730,101107,Bakso,Indonesian,34000.0,2
+2731,101108,Bulgogi,Korean,76000.0,2
+2732,101108,Tteokbokki,Korean,51000.0,1
+2733,101109,Nasi Goreng,Indonesian,43000.0,1
+2734,101109,Gado-Gado,Indonesian,80000.0,1
+2735,101109,Bakso,Indonesian,66000.0,3
+2736,101109,Nasi Padang,Indonesian,74000.0,3
+2737,101110,Soto Ayam,Indonesian,55000.0,3
+2738,101111,Udon,Japanese,59000.0,3
+2739,101111,Gyudon,Japanese,24000.0,2
+2740,101111,Ramen,Japanese,32000.0,3
+2741,101112,Spring Roll,Chinese,53000.0,3
+2742,101113,Dumplings,Chinese,82000.0,1
+2743,101113,Dim Sum,Chinese,32000.0,2
+2744,101113,Wonton Soup,Chinese,27000.0,1
+2745,101114,Manakish,Middle Eastern,45000.0,3
+2746,101114,Lamb Chops,Middle Eastern,43000.0,1
+2747,101115,Ice Cream,Dessert & Drinks,72000.0,2
+2748,101115,Boba Tea,Dessert & Drinks,25000.0,3
+2749,101115,Milkshake,Dessert & Drinks,57000.0,1
+2750,101115,Crepes,Dessert & Drinks,31000.0,1
+2751,101116,Dim Sum,Chinese,42000.0,3
+2752,101117,Biryani,Indian,26000.0,3
+2753,101117,Masala Chai,Indian,20000.0,2
+2754,101117,Dal Tadka,Indian,55000.0,1
+2755,101118,Fattoush,Middle Eastern,38000.0,2
+2756,101118,Hummus Plate,Middle Eastern,22000.0,2
+2757,101118,Mezze Platter,Middle Eastern,40000.0,2
+2758,101119,Nasi Goreng,Indonesian,83000.0,3
+2759,101119,Mie Goreng,Indonesian,81000.0,2
+2760,101119,Soto Ayam,Indonesian,61000.0,2
+2761,101119,Gado-Gado,Indonesian,73000.0,3
+2762,101120,Cheesecake,Dessert & Drinks,26000.0,2
+2763,101121,Noodle Soup,Chinese,65000.0,1
+2764,101121,Chop Suey,Chinese,17000.0,1
+2765,101121,Dim Sum,Chinese,62000.0,1
+2766,101121,Fried Rice,Chinese,51000.0,1
+2767,101122,Dal Tadka,Indian,75000.0,2
+2768,101122,Samosa,Indian,68000.0,1
+2769,101123,Udon,Japanese,70000.0,1
+2770,101123,Katsu Curry,Japanese,67000.0,2
+2771,101123,Takoyaki,Japanese,76000.0,3
+2772,101123,Tempura,Japanese,39000.0,3
+2773,101124,Matcha Latte,Dessert & Drinks,20000.0,1
+2774,101124,Boba Tea,Dessert & Drinks,38000.0,2
+2775,101124,Crepes,Dessert & Drinks,20000.0,3
+2776,101125,Dal Tadka,Indian,81000.0,1
+2777,101125,Tandoori Chicken,Indian,69000.0,1
+2778,101126,Grilled Chicken,Western,84000.0,3
+2779,101126,Fish & Chips,Western,77000.0,1
+2780,101126,Club Sandwich,Western,59000.0,3
+2781,101127,Tandoori Chicken,Indian,34000.0,3
+2782,101127,Samosa,Indian,70000.0,1
+2783,101128,Caesar Salad,Western,72000.0,2
+2784,101129,Korean BBQ,Korean,41000.0,2
+2785,101130,Udon,Japanese,67000.0,2
+2786,101131,Fattoush,Middle Eastern,71000.0,1
+2787,101131,Mezze Platter,Middle Eastern,63000.0,2
+2788,101132,Butter Chicken,Indian,52000.0,3
+2789,101132,Samosa,Indian,39000.0,1
+2790,101133,Butter Chicken,Indian,35000.0,2
+2791,101133,Samosa,Indian,23000.0,3
+2792,101134,Nasi Padang,Indonesian,40000.0,1
+2793,101134,Rendang,Indonesian,38000.0,1
+2794,101134,Ayam Geprek,Indonesian,34000.0,2
+2795,101135,Nasi Padang,Indonesian,21000.0,1
+2796,101135,Gado-Gado,Indonesian,60000.0,1
+2797,101135,Nasi Goreng,Indonesian,19000.0,2
+2798,101136,Bakso,Indonesian,71000.0,2
+2799,101136,Rendang,Indonesian,23000.0,3
+2800,101136,Nasi Padang,Indonesian,22000.0,3
+2801,101137,Sushi Set,Japanese,83000.0,2
+2802,101137,Onigiri,Japanese,70000.0,1
+2803,101137,Katsu Curry,Japanese,35000.0,2
+2804,101138,Takoyaki,Japanese,41000.0,1
+2805,101138,Tempura,Japanese,37000.0,1
+2806,101138,Sushi Set,Japanese,57000.0,1
+2807,101138,Udon,Japanese,61000.0,2
+2808,101139,Dal Tadka,Indian,19000.0,2
+2809,101139,Butter Chicken,Indian,27000.0,1
+2810,101139,Samosa,Indian,40000.0,3
+2811,101140,Sushi Set,Japanese,66000.0,3
+2812,101140,Onigiri,Japanese,24000.0,2
+2813,101141,Tandoori Chicken,Indian,20000.0,3
+2814,101141,Samosa,Indian,65000.0,3
+2815,101141,Masala Chai,Indian,19000.0,1
+2816,101142,Nasi Goreng,Indonesian,49000.0,3
+2817,101142,Rendang,Indonesian,24000.0,3
+2818,101143,Masala Chai,Indian,50000.0,3
+2819,101143,Naan,Indian,67000.0,3
+2820,101143,Palak Paneer,Indian,35000.0,1
+2821,101143,Dal Tadka,Indian,82000.0,2
+2822,101144,Falafel,Middle Eastern,72000.0,2
+2823,101144,Hummus Plate,Middle Eastern,84000.0,2
+2824,101144,Mezze Platter,Middle Eastern,55000.0,3
+2825,101144,Fattoush,Middle Eastern,55000.0,2
+2826,101145,Sundubu Jjigae,Korean,16000.0,2
+2827,101146,Matcha Latte,Dessert & Drinks,53000.0,3
+2828,101147,Wonton Soup,Chinese,48000.0,3
+2829,101148,Gado-Gado,Indonesian,32000.0,3
+2830,101149,Grilled Chicken,Western,39000.0,3
+2831,101149,Steak,Western,70000.0,3
+2832,101150,Ice Cream,Dessert & Drinks,28000.0,2
+2833,101150,Cheesecake,Dessert & Drinks,57000.0,2
+2834,101150,Boba Tea,Dessert & Drinks,41000.0,1
+2835,101150,Churros,Dessert & Drinks,39000.0,1
+2836,101151,Palak Paneer,Indian,17000.0,1
+2837,101152,Burger,Western,53000.0,3
+2838,101152,Steak,Western,22000.0,1
+2839,101153,Dumplings,Chinese,41000.0,2
+2840,101153,Chop Suey,Chinese,43000.0,1
+2841,101153,Fried Rice,Chinese,73000.0,1
+2842,101154,Manakish,Middle Eastern,21000.0,2
+2843,101155,Pasta,Western,63000.0,3
+2844,101156,Gyudon,Japanese,82000.0,2
+2845,101157,Udon,Japanese,66000.0,2
+2846,101158,Dim Sum,Chinese,15000.0,1
+2847,101158,Peking Duck,Chinese,60000.0,3
+2848,101159,Waffle,Dessert & Drinks,39000.0,2
+2849,101159,Milkshake,Dessert & Drinks,72000.0,3
+2850,101160,Gyudon,Japanese,38000.0,2
+2851,101161,Palak Paneer,Indian,50000.0,1
+2852,101161,Naan,Indian,51000.0,1
+2853,101161,Samosa,Indian,33000.0,1
+2854,101161,Masala Chai,Indian,51000.0,2
+2855,101162,Club Sandwich,Western,85000.0,2
+2856,101162,Fish & Chips,Western,22000.0,1
+2857,101162,BBQ Ribs,Western,65000.0,1
+2858,101163,Masala Chai,Indian,82000.0,1
+2859,101164,Bulgogi,Korean,45000.0,1
+2860,101164,Sundubu Jjigae,Korean,29000.0,1
+2861,101165,Kimchi Jjigae,Korean,40000.0,1
+2862,101165,Kimbap,Korean,23000.0,1
+2863,101166,Katsu Curry,Japanese,17000.0,1
+2864,101166,Ramen,Japanese,68000.0,1
+2865,101166,Gyudon,Japanese,67000.0,2
+2866,101166,Tempura,Japanese,49000.0,1
+2867,101167,Biryani,Indian,22000.0,3
+2868,101168,Gyudon,Japanese,22000.0,1
+2869,101168,Ramen,Japanese,46000.0,3
+2870,101169,Club Sandwich,Western,68000.0,3
+2871,101170,Bakso,Indonesian,18000.0,3
+2872,101171,Kimbap,Korean,81000.0,3
+2873,101171,Kimchi Jjigae,Korean,81000.0,2
+2874,101172,Hummus Plate,Middle Eastern,53000.0,2
+2875,101173,Tempura,Japanese,31000.0,3
+2876,101173,Katsu Curry,Japanese,62000.0,1
+2877,101173,Gyudon,Japanese,42000.0,1
+2878,101173,Udon,Japanese,54000.0,1
+2879,101174,Dim Sum,Chinese,49000.0,3
+2880,101175,Dal Tadka,Indian,78000.0,3
+2881,101175,Tandoori Chicken,Indian,24000.0,2
+2882,101176,Steak,Western,63000.0,1
+2883,101177,Biryani,Indian,70000.0,3
+2884,101177,Tandoori Chicken,Indian,65000.0,2
+2885,101178,Steak,Western,27000.0,1
+2886,101178,Grilled Chicken,Western,59000.0,1
+2887,101179,Sushi Set,Japanese,44000.0,1
+2888,101180,Crepes,Dessert & Drinks,71000.0,3
+2889,101180,Boba Tea,Dessert & Drinks,25000.0,3
+2890,101180,Milkshake,Dessert & Drinks,84000.0,2
+2891,101180,Ice Cream,Dessert & Drinks,66000.0,3
+2892,101181,Kebab,Middle Eastern,77000.0,3
+2893,101181,Shawarma,Middle Eastern,52000.0,3
+2894,101181,Manakish,Middle Eastern,75000.0,1
+2895,101181,Fattoush,Middle Eastern,50000.0,2
+2896,101182,Fish & Chips,Western,36000.0,2
+2897,101182,Steak,Western,62000.0,2
+2898,101183,Matcha Latte,Dessert & Drinks,55000.0,3
+2899,101184,Cheesecake,Dessert & Drinks,58000.0,3
+2900,101184,Ice Cream,Dessert & Drinks,19000.0,2
+2901,101184,Churros,Dessert & Drinks,36000.0,2
+2902,101185,Falafel,Middle Eastern,33000.0,2
+2903,101185,Kebab,Middle Eastern,52000.0,1
+2904,101185,Mezze Platter,Middle Eastern,40000.0,3
+2905,101186,Milkshake,Dessert & Drinks,70000.0,1
+2906,101186,Crepes,Dessert & Drinks,74000.0,1
+2907,101186,Cheesecake,Dessert & Drinks,53000.0,1
+2908,101186,Waffle,Dessert & Drinks,19000.0,1
+2909,101187,Nasi Padang,Indonesian,42000.0,3
+2910,101187,Rendang,Indonesian,52000.0,2
+2911,101187,Gado-Gado,Indonesian,83000.0,1
+2912,101187,Soto Ayam,Indonesian,20000.0,2
+2913,101188,Samosa,Indian,36000.0,2
+2914,101188,Naan,Indian,64000.0,2
+2915,101188,Masala Chai,Indian,50000.0,2
+2916,101188,Tandoori Chicken,Indian,19000.0,2
+2917,101189,Caesar Salad,Western,75000.0,1
+2918,101190,Bakso,Indonesian,78000.0,3
+2919,101191,Ayam Geprek,Indonesian,43000.0,2
+2920,101192,Onigiri,Japanese,19000.0,2
+2921,101192,Ramen,Japanese,31000.0,3
+2922,101193,Katsu Curry,Japanese,15000.0,2
+2923,101193,Sushi Set,Japanese,57000.0,2
+2924,101193,Tempura,Japanese,25000.0,1
+2925,101193,Gyudon,Japanese,38000.0,3
+2926,101194,Kimbap,Korean,78000.0,2
+2927,101194,Korean BBQ,Korean,80000.0,1
+2928,101195,Katsu Curry,Japanese,24000.0,1
+2929,101195,Takoyaki,Japanese,80000.0,2
+2930,101195,Ramen,Japanese,43000.0,3
+2931,101195,Onigiri,Japanese,56000.0,1
+2932,101196,Kebab,Middle Eastern,52000.0,3
+2933,101196,Hummus Plate,Middle Eastern,75000.0,1
+2934,101196,Falafel,Middle Eastern,37000.0,3
+2935,101196,Shawarma,Middle Eastern,81000.0,2
+2936,101197,Matcha Latte,Dessert & Drinks,23000.0,1
+2937,101197,Cheesecake,Dessert & Drinks,20000.0,3
+2938,101197,Milkshake,Dessert & Drinks,40000.0,1
+2939,101198,Noodle Soup,Chinese,50000.0,3
+2940,101198,Wonton Soup,Chinese,57000.0,2
+2941,101198,Spring Roll,Chinese,66000.0,1
+2942,101199,Soto Ayam,Indonesian,54000.0,1
+2943,101199,Nasi Padang,Indonesian,71000.0,1
+2944,101199,Rendang,Indonesian,83000.0,1
+2945,101199,Ayam Geprek,Indonesian,34000.0,2
+2946,101200,Caesar Salad,Western,74000.0,3
+2947,101200,Steak,Western,53000.0,1
+2948,101201,Churros,Dessert & Drinks,76000.0,2
+2949,101201,Crepes,Dessert & Drinks,36000.0,3
+2950,101201,Milkshake,Dessert & Drinks,73000.0,2
+2951,101201,Waffle,Dessert & Drinks,57000.0,1
+2952,101202,Peking Duck,Chinese,43000.0,2
+2953,101203,Samosa,Indian,62000.0,1
+2954,101203,Naan,Indian,72000.0,2
+2955,101203,Dal Tadka,Indian,22000.0,2
+2956,101204,Gyudon,Japanese,57000.0,2
+2957,101205,Steak,Western,77000.0,2
+2958,101205,Club Sandwich,Western,52000.0,3
+2959,101206,Bulgogi,Korean,71000.0,1
+2960,101206,Tteokbokki,Korean,40000.0,2
+2961,101207,Peking Duck,Chinese,69000.0,3
+2962,101207,Fried Rice,Chinese,56000.0,2
+2963,101207,Dumplings,Chinese,66000.0,1
+2964,101207,Wonton Soup,Chinese,63000.0,2
+2965,101208,Kebab,Middle Eastern,57000.0,1
+2966,101208,Fattoush,Middle Eastern,79000.0,1
+2967,101208,Hummus Plate,Middle Eastern,42000.0,2
+2968,101208,Falafel,Middle Eastern,68000.0,2
+2969,101209,Grilled Chicken,Western,50000.0,1
+2970,101209,Pasta,Western,48000.0,2
+2971,101210,Samosa,Indian,74000.0,2
+2972,101211,Nasi Goreng,Indonesian,29000.0,3
+2973,101211,Bakso,Indonesian,48000.0,3
+2974,101212,Butter Chicken,Indian,36000.0,3
+2975,101213,Nasi Goreng,Indonesian,83000.0,3
+2976,101213,Rendang,Indonesian,67000.0,2
+2977,101214,Rendang,Indonesian,26000.0,2
+2978,101214,Bakso,Indonesian,45000.0,2
+2979,101215,Waffle,Dessert & Drinks,37000.0,2
+2980,101216,Mie Goreng,Indonesian,71000.0,1
+2981,101217,Chop Suey,Chinese,60000.0,3
+2982,101217,Fried Rice,Chinese,44000.0,2
+2983,101218,Kimbap,Korean,48000.0,3
+2984,101218,Japchae,Korean,78000.0,3
+2985,101218,Bulgogi,Korean,43000.0,1
+2986,101218,Tteokbokki,Korean,68000.0,1
+2987,101219,Dal Tadka,Indian,77000.0,1
+2988,101220,Peking Duck,Chinese,41000.0,3
+2989,101220,Wonton Soup,Chinese,46000.0,2
+2990,101221,Gyudon,Japanese,37000.0,2
+2991,101221,Takoyaki,Japanese,45000.0,3
+2992,101221,Katsu Curry,Japanese,62000.0,3
+2993,101222,Lamb Chops,Middle Eastern,45000.0,3
+2994,101222,Manakish,Middle Eastern,69000.0,2
+2995,101223,Nasi Padang,Indonesian,40000.0,2
+2996,101223,Soto Ayam,Indonesian,18000.0,1
+2997,101223,Gado-Gado,Indonesian,22000.0,3
+2998,101224,Masala Chai,Indian,34000.0,3
+2999,101225,Boba Tea,Dessert & Drinks,36000.0,2
+3000,101226,Butter Chicken,Indian,47000.0,2
+3001,101226,Naan,Indian,53000.0,3
+3002,101226,Palak Paneer,Indian,73000.0,2
+3003,101226,Biryani,Indian,70000.0,3
+3004,101227,Rendang,Indonesian,38000.0,1
+3005,101227,Nasi Goreng,Indonesian,59000.0,1
+3006,101227,Soto Ayam,Indonesian,31000.0,3
+3007,101227,Gado-Gado,Indonesian,49000.0,2
+3008,101228,Tempura,Japanese,39000.0,2
+3009,101228,Ramen,Japanese,74000.0,2
+3010,101229,Churros,Dessert & Drinks,59000.0,2
+3011,101230,Hummus Plate,Middle Eastern,67000.0,2
+3012,101231,Grilled Chicken,Western,41000.0,2
+3013,101232,Bulgogi,Korean,71000.0,2
+3014,101232,Bibimbap,Korean,64000.0,3
+3015,101232,Kimbap,Korean,21000.0,2
+3016,101232,Sundubu Jjigae,Korean,18000.0,2
+3017,101233,Sushi Set,Japanese,57000.0,3
+3018,101233,Tempura,Japanese,24000.0,1
+3019,101233,Katsu Curry,Japanese,49000.0,1
+3020,101233,Onigiri,Japanese,57000.0,3
+3021,101234,Butter Chicken,Indian,57000.0,1
+3022,101234,Masala Chai,Indian,72000.0,1
+3023,101234,Samosa,Indian,47000.0,2
+3024,101235,Matcha Latte,Dessert & Drinks,35000.0,2
+3025,101235,Waffle,Dessert & Drinks,65000.0,2
+3026,101236,Mezze Platter,Middle Eastern,22000.0,1
+3027,101236,Kebab,Middle Eastern,83000.0,1
+3028,101237,Lamb Chops,Middle Eastern,52000.0,1
+3029,101237,Manakish,Middle Eastern,46000.0,1
+3030,101237,Hummus Plate,Middle Eastern,37000.0,1
+3031,101237,Fattoush,Middle Eastern,36000.0,1
+3032,101238,Soto Ayam,Indonesian,62000.0,2
+3033,101238,Mie Goreng,Indonesian,19000.0,3
+3034,101238,Rendang,Indonesian,18000.0,1
+3035,101239,Udon,Japanese,59000.0,1
+3036,101239,Ramen,Japanese,61000.0,2
+3037,101239,Takoyaki,Japanese,82000.0,1
+3038,101239,Katsu Curry,Japanese,69000.0,2
+3039,101240,Churros,Dessert & Drinks,58000.0,3
+3040,101240,Waffle,Dessert & Drinks,36000.0,3
+3041,101240,Cheesecake,Dessert & Drinks,24000.0,2
+3042,101240,Crepes,Dessert & Drinks,52000.0,2
+3043,101241,Fried Rice,Chinese,16000.0,2
+3044,101241,Dumplings,Chinese,65000.0,3
+3045,101242,Fattoush,Middle Eastern,28000.0,3
+3046,101242,Mezze Platter,Middle Eastern,63000.0,3
+3047,101242,Lamb Chops,Middle Eastern,57000.0,2
+3048,101242,Kebab,Middle Eastern,72000.0,1
+3049,101243,Milkshake,Dessert & Drinks,41000.0,3
+3050,101243,Churros,Dessert & Drinks,27000.0,3
+3051,101244,Masala Chai,Indian,31000.0,2
+3052,101244,Biryani,Indian,45000.0,3
+3053,101244,Butter Chicken,Indian,39000.0,1
+3054,101245,Cheesecake,Dessert & Drinks,64000.0,3
+3055,101245,Boba Tea,Dessert & Drinks,61000.0,3
+3056,101246,Club Sandwich,Western,21000.0,1
+3057,101247,Tteokbokki,Korean,44000.0,3
+3058,101247,Kimchi Jjigae,Korean,25000.0,2
+3059,101248,Crepes,Dessert & Drinks,50000.0,2
+3060,101249,Gado-Gado,Indonesian,59000.0,2
+3061,101249,Ayam Geprek,Indonesian,84000.0,1
+3062,101249,Nasi Goreng,Indonesian,67000.0,2
+3063,101249,Mie Goreng,Indonesian,77000.0,3
+3064,101250,Burger,Western,74000.0,3
+3065,101250,Fish & Chips,Western,66000.0,3
+3066,101251,Waffle,Dessert & Drinks,53000.0,3
+3067,101251,Matcha Latte,Dessert & Drinks,38000.0,3
+3068,101251,Ice Cream,Dessert & Drinks,49000.0,3
+3069,101251,Milkshake,Dessert & Drinks,58000.0,1
+3070,101252,Kimbap,Korean,23000.0,3
+3071,101253,Tempura,Japanese,45000.0,2
+3072,101253,Ramen,Japanese,60000.0,3
+3073,101253,Gyudon,Japanese,28000.0,2
+3074,101253,Udon,Japanese,36000.0,3
+3075,101254,Katsu Curry,Japanese,17000.0,2
+3076,101254,Tempura,Japanese,22000.0,1
+3077,101254,Udon,Japanese,45000.0,1
+3078,101254,Ramen,Japanese,36000.0,1
+3079,101255,Samosa,Indian,68000.0,3
+3080,101255,Palak Paneer,Indian,16000.0,3
+3081,101256,Naan,Indian,76000.0,3
+3082,101257,Noodle Soup,Chinese,29000.0,3
+3083,101258,Mezze Platter,Middle Eastern,32000.0,2
+3084,101259,Steak,Western,51000.0,1
+3085,101259,Pasta,Western,32000.0,3
+3086,101260,Waffle,Dessert & Drinks,29000.0,3
+3087,101260,Crepes,Dessert & Drinks,23000.0,2
+3088,101260,Cheesecake,Dessert & Drinks,30000.0,1
+3089,101260,Boba Tea,Dessert & Drinks,49000.0,1
+3090,101261,Japchae,Korean,71000.0,2
+3091,101261,Bibimbap,Korean,17000.0,3
+3092,101261,Bulgogi,Korean,42000.0,1
+3093,101261,Korean BBQ,Korean,37000.0,2
+3094,101262,Butter Chicken,Indian,68000.0,1
+3095,101262,Palak Paneer,Indian,30000.0,3
+3096,101262,Biryani,Indian,60000.0,3
+3097,101262,Masala Chai,Indian,34000.0,2
+3098,101263,Spring Roll,Chinese,32000.0,2
+3099,101263,Dumplings,Chinese,18000.0,3
+3100,101263,Wonton Soup,Chinese,35000.0,3
+3101,101263,Chop Suey,Chinese,25000.0,3
+3102,101264,Boba Tea,Dessert & Drinks,18000.0,2
+3103,101264,Ice Cream,Dessert & Drinks,79000.0,1
+3104,101265,Takoyaki,Japanese,84000.0,2
+3105,101265,Katsu Curry,Japanese,30000.0,3
+3106,101265,Ramen,Japanese,62000.0,3
+3107,101266,Falafel,Middle Eastern,26000.0,3
+3108,101266,Fattoush,Middle Eastern,33000.0,1
+3109,101266,Hummus Plate,Middle Eastern,31000.0,3
+3110,101266,Shawarma,Middle Eastern,74000.0,2
+3111,101267,Katsu Curry,Japanese,16000.0,1
+3112,101267,Udon,Japanese,54000.0,1
+3113,101267,Sushi Set,Japanese,43000.0,1
+3114,101268,Ayam Geprek,Indonesian,80000.0,2
+3115,101268,Gado-Gado,Indonesian,67000.0,2
+3116,101268,Bakso,Indonesian,35000.0,3
+3117,101268,Rendang,Indonesian,27000.0,1
+3118,101269,Mie Goreng,Indonesian,42000.0,2
+3119,101269,Nasi Goreng,Indonesian,78000.0,3
+3120,101270,Hummus Plate,Middle Eastern,31000.0,2
+3121,101270,Manakish,Middle Eastern,36000.0,3
+3122,101270,Lamb Chops,Middle Eastern,31000.0,1
+3123,101271,Ice Cream,Dessert & Drinks,20000.0,1
+3124,101272,Fish & Chips,Western,70000.0,2
+3125,101273,Sundubu Jjigae,Korean,79000.0,3
+3126,101273,Kimchi Jjigae,Korean,83000.0,2
+3127,101273,Japchae,Korean,41000.0,3
+3128,101274,Caesar Salad,Western,78000.0,2
+3129,101274,Fish & Chips,Western,68000.0,1
+3130,101275,Wonton Soup,Chinese,78000.0,3
+3131,101275,Chop Suey,Chinese,54000.0,1
+3132,101275,Spring Roll,Chinese,44000.0,3
+3133,101275,Peking Duck,Chinese,18000.0,2
+3134,101276,Lamb Chops,Middle Eastern,21000.0,3
+3135,101276,Shawarma,Middle Eastern,21000.0,1
+3136,101276,Hummus Plate,Middle Eastern,16000.0,1
+3137,101276,Falafel,Middle Eastern,56000.0,1
+3138,101277,Lamb Chops,Middle Eastern,48000.0,3
+3139,101277,Hummus Plate,Middle Eastern,22000.0,3
+3140,101277,Shawarma,Middle Eastern,61000.0,2
+3141,101278,Ramen,Japanese,47000.0,1
+3142,101278,Gyudon,Japanese,69000.0,2
+3143,101279,Fattoush,Middle Eastern,68000.0,2
+3144,101279,Lamb Chops,Middle Eastern,41000.0,3
+3145,101280,Pasta,Western,19000.0,3
+3146,101281,Kebab,Middle Eastern,72000.0,1
+3147,101281,Shawarma,Middle Eastern,35000.0,2
+3148,101282,Fish & Chips,Western,22000.0,1
+3149,101282,BBQ Ribs,Western,71000.0,2
+3150,101282,Grilled Chicken,Western,73000.0,2
+3151,101282,Caesar Salad,Western,79000.0,1
+3152,101283,Gyudon,Japanese,67000.0,2
+3153,101283,Sushi Set,Japanese,72000.0,3
+3154,101283,Takoyaki,Japanese,39000.0,3
+3155,101283,Katsu Curry,Japanese,53000.0,2
+3156,101284,Fried Rice,Chinese,67000.0,3
+3157,101285,Caesar Salad,Western,83000.0,2
+3158,101286,Katsu Curry,Japanese,54000.0,1
+3159,101287,Steak,Western,36000.0,1
+3160,101288,Gado-Gado,Indonesian,74000.0,1
+3161,101288,Nasi Goreng,Indonesian,28000.0,1
+3162,101288,Bakso,Indonesian,41000.0,2
+3163,101288,Mie Goreng,Indonesian,84000.0,1
+3164,101289,Pasta,Western,33000.0,2
+3165,101289,Burger,Western,51000.0,3
+3166,101289,Grilled Chicken,Western,63000.0,2
+3167,101290,Kimchi Jjigae,Korean,55000.0,2
+3168,101290,Bulgogi,Korean,64000.0,1
+3169,101290,Sundubu Jjigae,Korean,77000.0,3
+3170,101290,Japchae,Korean,83000.0,1
+3171,101291,Japchae,Korean,78000.0,1
+3172,101291,Tteokbokki,Korean,49000.0,2
+3173,101291,Bibimbap,Korean,44000.0,1
+3174,101292,Nasi Goreng,Indonesian,38000.0,2
+3175,101292,Mie Goreng,Indonesian,75000.0,1
+3176,101293,Ramen,Japanese,74000.0,1
+3177,101293,Tempura,Japanese,35000.0,1
+3178,101293,Katsu Curry,Japanese,38000.0,3
+3179,101293,Sushi Set,Japanese,47000.0,2
+3180,101294,Katsu Curry,Japanese,55000.0,3
+3181,101295,Naan,Indian,74000.0,3
+3182,101295,Dal Tadka,Indian,74000.0,3
+3183,101296,Korean BBQ,Korean,73000.0,1
+3184,101296,Bibimbap,Korean,61000.0,3
+3185,101296,Sundubu Jjigae,Korean,79000.0,3
+3186,101296,Tteokbokki,Korean,17000.0,1
+3187,101297,Gyudon,Japanese,38000.0,3
+3188,101297,Onigiri,Japanese,34000.0,2
+3189,101297,Katsu Curry,Japanese,65000.0,1
+3190,101297,Takoyaki,Japanese,64000.0,2
+3191,101298,Tempura,Japanese,66000.0,3
+3192,101298,Ramen,Japanese,46000.0,3
+3193,101299,Fish & Chips,Western,20000.0,2
+3194,101299,Pasta,Western,70000.0,2
+3195,101300,Bulgogi,Korean,54000.0,3
+3196,101300,Japchae,Korean,59000.0,3
+3197,101300,Korean BBQ,Korean,34000.0,2
+3198,101300,Kimchi Jjigae,Korean,70000.0,3
+3199,101301,Tandoori Chicken,Indian,41000.0,3
+3200,101301,Samosa,Indian,39000.0,3
+3201,101302,Dal Tadka,Indian,18000.0,3
+3202,101302,Samosa,Indian,20000.0,3
+3203,101302,Masala Chai,Indian,24000.0,1
+3204,101303,Onigiri,Japanese,78000.0,1
+3205,101304,Hummus Plate,Middle Eastern,45000.0,3
+3206,101304,Mezze Platter,Middle Eastern,23000.0,1
+3207,101304,Manakish,Middle Eastern,23000.0,1
+3208,101304,Fattoush,Middle Eastern,75000.0,2
+3209,101305,Bulgogi,Korean,49000.0,2
+3210,101305,Tteokbokki,Korean,30000.0,2
+3211,101305,Japchae,Korean,19000.0,1
+3212,101305,Kimbap,Korean,25000.0,3
+3213,101306,Manakish,Middle Eastern,33000.0,2
+3214,101306,Mezze Platter,Middle Eastern,66000.0,3
+3215,101306,Falafel,Middle Eastern,25000.0,2
+3216,101307,Steak,Western,59000.0,3
+3217,101308,Boba Tea,Dessert & Drinks,77000.0,1
+3218,101309,Matcha Latte,Dessert & Drinks,50000.0,1
+3219,101309,Ice Cream,Dessert & Drinks,23000.0,2
+3220,101309,Waffle,Dessert & Drinks,69000.0,3
+3221,101309,Cheesecake,Dessert & Drinks,22000.0,2
+3222,101310,Steak,Western,56000.0,1
+3223,101310,Caesar Salad,Western,24000.0,2
+3224,101310,Club Sandwich,Western,71000.0,1
+3225,101311,Falafel,Middle Eastern,24000.0,2
+3226,101311,Lamb Chops,Middle Eastern,56000.0,2
+3227,101311,Hummus Plate,Middle Eastern,61000.0,1
+3228,101312,Fattoush,Middle Eastern,28000.0,1
+3229,101312,Mezze Platter,Middle Eastern,55000.0,3
+3230,101313,Boba Tea,Dessert & Drinks,45000.0,2
+3231,101313,Cheesecake,Dessert & Drinks,54000.0,2
+3232,101313,Ice Cream,Dessert & Drinks,60000.0,2
+3233,101313,Matcha Latte,Dessert & Drinks,37000.0,1
+3234,101314,Fish & Chips,Western,62000.0,3
+3235,101314,BBQ Ribs,Western,18000.0,1
+3236,101315,Tteokbokki,Korean,56000.0,3
+3237,101316,Nasi Padang,Indonesian,65000.0,3
+3238,101316,Mie Goreng,Indonesian,36000.0,2
+3239,101317,BBQ Ribs,Western,33000.0,2
+3240,101317,Steak,Western,79000.0,2
+3241,101318,Tempura,Japanese,80000.0,2
+3242,101318,Katsu Curry,Japanese,76000.0,1
+3243,101318,Udon,Japanese,72000.0,3
+3244,101319,Fish & Chips,Western,32000.0,2
+3245,101320,Kimbap,Korean,15000.0,1
+3246,101320,Japchae,Korean,35000.0,2
+3247,101321,Takoyaki,Japanese,41000.0,3
+3248,101321,Ramen,Japanese,69000.0,3
+3249,101322,Nasi Padang,Indonesian,80000.0,1
+3250,101323,Kimbap,Korean,43000.0,2
+3251,101323,Sundubu Jjigae,Korean,45000.0,2
+3252,101323,Korean BBQ,Korean,57000.0,2
+3253,101323,Bibimbap,Korean,60000.0,1
+3254,101324,Rendang,Indonesian,58000.0,2
+3255,101324,Bakso,Indonesian,70000.0,2
+3256,101324,Mie Goreng,Indonesian,22000.0,3
+3257,101325,Hummus Plate,Middle Eastern,37000.0,1
+3258,101325,Kebab,Middle Eastern,25000.0,2
+3259,101326,Steak,Western,71000.0,2
+3260,101327,Dumplings,Chinese,64000.0,1
+3261,101328,Waffle,Dessert & Drinks,21000.0,1
+3262,101328,Crepes,Dessert & Drinks,43000.0,3
+3263,101328,Milkshake,Dessert & Drinks,54000.0,3
+3264,101329,Gado-Gado,Indonesian,72000.0,1
+3265,101329,Nasi Padang,Indonesian,22000.0,3
+3266,101329,Bakso,Indonesian,82000.0,2
+3267,101330,Fried Rice,Chinese,26000.0,1
+3268,101331,Mie Goreng,Indonesian,65000.0,2
+3269,101331,Nasi Goreng,Indonesian,19000.0,2
+3270,101332,Udon,Japanese,35000.0,1
+3271,101332,Ramen,Japanese,64000.0,3
+3272,101333,Noodle Soup,Chinese,19000.0,1
+3273,101333,Dumplings,Chinese,40000.0,3
+3274,101333,Wonton Soup,Chinese,40000.0,1
+3275,101334,Milkshake,Dessert & Drinks,25000.0,3
+3276,101334,Matcha Latte,Dessert & Drinks,51000.0,1
+3277,101335,Ayam Geprek,Indonesian,53000.0,2
+3278,101335,Bakso,Indonesian,51000.0,3
+3279,101335,Gado-Gado,Indonesian,25000.0,2
+3280,101336,Fried Rice,Chinese,35000.0,2
+3281,101336,Chop Suey,Chinese,49000.0,2
+3282,101337,Chop Suey,Chinese,72000.0,1
+3283,101337,Noodle Soup,Chinese,81000.0,1
+3284,101337,Fried Rice,Chinese,38000.0,2
+3285,101337,Peking Duck,Chinese,66000.0,1
+3286,101338,Fried Rice,Chinese,53000.0,3
+3287,101338,Noodle Soup,Chinese,23000.0,2
+3288,101338,Dumplings,Chinese,26000.0,2
+3289,101339,Tempura,Japanese,68000.0,2
+3290,101339,Katsu Curry,Japanese,74000.0,1
+3291,101339,Udon,Japanese,41000.0,2
+3292,101340,Fish & Chips,Western,79000.0,1
+3293,101340,Burger,Western,33000.0,3
+3294,101341,Palak Paneer,Indian,65000.0,2
+3295,101341,Butter Chicken,Indian,26000.0,2
+3296,101342,Kimchi Jjigae,Korean,73000.0,3
+3297,101343,Lamb Chops,Middle Eastern,36000.0,2
+3298,101343,Kebab,Middle Eastern,17000.0,1
+3299,101344,Palak Paneer,Indian,23000.0,2
+3300,101344,Tandoori Chicken,Indian,39000.0,1
+3301,101344,Naan,Indian,60000.0,1
+3302,101345,Butter Chicken,Indian,55000.0,2
+3303,101345,Samosa,Indian,65000.0,3
+3304,101345,Biryani,Indian,71000.0,3
+3305,101345,Dal Tadka,Indian,16000.0,3
+3306,101346,Sushi Set,Japanese,56000.0,3
+3307,101346,Katsu Curry,Japanese,20000.0,2
+3308,101346,Takoyaki,Japanese,16000.0,1
+3309,101346,Gyudon,Japanese,73000.0,1
+3310,101347,Japchae,Korean,70000.0,3
+3311,101347,Tteokbokki,Korean,66000.0,3
+3312,101347,Kimbap,Korean,24000.0,3
+3313,101347,Sundubu Jjigae,Korean,48000.0,2
+3314,101348,Shawarma,Middle Eastern,53000.0,1
+3315,101348,Fattoush,Middle Eastern,24000.0,3
+3316,101349,Lamb Chops,Middle Eastern,31000.0,2
+3317,101349,Manakish,Middle Eastern,61000.0,1
+3318,101349,Fattoush,Middle Eastern,20000.0,1
+3319,101350,Spring Roll,Chinese,70000.0,2
+3320,101351,Korean BBQ,Korean,40000.0,2
+3321,101351,Sundubu Jjigae,Korean,39000.0,2
+3322,101351,Japchae,Korean,44000.0,3
+3323,101352,Fattoush,Middle Eastern,78000.0,1
+3324,101352,Manakish,Middle Eastern,61000.0,1
+3325,101352,Kebab,Middle Eastern,27000.0,3
+3326,101352,Falafel,Middle Eastern,82000.0,2
+3327,101353,Kimbap,Korean,84000.0,3
+3328,101353,Korean BBQ,Korean,54000.0,1
+3329,101353,Bulgogi,Korean,44000.0,1
+3330,101353,Bibimbap,Korean,67000.0,2
+3331,101354,Naan,Indian,63000.0,2
+3332,101354,Butter Chicken,Indian,23000.0,1
+3333,101354,Dal Tadka,Indian,53000.0,1
+3334,101355,Peking Duck,Chinese,19000.0,2
+3335,101355,Spring Roll,Chinese,55000.0,2
+3336,101355,Noodle Soup,Chinese,41000.0,3
+3337,101356,Palak Paneer,Indian,74000.0,2
+3338,101357,Bakso,Indonesian,81000.0,1
+3339,101357,Mie Goreng,Indonesian,54000.0,3
+3340,101358,Sushi Set,Japanese,64000.0,1
+3341,101359,Burger,Western,61000.0,3
+3342,101360,Tempura,Japanese,52000.0,3
+3343,101360,Katsu Curry,Japanese,25000.0,3
+3344,101361,Fried Rice,Chinese,17000.0,3
+3345,101361,Dumplings,Chinese,69000.0,1
+3346,101361,Peking Duck,Chinese,57000.0,3
+3347,101362,Pasta,Western,70000.0,1
+3348,101362,BBQ Ribs,Western,80000.0,1
+3349,101363,Fattoush,Middle Eastern,40000.0,2
+3350,101363,Mezze Platter,Middle Eastern,20000.0,1
+3351,101363,Lamb Chops,Middle Eastern,33000.0,1
+3352,101364,Katsu Curry,Japanese,51000.0,2
+3353,101364,Sushi Set,Japanese,26000.0,2
+3354,101364,Gyudon,Japanese,64000.0,2
+3355,101365,Dal Tadka,Indian,53000.0,3
+3356,101365,Butter Chicken,Indian,28000.0,3
+3357,101365,Biryani,Indian,30000.0,2
+3358,101365,Tandoori Chicken,Indian,45000.0,1
+3359,101366,Fish & Chips,Western,20000.0,3
+3360,101366,BBQ Ribs,Western,58000.0,1
+3361,101367,Tteokbokki,Korean,17000.0,2
+3362,101367,Bulgogi,Korean,53000.0,2
+3363,101367,Kimbap,Korean,30000.0,1
+3364,101368,Dal Tadka,Indian,33000.0,2
+3365,101368,Palak Paneer,Indian,20000.0,3
+3366,101368,Masala Chai,Indian,57000.0,2
+3367,101369,Naan,Indian,46000.0,3
+3368,101369,Butter Chicken,Indian,28000.0,2
+3369,101369,Dal Tadka,Indian,55000.0,2
+3370,101370,Dim Sum,Chinese,77000.0,3
+3371,101370,Chop Suey,Chinese,56000.0,3
+3372,101371,Steak,Western,50000.0,1
+3373,101371,Club Sandwich,Western,72000.0,3
+3374,101371,Fish & Chips,Western,21000.0,1
+3375,101372,Sushi Set,Japanese,15000.0,2
+3376,101372,Takoyaki,Japanese,43000.0,1
+3377,101373,Falafel,Middle Eastern,67000.0,1
+3378,101374,Burger,Western,83000.0,3
+3379,101374,Club Sandwich,Western,51000.0,1
+3380,101375,Tempura,Japanese,66000.0,3
+3381,101375,Takoyaki,Japanese,82000.0,2
+3382,101375,Udon,Japanese,41000.0,1
+3383,101376,Burger,Western,75000.0,2
+3384,101376,Club Sandwich,Western,50000.0,3
+3385,101376,Pasta,Western,19000.0,3
+3386,101376,Caesar Salad,Western,75000.0,2
+3387,101377,Caesar Salad,Western,85000.0,1
+3388,101377,BBQ Ribs,Western,36000.0,2
+3389,101378,Mie Goreng,Indonesian,58000.0,3
+3390,101378,Soto Ayam,Indonesian,37000.0,1
+3391,101378,Nasi Goreng,Indonesian,39000.0,2
+3392,101378,Ayam Geprek,Indonesian,46000.0,3
+3393,101379,Club Sandwich,Western,61000.0,2
+3394,101379,BBQ Ribs,Western,57000.0,3
+3395,101380,Tempura,Japanese,21000.0,1
+3396,101381,Waffle,Dessert & Drinks,71000.0,2
+3397,101381,Crepes,Dessert & Drinks,34000.0,1
+3398,101381,Ice Cream,Dessert & Drinks,63000.0,1
+3399,101381,Cheesecake,Dessert & Drinks,56000.0,2
+3400,101382,Kimchi Jjigae,Korean,20000.0,1
+3401,101383,Nasi Padang,Indonesian,74000.0,1
+3402,101383,Soto Ayam,Indonesian,55000.0,2
+3403,101383,Nasi Goreng,Indonesian,57000.0,2
+3404,101383,Gado-Gado,Indonesian,16000.0,2
+3405,101384,Soto Ayam,Indonesian,69000.0,2
+3406,101385,Gado-Gado,Indonesian,62000.0,2
+3407,101385,Ayam Geprek,Indonesian,79000.0,1
+3408,101385,Mie Goreng,Indonesian,24000.0,2
+3409,101385,Nasi Padang,Indonesian,18000.0,2
+3410,101386,Fish & Chips,Western,29000.0,2
+3411,101387,Katsu Curry,Japanese,79000.0,2
+3412,101387,Sushi Set,Japanese,79000.0,2
+3413,101387,Ramen,Japanese,66000.0,1
+3414,101387,Gyudon,Japanese,19000.0,1
+3415,101388,Butter Chicken,Indian,78000.0,3
+3416,101388,Tandoori Chicken,Indian,35000.0,3
+3417,101388,Naan,Indian,72000.0,1
+3418,101388,Masala Chai,Indian,84000.0,1
+3419,101389,Mie Goreng,Indonesian,41000.0,2
+3420,101389,Soto Ayam,Indonesian,29000.0,1
+3421,101389,Ayam Geprek,Indonesian,25000.0,1
+3422,101390,Bulgogi,Korean,64000.0,1
+3423,101391,Cheesecake,Dessert & Drinks,39000.0,2
+3424,101392,Mezze Platter,Middle Eastern,63000.0,1
+3425,101392,Hummus Plate,Middle Eastern,50000.0,1
+3426,101392,Kebab,Middle Eastern,64000.0,2
+3427,101392,Shawarma,Middle Eastern,28000.0,1
+3428,101393,Palak Paneer,Indian,43000.0,1
+3429,101394,Wonton Soup,Chinese,47000.0,3
+3430,101394,Chop Suey,Chinese,45000.0,1
+3431,101395,Rendang,Indonesian,84000.0,2
+3432,101395,Nasi Padang,Indonesian,50000.0,2
+3433,101396,Soto Ayam,Indonesian,32000.0,2
+3434,101396,Mie Goreng,Indonesian,50000.0,2
+3435,101396,Rendang,Indonesian,29000.0,3
+3436,101396,Nasi Padang,Indonesian,82000.0,1
+3437,101397,Steak,Western,52000.0,2
+3438,101397,BBQ Ribs,Western,84000.0,3
+3439,101397,Caesar Salad,Western,63000.0,1
+3440,101398,Mezze Platter,Middle Eastern,76000.0,1
+3441,101398,Kebab,Middle Eastern,52000.0,2
+3442,101399,Dal Tadka,Indian,74000.0,3
+3443,101400,Ramen,Japanese,46000.0,1
+3444,101401,Dumplings,Chinese,21000.0,3
+3445,101401,Fried Rice,Chinese,75000.0,3
+3446,101401,Dim Sum,Chinese,77000.0,3
+3447,101402,Palak Paneer,Indian,75000.0,2
+3448,101402,Dal Tadka,Indian,17000.0,2
+3449,101402,Samosa,Indian,82000.0,3
+3450,101402,Masala Chai,Indian,60000.0,1
+3451,101403,Churros,Dessert & Drinks,75000.0,3
+3452,101403,Crepes,Dessert & Drinks,48000.0,3
+3453,101403,Matcha Latte,Dessert & Drinks,82000.0,2
+3454,101403,Cheesecake,Dessert & Drinks,16000.0,3
+3455,101404,Crepes,Dessert & Drinks,36000.0,1
+3456,101404,Boba Tea,Dessert & Drinks,37000.0,3
+3457,101404,Waffle,Dessert & Drinks,71000.0,1
+3458,101405,Bakso,Indonesian,82000.0,2
+3459,101406,Butter Chicken,Indian,46000.0,3
+3460,101407,Noodle Soup,Chinese,65000.0,3
+3461,101407,Dumplings,Chinese,15000.0,2
+3462,101408,Sushi Set,Japanese,77000.0,2
+3463,101408,Ramen,Japanese,29000.0,2
+3464,101409,BBQ Ribs,Western,65000.0,3
+3465,101409,Grilled Chicken,Western,21000.0,2
+3466,101409,Burger,Western,84000.0,1
+3467,101410,Fattoush,Middle Eastern,69000.0,2
+3468,101410,Hummus Plate,Middle Eastern,83000.0,3
+3469,101410,Mezze Platter,Middle Eastern,79000.0,2
+3470,101411,Naan,Indian,52000.0,1
+3471,101411,Samosa,Indian,35000.0,2
+3472,101412,Ramen,Japanese,77000.0,2
+3473,101412,Udon,Japanese,70000.0,3
+3474,101412,Tempura,Japanese,38000.0,2
+3475,101413,Caesar Salad,Western,46000.0,2
+3476,101413,Burger,Western,79000.0,2
+3477,101413,Club Sandwich,Western,18000.0,3
+3478,101414,Noodle Soup,Chinese,66000.0,3
+3479,101414,Dim Sum,Chinese,67000.0,2
+3480,101414,Wonton Soup,Chinese,49000.0,3
+3481,101414,Chop Suey,Chinese,83000.0,1
+3482,101415,Katsu Curry,Japanese,82000.0,1
+3483,101416,Bulgogi,Korean,45000.0,1
+3484,101416,Kimbap,Korean,85000.0,2
+3485,101416,Tteokbokki,Korean,80000.0,1
+3486,101417,Rendang,Indonesian,29000.0,3
+3487,101417,Soto Ayam,Indonesian,81000.0,1
+3488,101417,Nasi Goreng,Indonesian,16000.0,2
+3489,101417,Ayam Geprek,Indonesian,19000.0,2
+3490,101418,Palak Paneer,Indian,74000.0,1
+3491,101418,Biryani,Indian,29000.0,2
+3492,101418,Samosa,Indian,76000.0,1
+3493,101418,Butter Chicken,Indian,44000.0,1
+3494,101419,Tempura,Japanese,34000.0,1
+3495,101419,Ramen,Japanese,69000.0,3
+3496,101420,Udon,Japanese,53000.0,1
+3497,101421,Palak Paneer,Indian,39000.0,2
+3498,101421,Samosa,Indian,18000.0,3
+3499,101421,Butter Chicken,Indian,45000.0,1
+3500,101421,Biryani,Indian,60000.0,3
+3501,101422,Pasta,Western,39000.0,3
+3502,101422,Steak,Western,54000.0,2
+3503,101422,BBQ Ribs,Western,64000.0,1
+3504,101422,Grilled Chicken,Western,42000.0,1
+3505,101423,Matcha Latte,Dessert & Drinks,50000.0,1
+3506,101423,Cheesecake,Dessert & Drinks,49000.0,3
+3507,101423,Milkshake,Dessert & Drinks,76000.0,1
+3508,101424,Mie Goreng,Indonesian,56000.0,1
+3509,101424,Bakso,Indonesian,41000.0,1
+3510,101424,Rendang,Indonesian,73000.0,3
+3511,101425,Matcha Latte,Dessert & Drinks,26000.0,2
+3512,101425,Churros,Dessert & Drinks,47000.0,3
+3513,101425,Cheesecake,Dessert & Drinks,19000.0,1
+3514,101426,Milkshake,Dessert & Drinks,22000.0,3
+3515,101427,Matcha Latte,Dessert & Drinks,47000.0,2
+3516,101428,Nasi Padang,Indonesian,57000.0,2
+3517,101429,Butter Chicken,Indian,65000.0,1
+3518,101429,Samosa,Indian,45000.0,2
+3519,101429,Naan,Indian,52000.0,1
+3520,101429,Masala Chai,Indian,66000.0,1
+3521,101430,Rendang,Indonesian,53000.0,2
+3522,101431,Churros,Dessert & Drinks,33000.0,3
+3523,101431,Cheesecake,Dessert & Drinks,15000.0,3
+3524,101431,Milkshake,Dessert & Drinks,54000.0,2
+3525,101431,Matcha Latte,Dessert & Drinks,73000.0,2
+3526,101432,Crepes,Dessert & Drinks,52000.0,1
+3527,101432,Milkshake,Dessert & Drinks,28000.0,1
+3528,101432,Cheesecake,Dessert & Drinks,81000.0,2
+3529,101432,Ice Cream,Dessert & Drinks,29000.0,2
+3530,101433,Dumplings,Chinese,80000.0,3
+3531,101433,Dim Sum,Chinese,58000.0,3
+3532,101433,Spring Roll,Chinese,37000.0,2
+3533,101434,Nasi Goreng,Indonesian,31000.0,1
+3534,101435,Chop Suey,Chinese,33000.0,3
+3535,101435,Wonton Soup,Chinese,36000.0,2
+3536,101435,Spring Roll,Chinese,47000.0,3
+3537,101436,Japchae,Korean,21000.0,3
+3538,101436,Sundubu Jjigae,Korean,23000.0,2
+3539,101437,Dim Sum,Chinese,56000.0,2
+3540,101438,Manakish,Middle Eastern,81000.0,1
+3541,101438,Mezze Platter,Middle Eastern,73000.0,2
+3542,101439,Fish & Chips,Western,60000.0,3
+3543,101440,Nasi Padang,Indonesian,49000.0,2
+3544,101440,Mie Goreng,Indonesian,85000.0,2
+3545,101440,Soto Ayam,Indonesian,62000.0,3
+3546,101441,Tandoori Chicken,Indian,58000.0,3
+3547,101442,Waffle,Dessert & Drinks,82000.0,3
+3548,101442,Boba Tea,Dessert & Drinks,17000.0,1
+3549,101442,Matcha Latte,Dessert & Drinks,27000.0,2
+3550,101442,Cheesecake,Dessert & Drinks,32000.0,2
+3551,101443,Dim Sum,Chinese,82000.0,2
+3552,101443,Dumplings,Chinese,28000.0,2
+3553,101444,BBQ Ribs,Western,45000.0,3
+3554,101444,Caesar Salad,Western,68000.0,1
+3555,101445,Steak,Western,59000.0,2
+3556,101445,Pasta,Western,49000.0,1
+3557,101445,BBQ Ribs,Western,38000.0,3
+3558,101445,Fish & Chips,Western,70000.0,3
+3559,101446,Kimbap,Korean,64000.0,2
+3560,101446,Kimchi Jjigae,Korean,73000.0,3
+3561,101446,Korean BBQ,Korean,73000.0,1
+3562,101447,Matcha Latte,Dessert & Drinks,71000.0,3
+3563,101447,Crepes,Dessert & Drinks,83000.0,1
+3564,101448,Onigiri,Japanese,39000.0,3
+3565,101448,Gyudon,Japanese,82000.0,3
+3566,101448,Udon,Japanese,73000.0,2
+3567,101449,Chop Suey,Chinese,41000.0,3
+3568,101449,Spring Roll,Chinese,50000.0,3
+3569,101450,Fried Rice,Chinese,63000.0,2
+3570,101450,Spring Roll,Chinese,34000.0,1
+3571,101451,Sundubu Jjigae,Korean,62000.0,2
+3572,101451,Bulgogi,Korean,37000.0,1
+3573,101451,Bibimbap,Korean,17000.0,2
+3574,101451,Japchae,Korean,23000.0,2
+3575,101452,Noodle Soup,Chinese,54000.0,3
+3576,101453,Nasi Goreng,Indonesian,75000.0,1
+3577,101453,Soto Ayam,Indonesian,18000.0,1
+3578,101453,Gado-Gado,Indonesian,26000.0,2
+3579,101454,Bakso,Indonesian,65000.0,2
+3580,101455,Tempura,Japanese,19000.0,3
+3581,101455,Katsu Curry,Japanese,78000.0,2
+3582,101456,Dim Sum,Chinese,28000.0,1
+3583,101456,Wonton Soup,Chinese,74000.0,1
+3584,101456,Peking Duck,Chinese,67000.0,3
+3585,101457,Ayam Geprek,Indonesian,84000.0,3
+3586,101457,Nasi Goreng,Indonesian,77000.0,1
+3587,101458,Tandoori Chicken,Indian,77000.0,3
+3588,101458,Masala Chai,Indian,29000.0,1
+3589,101459,Onigiri,Japanese,57000.0,2
+3590,101459,Gyudon,Japanese,45000.0,3
+3591,101459,Tempura,Japanese,83000.0,1
+3592,101460,Caesar Salad,Western,25000.0,2
+3593,101460,Fish & Chips,Western,68000.0,1
+3594,101460,Steak,Western,42000.0,2
+3595,101460,Pasta,Western,80000.0,3
+3596,101461,Samosa,Indian,23000.0,3
+3597,101462,Mie Goreng,Indonesian,71000.0,2
+3598,101462,Ayam Geprek,Indonesian,28000.0,1
+3599,101462,Soto Ayam,Indonesian,65000.0,2
+3600,101462,Bakso,Indonesian,26000.0,1
+3601,101463,Japchae,Korean,17000.0,2
+3602,101463,Bibimbap,Korean,74000.0,1
+3603,101464,Fish & Chips,Western,71000.0,1
+3604,101464,Caesar Salad,Western,55000.0,3
+3605,101464,Pasta,Western,32000.0,1
+3606,101464,Burger,Western,62000.0,1
+3607,101465,Masala Chai,Indian,57000.0,3
+3608,101466,Biryani,Indian,77000.0,2
+3609,101466,Dal Tadka,Indian,43000.0,1
+3610,101466,Samosa,Indian,32000.0,1
+3611,101466,Butter Chicken,Indian,82000.0,2
+3612,101467,Waffle,Dessert & Drinks,54000.0,1
+3613,101467,Matcha Latte,Dessert & Drinks,30000.0,1
+3614,101467,Cheesecake,Dessert & Drinks,21000.0,2
+3615,101468,Korean BBQ,Korean,85000.0,3
+3616,101468,Kimchi Jjigae,Korean,34000.0,3
+3617,101469,Nasi Goreng,Indonesian,42000.0,2
+3618,101470,Tempura,Japanese,50000.0,1
+3619,101470,Gyudon,Japanese,42000.0,2
+3620,101471,Udon,Japanese,76000.0,3
+3621,101471,Tempura,Japanese,37000.0,1
+3622,101471,Gyudon,Japanese,25000.0,2
+3623,101472,Bakso,Indonesian,17000.0,2
+3624,101472,Nasi Goreng,Indonesian,58000.0,3
+3625,101472,Mie Goreng,Indonesian,62000.0,1
+3626,101473,Fish & Chips,Western,29000.0,3
+3627,101473,Caesar Salad,Western,49000.0,3
+3628,101474,Caesar Salad,Western,81000.0,3
+3629,101474,Pasta,Western,32000.0,1
+3630,101474,Steak,Western,79000.0,2
+3631,101475,Nasi Goreng,Indonesian,74000.0,3
+3632,101475,Nasi Padang,Indonesian,41000.0,1
+3633,101476,Rendang,Indonesian,21000.0,2
+3634,101477,Churros,Dessert & Drinks,79000.0,3
+3635,101477,Cheesecake,Dessert & Drinks,70000.0,3
+3636,101477,Waffle,Dessert & Drinks,58000.0,2
+3637,101478,Steak,Western,21000.0,3
+3638,101478,Fish & Chips,Western,73000.0,2
+3639,101478,Pasta,Western,68000.0,2
+3640,101478,Club Sandwich,Western,52000.0,2
+3641,101479,Waffle,Dessert & Drinks,71000.0,2
+3642,101479,Milkshake,Dessert & Drinks,41000.0,1
+3643,101480,Tandoori Chicken,Indian,64000.0,1
+3644,101480,Masala Chai,Indian,16000.0,3
+3645,101480,Dal Tadka,Indian,17000.0,3
+3646,101481,Fattoush,Middle Eastern,78000.0,3
+3647,101481,Kebab,Middle Eastern,29000.0,2
+3648,101481,Shawarma,Middle Eastern,74000.0,3
+3649,101482,Japchae,Korean,70000.0,1
+3650,101482,Kimbap,Korean,80000.0,3
+3651,101482,Kimchi Jjigae,Korean,31000.0,1
+3652,101483,Noodle Soup,Chinese,83000.0,3
+3653,101483,Wonton Soup,Chinese,67000.0,2
+3654,101483,Dim Sum,Chinese,57000.0,1
+3655,101484,Korean BBQ,Korean,32000.0,2
+3656,101484,Kimchi Jjigae,Korean,58000.0,3
+3657,101484,Kimbap,Korean,25000.0,2
+3658,101484,Sundubu Jjigae,Korean,44000.0,3
+3659,101485,Samosa,Indian,60000.0,3
+3660,101485,Tandoori Chicken,Indian,68000.0,1
+3661,101485,Butter Chicken,Indian,36000.0,2
+3662,101486,Tteokbokki,Korean,70000.0,1
+3663,101486,Korean BBQ,Korean,76000.0,3
+3664,101486,Sundubu Jjigae,Korean,49000.0,3
+3665,101487,Nasi Padang,Indonesian,44000.0,1
+3666,101488,Mie Goreng,Indonesian,53000.0,1
+3667,101488,Soto Ayam,Indonesian,24000.0,1
+3668,101488,Bakso,Indonesian,57000.0,1
+3669,101488,Gado-Gado,Indonesian,47000.0,2
+3670,101489,Soto Ayam,Indonesian,22000.0,1
+3671,101489,Rendang,Indonesian,33000.0,1
+3672,101489,Nasi Padang,Indonesian,41000.0,2
+3673,101490,Hummus Plate,Middle Eastern,76000.0,3
+3674,101490,Mezze Platter,Middle Eastern,77000.0,1
+3675,101491,Ayam Geprek,Indonesian,63000.0,3
+3676,101491,Gado-Gado,Indonesian,75000.0,2
+3677,101492,Caesar Salad,Western,43000.0,2
+3678,101492,BBQ Ribs,Western,54000.0,2
+3679,101492,Club Sandwich,Western,30000.0,2
+3680,101493,Burger,Western,47000.0,2
+3681,101493,Caesar Salad,Western,69000.0,2
+3682,101493,BBQ Ribs,Western,60000.0,3
+3683,101494,Sundubu Jjigae,Korean,77000.0,2
+3684,101494,Japchae,Korean,47000.0,3
+3685,101494,Bibimbap,Korean,55000.0,1
+3686,101494,Tteokbokki,Korean,55000.0,3
+3687,101495,Mie Goreng,Indonesian,20000.0,1
+3688,101495,Gado-Gado,Indonesian,76000.0,1
+3689,101495,Nasi Goreng,Indonesian,72000.0,2
+3690,101495,Ayam Geprek,Indonesian,56000.0,3
+3691,101496,Soto Ayam,Indonesian,21000.0,2
+3692,101496,Nasi Goreng,Indonesian,74000.0,1
+3693,101496,Rendang,Indonesian,48000.0,1
+3694,101497,Nasi Padang,Indonesian,79000.0,1
+3695,101497,Gado-Gado,Indonesian,67000.0,3
+3696,101498,Palak Paneer,Indian,56000.0,1
+3697,101498,Butter Chicken,Indian,76000.0,1
+3698,101498,Samosa,Indian,21000.0,3
+3699,101498,Dal Tadka,Indian,59000.0,2
+3700,101499,Ramen,Japanese,76000.0,1
+3701,101499,Takoyaki,Japanese,59000.0,3
+3702,101499,Tempura,Japanese,57000.0,2
+3703,101500,Pasta,Western,52000.0,3
+3704,101501,Churros,Dessert & Drinks,63000.0,2
+3705,101501,Ice Cream,Dessert & Drinks,27000.0,1
+3706,101502,Katsu Curry,Japanese,24000.0,3
+3707,101502,Ramen,Japanese,38000.0,1
+3708,101502,Sushi Set,Japanese,36000.0,2
+3709,101502,Takoyaki,Japanese,80000.0,1
+3710,101503,Gyudon,Japanese,38000.0,3
+3711,101503,Udon,Japanese,64000.0,3
+3712,101503,Takoyaki,Japanese,35000.0,3
+3713,101503,Ramen,Japanese,32000.0,3
+3714,101504,Soto Ayam,Indonesian,73000.0,1
+3715,101504,Mie Goreng,Indonesian,72000.0,2
+3716,101505,BBQ Ribs,Western,57000.0,1
+3717,101505,Club Sandwich,Western,40000.0,3
+3718,101505,Burger,Western,67000.0,2
+3719,101506,Chop Suey,Chinese,69000.0,1
+3720,101507,Bulgogi,Korean,24000.0,3
+3721,101507,Tteokbokki,Korean,52000.0,3
+3722,101507,Kimchi Jjigae,Korean,28000.0,3
+3723,101508,Sushi Set,Japanese,76000.0,1
+3724,101509,Bulgogi,Korean,70000.0,3
+3725,101509,Kimbap,Korean,15000.0,2
+3726,101509,Sundubu Jjigae,Korean,50000.0,2
+3727,101509,Kimchi Jjigae,Korean,78000.0,2
+3728,101510,Matcha Latte,Dessert & Drinks,44000.0,3
+3729,101510,Churros,Dessert & Drinks,78000.0,3
+3730,101511,Waffle,Dessert & Drinks,58000.0,3
+3731,101511,Matcha Latte,Dessert & Drinks,31000.0,1
+3732,101512,Mezze Platter,Middle Eastern,67000.0,3
+3733,101513,Sushi Set,Japanese,61000.0,3
+3734,101513,Udon,Japanese,18000.0,2
+3735,101514,Gado-Gado,Indonesian,73000.0,1
+3736,101514,Mie Goreng,Indonesian,41000.0,2
+3737,101514,Bakso,Indonesian,40000.0,1
+3738,101514,Soto Ayam,Indonesian,75000.0,3
+3739,101515,Nasi Padang,Indonesian,57000.0,1
+3740,101515,Nasi Goreng,Indonesian,62000.0,3
+3741,101515,Mie Goreng,Indonesian,66000.0,3
+3742,101515,Ayam Geprek,Indonesian,19000.0,1
+3743,101516,Soto Ayam,Indonesian,83000.0,1
+3744,101517,Rendang,Indonesian,33000.0,1
+3745,101518,Tandoori Chicken,Indian,80000.0,3
+3746,101519,Dal Tadka,Indian,23000.0,1
+3747,101519,Samosa,Indian,54000.0,1
+3748,101519,Naan,Indian,68000.0,2
+3749,101520,Ayam Geprek,Indonesian,27000.0,2
+3750,101520,Soto Ayam,Indonesian,20000.0,2
+3751,101520,Nasi Padang,Indonesian,34000.0,3
+3752,101521,Boba Tea,Dessert & Drinks,50000.0,3
+3753,101521,Churros,Dessert & Drinks,83000.0,1
+3754,101522,Katsu Curry,Japanese,73000.0,2
+3755,101522,Sushi Set,Japanese,77000.0,2
+3756,101522,Onigiri,Japanese,52000.0,1
+3757,101522,Takoyaki,Japanese,67000.0,2
+3758,101523,Milkshake,Dessert & Drinks,66000.0,3
+3759,101523,Crepes,Dessert & Drinks,35000.0,2
+3760,101524,Sushi Set,Japanese,65000.0,3
+3761,101524,Udon,Japanese,79000.0,3
+3762,101525,Noodle Soup,Chinese,54000.0,2
+3763,101526,Peking Duck,Chinese,24000.0,2
+3764,101526,Dumplings,Chinese,22000.0,1
+3765,101526,Dim Sum,Chinese,26000.0,3
+3766,101527,Lamb Chops,Middle Eastern,47000.0,3
+3767,101527,Manakish,Middle Eastern,30000.0,1
+3768,101527,Hummus Plate,Middle Eastern,65000.0,1
+3769,101528,Gado-Gado,Indonesian,55000.0,3
+3770,101528,Mie Goreng,Indonesian,24000.0,3
+3771,101528,Ayam Geprek,Indonesian,67000.0,2
+3772,101529,Onigiri,Japanese,55000.0,1
+3773,101530,Gado-Gado,Indonesian,30000.0,3
+3774,101530,Nasi Padang,Indonesian,72000.0,2
+3775,101531,Tempura,Japanese,74000.0,2
+3776,101531,Onigiri,Japanese,68000.0,1
+3777,101531,Udon,Japanese,59000.0,3
+3778,101532,Dim Sum,Chinese,27000.0,1
+3779,101532,Spring Roll,Chinese,77000.0,3
+3780,101532,Peking Duck,Chinese,22000.0,2
+3781,101532,Fried Rice,Chinese,83000.0,1
+3782,101533,Peking Duck,Chinese,44000.0,3
+3783,101533,Fried Rice,Chinese,18000.0,1
+3784,101534,Rendang,Indonesian,76000.0,3
+3785,101535,Manakish,Middle Eastern,67000.0,3
+3786,101536,Gyudon,Japanese,72000.0,3
+3787,101536,Takoyaki,Japanese,18000.0,2
+3788,101537,Wonton Soup,Chinese,29000.0,2
+3789,101538,Tteokbokki,Korean,69000.0,1
+3790,101538,Bulgogi,Korean,19000.0,3
+3791,101538,Bibimbap,Korean,74000.0,3
+3792,101538,Korean BBQ,Korean,40000.0,2
+3793,101539,Korean BBQ,Korean,50000.0,3
+3794,101539,Bibimbap,Korean,59000.0,2
+3795,101539,Bulgogi,Korean,34000.0,1
+3796,101540,Cheesecake,Dessert & Drinks,53000.0,3
+3797,101540,Churros,Dessert & Drinks,48000.0,3
+3798,101540,Boba Tea,Dessert & Drinks,43000.0,2
+3799,101541,Sundubu Jjigae,Korean,39000.0,1
+3800,101541,Kimbap,Korean,17000.0,3
+3801,101541,Tteokbokki,Korean,33000.0,3
+3802,101542,Caesar Salad,Western,78000.0,3
+3803,101542,Club Sandwich,Western,77000.0,3
+3804,101542,Grilled Chicken,Western,33000.0,1
+3805,101543,Fattoush,Middle Eastern,26000.0,2
+3806,101544,Korean BBQ,Korean,27000.0,2
+3807,101545,Korean BBQ,Korean,60000.0,2
+3808,101545,Kimbap,Korean,38000.0,3
+3809,101546,Sundubu Jjigae,Korean,74000.0,1
+3810,101546,Bibimbap,Korean,73000.0,3
+3811,101546,Bulgogi,Korean,76000.0,3
+3812,101546,Tteokbokki,Korean,72000.0,2
+3813,101547,Soto Ayam,Indonesian,84000.0,1
+3814,101548,Chop Suey,Chinese,58000.0,3
+3815,101548,Wonton Soup,Chinese,23000.0,2
+3816,101549,Cheesecake,Dessert & Drinks,44000.0,2
+3817,101549,Boba Tea,Dessert & Drinks,45000.0,3
+3818,101550,Milkshake,Dessert & Drinks,20000.0,3
+3819,101550,Churros,Dessert & Drinks,41000.0,2
+3820,101551,Palak Paneer,Indian,40000.0,3
+3821,101551,Tandoori Chicken,Indian,65000.0,2
+3822,101551,Samosa,Indian,74000.0,1
+3823,101551,Naan,Indian,32000.0,3
+3824,101552,Sundubu Jjigae,Korean,21000.0,1
+3825,101552,Bulgogi,Korean,74000.0,3
+3826,101552,Korean BBQ,Korean,29000.0,1
+3827,101552,Kimchi Jjigae,Korean,19000.0,1
+3828,101553,Samosa,Indian,41000.0,3
+3829,101553,Tandoori Chicken,Indian,83000.0,1
+3830,101553,Palak Paneer,Indian,46000.0,3
+3831,101553,Naan,Indian,27000.0,3
+3832,101554,Matcha Latte,Dessert & Drinks,54000.0,3
+3833,101555,Cheesecake,Dessert & Drinks,55000.0,2
+3834,101555,Churros,Dessert & Drinks,16000.0,3
+3835,101555,Matcha Latte,Dessert & Drinks,45000.0,2
+3836,101555,Ice Cream,Dessert & Drinks,49000.0,3
+3837,101556,Dumplings,Chinese,67000.0,2
+3838,101557,Nasi Goreng,Indonesian,25000.0,3
+3839,101558,Fried Rice,Chinese,69000.0,3
+3840,101558,Dim Sum,Chinese,76000.0,1
+3841,101558,Peking Duck,Chinese,69000.0,3
+3842,101558,Chop Suey,Chinese,62000.0,2
+3843,101559,Nasi Padang,Indonesian,82000.0,1
+3844,101559,Mie Goreng,Indonesian,54000.0,1
+3845,101560,Biryani,Indian,73000.0,2
+3846,101561,Biryani,Indian,27000.0,3
+3847,101562,Biryani,Indian,84000.0,1
+3848,101562,Tandoori Chicken,Indian,25000.0,2
+3849,101562,Masala Chai,Indian,80000.0,1
+3850,101563,Tandoori Chicken,Indian,53000.0,2
+3851,101563,Butter Chicken,Indian,57000.0,2
+3852,101563,Samosa,Indian,45000.0,3
+3853,101563,Masala Chai,Indian,60000.0,3
+3854,101564,Kimchi Jjigae,Korean,28000.0,3
+3855,101565,Noodle Soup,Chinese,78000.0,3
+3856,101565,Fried Rice,Chinese,35000.0,1
+3857,101565,Peking Duck,Chinese,19000.0,3
+3858,101566,Bulgogi,Korean,76000.0,2
+3859,101566,Kimbap,Korean,53000.0,1
+3860,101566,Tteokbokki,Korean,66000.0,2
+3861,101567,Bakso,Indonesian,36000.0,3
+3862,101567,Nasi Goreng,Indonesian,36000.0,3
+3863,101567,Nasi Padang,Indonesian,48000.0,3
+3864,101568,Wonton Soup,Chinese,64000.0,3
+3865,101568,Fried Rice,Chinese,76000.0,1
+3866,101568,Dumplings,Chinese,64000.0,3
+3867,101569,Bakso,Indonesian,73000.0,2
+3868,101569,Soto Ayam,Indonesian,27000.0,1
+3869,101569,Ayam Geprek,Indonesian,33000.0,2
+3870,101569,Nasi Padang,Indonesian,52000.0,2
+3871,101570,Ramen,Japanese,81000.0,3
+3872,101571,Fattoush,Middle Eastern,66000.0,2
+3873,101571,Manakish,Middle Eastern,64000.0,2
+3874,101571,Kebab,Middle Eastern,71000.0,2
+3875,101571,Shawarma,Middle Eastern,82000.0,2
+3876,101572,Matcha Latte,Dessert & Drinks,46000.0,1
+3877,101572,Churros,Dessert & Drinks,62000.0,3
+3878,101573,Ramen,Japanese,48000.0,3
+3879,101573,Gyudon,Japanese,37000.0,2
+3880,101573,Tempura,Japanese,76000.0,3
+3881,101574,Waffle,Dessert & Drinks,57000.0,2
+3882,101574,Cheesecake,Dessert & Drinks,26000.0,3
+3883,101574,Churros,Dessert & Drinks,53000.0,2
+3884,101575,Naan,Indian,55000.0,1
+3885,101575,Butter Chicken,Indian,64000.0,3
+3886,101576,Dim Sum,Chinese,80000.0,3
+3887,101577,Tempura,Japanese,23000.0,3
+3888,101577,Udon,Japanese,59000.0,1
+3889,101577,Onigiri,Japanese,75000.0,1
+3890,101578,Tandoori Chicken,Indian,62000.0,1
+3891,101578,Masala Chai,Indian,19000.0,3
+3892,101578,Samosa,Indian,49000.0,3
+3893,101579,Tteokbokki,Korean,54000.0,1
+3894,101579,Sundubu Jjigae,Korean,75000.0,2
+3895,101580,Falafel,Middle Eastern,71000.0,3
+3896,101580,Manakish,Middle Eastern,30000.0,1
+3897,101581,Fish & Chips,Western,36000.0,2
+3898,101581,Pasta,Western,77000.0,3
+3899,101581,Caesar Salad,Western,65000.0,3
+3900,101582,Boba Tea,Dessert & Drinks,80000.0,2
+3901,101582,Ice Cream,Dessert & Drinks,54000.0,1
+3902,101582,Crepes,Dessert & Drinks,22000.0,3
+3903,101583,Biryani,Indian,41000.0,3
+3904,101583,Palak Paneer,Indian,26000.0,3
+3905,101583,Samosa,Indian,20000.0,1
+3906,101584,Bakso,Indonesian,68000.0,3
+3907,101584,Nasi Goreng,Indonesian,66000.0,1
+3908,101584,Gado-Gado,Indonesian,15000.0,1
+3909,101585,Gyudon,Japanese,33000.0,3
+3910,101586,Hummus Plate,Middle Eastern,79000.0,1
+3911,101586,Mezze Platter,Middle Eastern,43000.0,1
+3912,101587,Club Sandwich,Western,49000.0,1
+3913,101587,Burger,Western,19000.0,3
+3914,101587,Caesar Salad,Western,37000.0,2
+3915,101588,Bibimbap,Korean,49000.0,1
+3916,101588,Tteokbokki,Korean,36000.0,2
+3917,101588,Bulgogi,Korean,77000.0,2
+3918,101588,Japchae,Korean,25000.0,2
+3919,101589,Grilled Chicken,Western,22000.0,3
+3920,101589,Pasta,Western,25000.0,3
+3921,101589,BBQ Ribs,Western,36000.0,1
+3922,101590,Peking Duck,Chinese,42000.0,3
+3923,101590,Spring Roll,Chinese,15000.0,1
+3924,101590,Dim Sum,Chinese,74000.0,2
+3925,101591,Nasi Goreng,Indonesian,15000.0,1
+3926,101592,Burger,Western,66000.0,3
+3927,101593,Soto Ayam,Indonesian,51000.0,1
+3928,101593,Bakso,Indonesian,41000.0,1
+3929,101593,Rendang,Indonesian,66000.0,3
+3930,101594,Lamb Chops,Middle Eastern,74000.0,3
+3931,101595,Ayam Geprek,Indonesian,48000.0,1
+3932,101596,Grilled Chicken,Western,73000.0,1
+3933,101596,BBQ Ribs,Western,18000.0,2
+3934,101597,Noodle Soup,Chinese,66000.0,3
+3935,101598,Sushi Set,Japanese,45000.0,2
+3936,101598,Udon,Japanese,41000.0,2
+3937,101599,Waffle,Dessert & Drinks,19000.0,1
+3938,101600,Pasta,Western,68000.0,2
+3939,101601,Palak Paneer,Indian,68000.0,2
+3940,101601,Masala Chai,Indian,46000.0,1
+3941,101601,Tandoori Chicken,Indian,50000.0,1
+3942,101602,Soto Ayam,Indonesian,65000.0,3
+3943,101602,Ayam Geprek,Indonesian,64000.0,1
+3944,101602,Nasi Goreng,Indonesian,17000.0,3
+3945,101602,Rendang,Indonesian,79000.0,2
+3946,101603,Fried Rice,Chinese,40000.0,2
+3947,101604,Grilled Chicken,Western,50000.0,2
+3948,101604,Club Sandwich,Western,64000.0,1
+3949,101604,Fish & Chips,Western,77000.0,1
+3950,101604,Pasta,Western,83000.0,3
+3951,101605,Milkshake,Dessert & Drinks,60000.0,3
+3952,101605,Boba Tea,Dessert & Drinks,77000.0,3
+3953,101605,Cheesecake,Dessert & Drinks,84000.0,2
+3954,101606,Club Sandwich,Western,52000.0,2
+3955,101606,Pasta,Western,36000.0,3
+3956,101607,Manakish,Middle Eastern,48000.0,2
+3957,101608,Tandoori Chicken,Indian,18000.0,1
+3958,101609,Peking Duck,Chinese,37000.0,2
+3959,101609,Dim Sum,Chinese,78000.0,1
+3960,101610,Shawarma,Middle Eastern,84000.0,1
+3961,101610,Falafel,Middle Eastern,63000.0,2
+3962,101610,Fattoush,Middle Eastern,47000.0,3
+3963,101611,Spring Roll,Chinese,15000.0,3
+3964,101612,Chop Suey,Chinese,41000.0,1
+3965,101613,Lamb Chops,Middle Eastern,80000.0,3
+3966,101613,Kebab,Middle Eastern,19000.0,2
+3967,101614,Shawarma,Middle Eastern,22000.0,1
+3968,101615,Mie Goreng,Indonesian,37000.0,1
+3969,101615,Soto Ayam,Indonesian,66000.0,2
+3970,101615,Rendang,Indonesian,71000.0,2
+3971,101616,Wonton Soup,Chinese,22000.0,3
+3972,101616,Fried Rice,Chinese,42000.0,1
+3973,101617,Nasi Goreng,Indonesian,66000.0,2
+3974,101618,Biryani,Indian,49000.0,1
+3975,101619,Crepes,Dessert & Drinks,42000.0,2
+3976,101620,Masala Chai,Indian,76000.0,2
+3977,101620,Samosa,Indian,17000.0,3
+3978,101620,Biryani,Indian,34000.0,1
+3979,101620,Butter Chicken,Indian,67000.0,3
+3980,101621,Bibimbap,Korean,81000.0,1
+3981,101622,Steak,Western,35000.0,2
+3982,101622,Grilled Chicken,Western,46000.0,3
+3983,101622,Burger,Western,64000.0,3
+3984,101623,Steak,Western,69000.0,3
+3985,101623,Fish & Chips,Western,52000.0,1
+3986,101624,Takoyaki,Japanese,73000.0,3
+3987,101625,Pasta,Western,26000.0,2
+3988,101625,Caesar Salad,Western,17000.0,1
+3989,101625,Steak,Western,23000.0,2
+3990,101626,Ice Cream,Dessert & Drinks,76000.0,1
+3991,101626,Waffle,Dessert & Drinks,30000.0,1
+3992,101626,Churros,Dessert & Drinks,44000.0,1
+3993,101626,Boba Tea,Dessert & Drinks,79000.0,2
+3994,101627,Bulgogi,Korean,46000.0,3
+3995,101627,Kimbap,Korean,48000.0,3
+3996,101627,Korean BBQ,Korean,78000.0,1
+3997,101628,Sushi Set,Japanese,55000.0,2
+3998,101629,Kimchi Jjigae,Korean,69000.0,3
+3999,101629,Bibimbap,Korean,27000.0,2
+4000,101629,Tteokbokki,Korean,34000.0,1
+4001,101629,Sundubu Jjigae,Korean,82000.0,3
+4002,101630,Matcha Latte,Dessert & Drinks,71000.0,3
+4003,101631,Tteokbokki,Korean,82000.0,3
+4004,101632,Boba Tea,Dessert & Drinks,60000.0,3
+4005,101633,Hummus Plate,Middle Eastern,36000.0,2
+4006,101633,Manakish,Middle Eastern,57000.0,3
+4007,101634,Fish & Chips,Western,46000.0,2
+4008,101634,Steak,Western,67000.0,1
+4009,101634,Burger,Western,85000.0,1
+4010,101634,BBQ Ribs,Western,43000.0,2
+4011,101635,Hummus Plate,Middle Eastern,62000.0,2
+4012,101635,Fattoush,Middle Eastern,84000.0,1
+4013,101635,Mezze Platter,Middle Eastern,81000.0,2
+4014,101636,Katsu Curry,Japanese,60000.0,2
+4015,101636,Tempura,Japanese,35000.0,3
+4016,101637,Pasta,Western,26000.0,3
+4017,101637,Club Sandwich,Western,26000.0,1
+4018,101638,Nasi Goreng,Indonesian,19000.0,3
+4019,101638,Rendang,Indonesian,70000.0,3
+4020,101638,Nasi Padang,Indonesian,47000.0,3
+4021,101639,Butter Chicken,Indian,25000.0,3
+4022,101639,Samosa,Indian,49000.0,2
+4023,101639,Masala Chai,Indian,68000.0,1
+4024,101639,Tandoori Chicken,Indian,48000.0,3
+4025,101640,Club Sandwich,Western,59000.0,3
+4026,101640,Steak,Western,55000.0,1
+4027,101640,BBQ Ribs,Western,35000.0,3
+4028,101640,Burger,Western,70000.0,3
+4029,101641,Sundubu Jjigae,Korean,48000.0,2
+4030,101641,Bulgogi,Korean,68000.0,1
+4031,101641,Kimbap,Korean,75000.0,1
+4032,101641,Japchae,Korean,67000.0,3
+4033,101642,Noodle Soup,Chinese,33000.0,2
+4034,101642,Dim Sum,Chinese,52000.0,2
+4035,101642,Fried Rice,Chinese,38000.0,1
+4036,101643,Hummus Plate,Middle Eastern,18000.0,3
+4037,101643,Lamb Chops,Middle Eastern,46000.0,3
+4038,101643,Shawarma,Middle Eastern,47000.0,2
+4039,101643,Manakish,Middle Eastern,61000.0,1
+4040,101644,Takoyaki,Japanese,81000.0,3
+4041,101644,Katsu Curry,Japanese,50000.0,3
+4042,101644,Gyudon,Japanese,80000.0,2
+4043,101645,Shawarma,Middle Eastern,49000.0,2
+4044,101645,Kebab,Middle Eastern,49000.0,1
+4045,101645,Manakish,Middle Eastern,66000.0,1
+4046,101645,Lamb Chops,Middle Eastern,39000.0,1
+4047,101646,Dal Tadka,Indian,63000.0,1
+4048,101646,Tandoori Chicken,Indian,48000.0,1
+4049,101646,Palak Paneer,Indian,52000.0,1
+4050,101646,Biryani,Indian,67000.0,1
+4051,101647,Kimchi Jjigae,Korean,21000.0,2
+4052,101647,Kimbap,Korean,48000.0,1
+4053,101647,Bibimbap,Korean,43000.0,3
+4054,101647,Japchae,Korean,26000.0,1
+4055,101648,Falafel,Middle Eastern,28000.0,1
+4056,101648,Fattoush,Middle Eastern,67000.0,2
+4057,101648,Kebab,Middle Eastern,56000.0,1
+4058,101649,Ayam Geprek,Indonesian,24000.0,1
+4059,101649,Soto Ayam,Indonesian,82000.0,2
+4060,101649,Nasi Padang,Indonesian,49000.0,2
+4061,101649,Rendang,Indonesian,84000.0,1
+4062,101650,Rendang,Indonesian,52000.0,3
+4063,101650,Soto Ayam,Indonesian,30000.0,3
+4064,101650,Mie Goreng,Indonesian,42000.0,2
+4065,101651,Udon,Japanese,16000.0,2
+4066,101651,Tempura,Japanese,67000.0,1
+4067,101651,Sushi Set,Japanese,25000.0,3
+4068,101652,Club Sandwich,Western,57000.0,2
+4069,101652,Steak,Western,77000.0,3
+4070,101652,Pasta,Western,17000.0,3
+4071,101652,Grilled Chicken,Western,32000.0,3
+4072,101653,Grilled Chicken,Western,57000.0,1
+4073,101653,Caesar Salad,Western,80000.0,3
+4074,101653,BBQ Ribs,Western,46000.0,2
+4075,101654,Palak Paneer,Indian,35000.0,3
+4076,101654,Naan,Indian,82000.0,3
+4077,101655,Bakso,Indonesian,58000.0,2
+4078,101655,Soto Ayam,Indonesian,34000.0,1
+4079,101655,Ayam Geprek,Indonesian,23000.0,1
+4080,101656,Shawarma,Middle Eastern,26000.0,2
+4081,101656,Fattoush,Middle Eastern,39000.0,3
+4082,101656,Hummus Plate,Middle Eastern,55000.0,3
+4083,101657,Steak,Western,25000.0,3
+4084,101657,Burger,Western,27000.0,1
+4085,101657,Pasta,Western,32000.0,2
+4086,101658,Butter Chicken,Indian,70000.0,1
+4087,101658,Biryani,Indian,45000.0,3
+4088,101658,Naan,Indian,43000.0,3
+4089,101658,Palak Paneer,Indian,31000.0,3
+4090,101659,Falafel,Middle Eastern,43000.0,1
+4091,101660,Fish & Chips,Western,69000.0,1
+4092,101660,Grilled Chicken,Western,39000.0,2
+4093,101660,Club Sandwich,Western,67000.0,3
+4094,101660,BBQ Ribs,Western,41000.0,1
+4095,101661,Tandoori Chicken,Indian,40000.0,1
+4096,101661,Masala Chai,Indian,26000.0,2
+4097,101662,Burger,Western,22000.0,3
+4098,101662,Pasta,Western,31000.0,2
+4099,101662,Fish & Chips,Western,50000.0,1
+4100,101663,Shawarma,Middle Eastern,61000.0,1
+4101,101664,Fattoush,Middle Eastern,16000.0,1
+4102,101664,Shawarma,Middle Eastern,44000.0,1
+4103,101664,Manakish,Middle Eastern,42000.0,1
+4104,101665,Katsu Curry,Japanese,33000.0,2
+4105,101665,Ramen,Japanese,42000.0,1
+4106,101666,Peking Duck,Chinese,42000.0,1
+4107,101667,Rendang,Indonesian,61000.0,3
+4108,101667,Soto Ayam,Indonesian,69000.0,1
+4109,101668,Mie Goreng,Indonesian,29000.0,1
+4110,101668,Bakso,Indonesian,44000.0,1
+4111,101669,Chop Suey,Chinese,81000.0,3
+4112,101669,Wonton Soup,Chinese,66000.0,2
+4113,101670,Club Sandwich,Western,83000.0,2
+4114,101670,Burger,Western,53000.0,2
+4115,101670,Caesar Salad,Western,79000.0,1
+4116,101671,Kimbap,Korean,42000.0,3
+4117,101671,Tteokbokki,Korean,40000.0,2
+4118,101672,Burger,Western,64000.0,1
+4119,101672,Pasta,Western,74000.0,2
+4120,101672,Club Sandwich,Western,36000.0,2
+4121,101672,BBQ Ribs,Western,60000.0,1
+4122,101673,Udon,Japanese,70000.0,3
+4123,101674,Katsu Curry,Japanese,83000.0,1
+4124,101674,Gyudon,Japanese,65000.0,2
+4125,101675,Fish & Chips,Western,74000.0,2
+4126,101675,Grilled Chicken,Western,47000.0,1
+4127,101676,Tempura,Japanese,50000.0,3
+4128,101677,Gado-Gado,Indonesian,53000.0,1
+4129,101677,Nasi Padang,Indonesian,59000.0,3
+4130,101677,Mie Goreng,Indonesian,72000.0,2
+4131,101678,Bibimbap,Korean,67000.0,1
+4132,101678,Bulgogi,Korean,78000.0,3
+4133,101679,Manakish,Middle Eastern,41000.0,1
+4134,101679,Fattoush,Middle Eastern,75000.0,3
+4135,101679,Falafel,Middle Eastern,69000.0,2
+4136,101680,Caesar Salad,Western,61000.0,3
+4137,101681,Club Sandwich,Western,30000.0,2
+4138,101681,Burger,Western,26000.0,3
+4139,101682,Butter Chicken,Indian,68000.0,2
+4140,101682,Dal Tadka,Indian,34000.0,2
+4141,101683,Katsu Curry,Japanese,57000.0,1
+4142,101684,Onigiri,Japanese,49000.0,2
+4143,101684,Gyudon,Japanese,53000.0,2
+4144,101684,Ramen,Japanese,82000.0,3
+4145,101685,Burger,Western,15000.0,1
+4146,101685,Club Sandwich,Western,62000.0,2
+4147,101685,Fish & Chips,Western,74000.0,3
+4148,101685,Pasta,Western,31000.0,2
+4149,101686,Gyudon,Japanese,44000.0,3
+4150,101687,Tempura,Japanese,68000.0,3
+4151,101687,Takoyaki,Japanese,23000.0,3
+4152,101688,Chop Suey,Chinese,53000.0,3
+4153,101689,Butter Chicken,Indian,67000.0,3
+4154,101690,Manakish,Middle Eastern,28000.0,3
+4155,101691,Caesar Salad,Western,29000.0,2
+4156,101692,Bulgogi,Korean,72000.0,3
+4157,101692,Sundubu Jjigae,Korean,31000.0,2
+4158,101692,Kimbap,Korean,69000.0,3
+4159,101692,Bibimbap,Korean,63000.0,3
+4160,101693,Fattoush,Middle Eastern,20000.0,2
+4161,101693,Lamb Chops,Middle Eastern,62000.0,1
+4162,101693,Hummus Plate,Middle Eastern,51000.0,3
+4163,101694,Palak Paneer,Indian,81000.0,1
+4164,101695,Ramen,Japanese,81000.0,1
+4165,101695,Sushi Set,Japanese,75000.0,3
+4166,101695,Gyudon,Japanese,66000.0,1
+4167,101696,Peking Duck,Chinese,68000.0,1
+4168,101696,Chop Suey,Chinese,21000.0,3
+4169,101696,Spring Roll,Chinese,60000.0,2
+4170,101696,Noodle Soup,Chinese,54000.0,3
+4171,101697,Dim Sum,Chinese,50000.0,3
+4172,101697,Dumplings,Chinese,27000.0,2
+4173,101697,Wonton Soup,Chinese,25000.0,2
+4174,101698,Soto Ayam,Indonesian,45000.0,1
+4175,101698,Nasi Goreng,Indonesian,17000.0,3
+4176,101698,Nasi Padang,Indonesian,59000.0,1
+4177,101699,Masala Chai,Indian,24000.0,1
+4178,101699,Palak Paneer,Indian,49000.0,2
+4179,101699,Tandoori Chicken,Indian,68000.0,3
+4180,101700,Club Sandwich,Western,78000.0,1
+4181,101700,Fish & Chips,Western,54000.0,3
+4182,101700,BBQ Ribs,Western,66000.0,2
+4183,101701,Bibimbap,Korean,46000.0,1
+4184,101701,Sundubu Jjigae,Korean,40000.0,3
+4185,101701,Kimchi Jjigae,Korean,29000.0,3
+4186,101702,Bulgogi,Korean,58000.0,3
+4187,101702,Bibimbap,Korean,20000.0,3
+4188,101702,Japchae,Korean,67000.0,3
+4189,101703,Steak,Western,60000.0,3
+4190,101703,Pasta,Western,79000.0,1
+4191,101704,Ice Cream,Dessert & Drinks,58000.0,1
+4192,101704,Churros,Dessert & Drinks,41000.0,3
+4193,101704,Boba Tea,Dessert & Drinks,65000.0,3
+4194,101705,Milkshake,Dessert & Drinks,75000.0,2
+4195,101706,Chop Suey,Chinese,17000.0,2
+4196,101706,Dim Sum,Chinese,42000.0,2
+4197,101707,Matcha Latte,Dessert & Drinks,37000.0,1
+4198,101707,Churros,Dessert & Drinks,79000.0,3
+4199,101708,BBQ Ribs,Western,66000.0,1
+4200,101708,Grilled Chicken,Western,60000.0,2
+4201,101708,Burger,Western,16000.0,2
+4202,101709,Dumplings,Chinese,83000.0,3
+4203,101710,Onigiri,Japanese,47000.0,2
+4204,101710,Sushi Set,Japanese,82000.0,2
+4205,101710,Gyudon,Japanese,50000.0,2
+4206,101710,Tempura,Japanese,66000.0,3
+4207,101711,Naan,Indian,54000.0,2
+4208,101712,Fried Rice,Chinese,72000.0,1
+4209,101712,Dim Sum,Chinese,20000.0,3
+4210,101712,Peking Duck,Chinese,65000.0,1
+4211,101713,Nasi Padang,Indonesian,42000.0,2
+4212,101713,Ayam Geprek,Indonesian,15000.0,3
+4213,101713,Bakso,Indonesian,55000.0,2
+4214,101714,Tempura,Japanese,32000.0,1
+4215,101715,Ice Cream,Dessert & Drinks,76000.0,3
+4216,101715,Cheesecake,Dessert & Drinks,57000.0,3
+4217,101715,Crepes,Dessert & Drinks,69000.0,1
+4218,101716,Ice Cream,Dessert & Drinks,19000.0,2
+4219,101716,Churros,Dessert & Drinks,18000.0,2
+4220,101717,Korean BBQ,Korean,57000.0,3
+4221,101717,Tteokbokki,Korean,81000.0,1
+4222,101717,Kimbap,Korean,25000.0,3
+4223,101718,BBQ Ribs,Western,54000.0,2
+4224,101718,Club Sandwich,Western,21000.0,3
+4225,101718,Steak,Western,49000.0,2
+4226,101719,Soto Ayam,Indonesian,27000.0,1
+4227,101720,Fattoush,Middle Eastern,48000.0,1
+4228,101721,Milkshake,Dessert & Drinks,71000.0,2
+4229,101722,Japchae,Korean,56000.0,2
+4230,101722,Korean BBQ,Korean,37000.0,3
+4231,101722,Sundubu Jjigae,Korean,79000.0,1
+4232,101722,Bulgogi,Korean,69000.0,1
+4233,101723,Japchae,Korean,24000.0,2
+4234,101723,Sundubu Jjigae,Korean,52000.0,1
+4235,101724,Matcha Latte,Dessert & Drinks,36000.0,1
+4236,101725,Kimchi Jjigae,Korean,49000.0,1
+4237,101725,Sundubu Jjigae,Korean,45000.0,2
+4238,101725,Japchae,Korean,29000.0,2
+4239,101725,Tteokbokki,Korean,44000.0,1
+4240,101726,Dal Tadka,Indian,25000.0,2
+4241,101727,Dim Sum,Chinese,62000.0,3
+4242,101727,Noodle Soup,Chinese,21000.0,3
+4243,101728,Takoyaki,Japanese,41000.0,2
+4244,101728,Tempura,Japanese,71000.0,1
+4245,101728,Onigiri,Japanese,77000.0,3
+4246,101728,Sushi Set,Japanese,56000.0,3
+4247,101729,Churros,Dessert & Drinks,64000.0,1
+4248,101729,Cheesecake,Dessert & Drinks,42000.0,1
+4249,101729,Boba Tea,Dessert & Drinks,60000.0,3
+4250,101729,Waffle,Dessert & Drinks,65000.0,3
+4251,101730,Nasi Padang,Indonesian,28000.0,1
+4252,101730,Ayam Geprek,Indonesian,36000.0,3
+4253,101730,Gado-Gado,Indonesian,43000.0,3
+4254,101731,Peking Duck,Chinese,36000.0,1
+4255,101732,Dim Sum,Chinese,80000.0,3
+4256,101732,Fried Rice,Chinese,57000.0,1
+4257,101732,Peking Duck,Chinese,34000.0,2
+4258,101732,Dumplings,Chinese,29000.0,2
+4259,101733,Lamb Chops,Middle Eastern,53000.0,2
+4260,101733,Mezze Platter,Middle Eastern,75000.0,3
+4261,101734,Korean BBQ,Korean,40000.0,1
+4262,101735,Chop Suey,Chinese,54000.0,3
+4263,101735,Peking Duck,Chinese,54000.0,2
+4264,101735,Wonton Soup,Chinese,77000.0,1
+4265,101736,Soto Ayam,Indonesian,57000.0,1
+4266,101736,Mie Goreng,Indonesian,75000.0,2
+4267,101736,Nasi Goreng,Indonesian,62000.0,1
+4268,101736,Ayam Geprek,Indonesian,67000.0,3
+4269,101737,Fried Rice,Chinese,47000.0,3
+4270,101738,Bakso,Indonesian,72000.0,1
+4271,101739,Lamb Chops,Middle Eastern,53000.0,3
+4272,101740,Tempura,Japanese,20000.0,2
+4273,101741,Nasi Padang,Indonesian,19000.0,3
+4274,101741,Mie Goreng,Indonesian,59000.0,3
+4275,101741,Soto Ayam,Indonesian,35000.0,3
+4276,101741,Ayam Geprek,Indonesian,24000.0,2
+4277,101742,Dim Sum,Chinese,71000.0,1
+4278,101742,Spring Roll,Chinese,22000.0,2
+4279,101743,Noodle Soup,Chinese,35000.0,2
+4280,101744,Milkshake,Dessert & Drinks,75000.0,2
+4281,101744,Cheesecake,Dessert & Drinks,23000.0,1
+4282,101745,Churros,Dessert & Drinks,48000.0,2
+4283,101745,Ice Cream,Dessert & Drinks,17000.0,2
+4284,101746,Burger,Western,35000.0,3
+4285,101747,Tempura,Japanese,85000.0,1
+4286,101747,Onigiri,Japanese,28000.0,3
+4287,101747,Takoyaki,Japanese,56000.0,3
+4288,101747,Katsu Curry,Japanese,37000.0,3
+4289,101748,Caesar Salad,Western,22000.0,3
+4290,101748,Burger,Western,68000.0,1
+4291,101748,BBQ Ribs,Western,74000.0,2
+4292,101748,Pasta,Western,61000.0,1
+4293,101749,Kimbap,Korean,68000.0,1
+4294,101749,Sundubu Jjigae,Korean,79000.0,2
+4295,101749,Tteokbokki,Korean,59000.0,1
+4296,101750,Shawarma,Middle Eastern,21000.0,1
+4297,101751,Cheesecake,Dessert & Drinks,79000.0,2
+4298,101752,Peking Duck,Chinese,80000.0,1
+4299,101752,Fried Rice,Chinese,67000.0,1
+4300,101752,Chop Suey,Chinese,27000.0,3
+4301,101752,Spring Roll,Chinese,77000.0,2
+4302,101753,Nasi Padang,Indonesian,52000.0,1
+4303,101754,Grilled Chicken,Western,65000.0,1
+4304,101754,Burger,Western,24000.0,3
+4305,101755,Butter Chicken,Indian,68000.0,3
+4306,101755,Naan,Indian,66000.0,1
+4307,101755,Masala Chai,Indian,58000.0,1
+4308,101755,Dal Tadka,Indian,73000.0,3
+4309,101756,Soto Ayam,Indonesian,43000.0,3
+4310,101757,Palak Paneer,Indian,48000.0,2
+4311,101757,Masala Chai,Indian,16000.0,3
+4312,101758,Fried Rice,Chinese,23000.0,3
+4313,101759,Onigiri,Japanese,27000.0,3
+4314,101759,Tempura,Japanese,74000.0,3
+4315,101759,Katsu Curry,Japanese,24000.0,1
+4316,101759,Sushi Set,Japanese,80000.0,3
+4317,101760,Soto Ayam,Indonesian,57000.0,1
+4318,101760,Gado-Gado,Indonesian,32000.0,3
+4319,101760,Mie Goreng,Indonesian,46000.0,2
+4320,101761,Manakish,Middle Eastern,56000.0,1
+4321,101761,Mezze Platter,Middle Eastern,65000.0,1
+4322,101761,Lamb Chops,Middle Eastern,25000.0,3
+4323,101762,Pasta,Western,26000.0,1
+4324,101762,Steak,Western,59000.0,1
+4325,101762,Club Sandwich,Western,54000.0,3
+4326,101763,Ramen,Japanese,83000.0,3
+4327,101763,Onigiri,Japanese,24000.0,1
+4328,101764,Samosa,Indian,70000.0,2
+4329,101764,Tandoori Chicken,Indian,46000.0,3
+4330,101764,Masala Chai,Indian,47000.0,2
+4331,101764,Butter Chicken,Indian,66000.0,1
+4332,101765,Naan,Indian,79000.0,3
+4333,101766,Bakso,Indonesian,81000.0,2
+4334,101766,Gado-Gado,Indonesian,23000.0,2
+4335,101766,Soto Ayam,Indonesian,38000.0,1
+4336,101767,Japchae,Korean,17000.0,2
+4337,101767,Korean BBQ,Korean,43000.0,3
+4338,101767,Bibimbap,Korean,41000.0,1
+4339,101768,Matcha Latte,Dessert & Drinks,31000.0,2
+4340,101769,Noodle Soup,Chinese,17000.0,1
+4341,101769,Spring Roll,Chinese,42000.0,3
+4342,101770,Shawarma,Middle Eastern,62000.0,2
+4343,101770,Kebab,Middle Eastern,17000.0,1
+4344,101771,Bakso,Indonesian,57000.0,3
+4345,101772,Peking Duck,Chinese,33000.0,1
+4346,101773,Shawarma,Middle Eastern,17000.0,3
+4347,101773,Mezze Platter,Middle Eastern,52000.0,3
+4348,101773,Falafel,Middle Eastern,19000.0,2
+4349,101773,Fattoush,Middle Eastern,29000.0,1
+4350,101774,Rendang,Indonesian,59000.0,1
+4351,101774,Gado-Gado,Indonesian,27000.0,3
+4352,101774,Ayam Geprek,Indonesian,77000.0,2
+4353,101774,Nasi Padang,Indonesian,73000.0,2
+4354,101775,Crepes,Dessert & Drinks,19000.0,3
+4355,101775,Matcha Latte,Dessert & Drinks,63000.0,2
+4356,101776,Sushi Set,Japanese,60000.0,2
+4357,101776,Katsu Curry,Japanese,64000.0,1
+4358,101777,Spring Roll,Chinese,43000.0,1
+4359,101777,Fried Rice,Chinese,22000.0,2
+4360,101777,Noodle Soup,Chinese,46000.0,2
+4361,101777,Chop Suey,Chinese,81000.0,2
+4362,101778,Soto Ayam,Indonesian,48000.0,2
+4363,101778,Nasi Goreng,Indonesian,84000.0,3
+4364,101778,Ayam Geprek,Indonesian,44000.0,1
+4365,101779,Tandoori Chicken,Indian,58000.0,1
+4366,101779,Samosa,Indian,68000.0,2
+4367,101780,BBQ Ribs,Western,39000.0,1
+4368,101780,Burger,Western,23000.0,2
+4369,101780,Steak,Western,46000.0,3
+4370,101780,Pasta,Western,69000.0,1
+4371,101781,Gyudon,Japanese,75000.0,3
+4372,101781,Onigiri,Japanese,72000.0,1
+4373,101781,Ramen,Japanese,83000.0,1
+4374,101782,Manakish,Middle Eastern,20000.0,1
+4375,101782,Shawarma,Middle Eastern,53000.0,1
+4376,101782,Hummus Plate,Middle Eastern,71000.0,1
+4377,101783,Bakso,Indonesian,49000.0,2
+4378,101784,Lamb Chops,Middle Eastern,35000.0,1
+4379,101785,Sundubu Jjigae,Korean,64000.0,2
+4380,101785,Bibimbap,Korean,40000.0,1
+4381,101785,Korean BBQ,Korean,27000.0,3
+4382,101786,Rendang,Indonesian,55000.0,2
+4383,101786,Soto Ayam,Indonesian,80000.0,3
+4384,101786,Bakso,Indonesian,41000.0,2
+4385,101786,Mie Goreng,Indonesian,47000.0,2
+4386,101787,Ice Cream,Dessert & Drinks,35000.0,3
+4387,101787,Milkshake,Dessert & Drinks,30000.0,2
+4388,101787,Cheesecake,Dessert & Drinks,70000.0,1
+4389,101787,Boba Tea,Dessert & Drinks,43000.0,3
+4390,101788,Falafel,Middle Eastern,66000.0,3
+4391,101789,Shawarma,Middle Eastern,26000.0,2
+4392,101789,Kebab,Middle Eastern,21000.0,1
+4393,101789,Falafel,Middle Eastern,70000.0,3
+4394,101789,Lamb Chops,Middle Eastern,47000.0,1
+4395,101790,Samosa,Indian,59000.0,1
+4396,101790,Tandoori Chicken,Indian,67000.0,1
+4397,101791,Crepes,Dessert & Drinks,66000.0,1
+4398,101792,Gyudon,Japanese,75000.0,1
+4399,101792,Ramen,Japanese,58000.0,2
+4400,101792,Onigiri,Japanese,65000.0,1
+4401,101793,Gyudon,Japanese,35000.0,3
+4402,101793,Tempura,Japanese,19000.0,2
+4403,101793,Katsu Curry,Japanese,47000.0,2
+4404,101793,Ramen,Japanese,33000.0,2
+4405,101794,Lamb Chops,Middle Eastern,83000.0,3
+4406,101794,Falafel,Middle Eastern,79000.0,1
+4407,101795,Ramen,Japanese,45000.0,2
+4408,101795,Onigiri,Japanese,23000.0,1
+4409,101796,BBQ Ribs,Western,39000.0,3
+4410,101797,Hummus Plate,Middle Eastern,45000.0,2
+4411,101797,Manakish,Middle Eastern,67000.0,2
+4412,101798,Soto Ayam,Indonesian,32000.0,2
+4413,101798,Nasi Padang,Indonesian,30000.0,3
+4414,101798,Gado-Gado,Indonesian,36000.0,2
+4415,101799,Burger,Western,84000.0,2
+4416,101799,Pasta,Western,77000.0,2
+4417,101800,Butter Chicken,Indian,68000.0,3
+4418,101800,Biryani,Indian,78000.0,2
+4419,101800,Dal Tadka,Indian,64000.0,3
+4420,101800,Samosa,Indian,29000.0,3
+4421,101801,Takoyaki,Japanese,55000.0,2
+4422,101801,Katsu Curry,Japanese,43000.0,1
+4423,101802,Biryani,Indian,19000.0,1
+4424,101802,Tandoori Chicken,Indian,52000.0,2
+4425,101802,Butter Chicken,Indian,45000.0,3
+4426,101802,Dal Tadka,Indian,38000.0,2
+4427,101803,Dumplings,Chinese,75000.0,1
+4428,101804,Mezze Platter,Middle Eastern,27000.0,3
+4429,101805,Tteokbokki,Korean,58000.0,3
+4430,101805,Kimchi Jjigae,Korean,83000.0,1
+4431,101805,Japchae,Korean,30000.0,3
+4432,101805,Bulgogi,Korean,83000.0,3
+4433,101806,Peking Duck,Chinese,33000.0,3
+4434,101806,Noodle Soup,Chinese,66000.0,1
+4435,101807,BBQ Ribs,Western,32000.0,3
+4436,101807,Burger,Western,32000.0,1
+4437,101807,Steak,Western,25000.0,3
+4438,101807,Caesar Salad,Western,21000.0,2
+4439,101808,Udon,Japanese,54000.0,2
+4440,101808,Ramen,Japanese,45000.0,1
+4441,101808,Tempura,Japanese,34000.0,2
+4442,101808,Takoyaki,Japanese,36000.0,1
+4443,101809,Wonton Soup,Chinese,71000.0,1
+4444,101809,Peking Duck,Chinese,30000.0,3
+4445,101809,Noodle Soup,Chinese,60000.0,2
+4446,101810,Japchae,Korean,79000.0,1
+4447,101811,Japchae,Korean,36000.0,3
+4448,101812,Kebab,Middle Eastern,32000.0,2
+4449,101813,Ayam Geprek,Indonesian,44000.0,1
+4450,101813,Nasi Padang,Indonesian,20000.0,1
+4451,101813,Mie Goreng,Indonesian,36000.0,1
+4452,101814,Palak Paneer,Indian,25000.0,3
+4453,101815,Manakish,Middle Eastern,56000.0,1
+4454,101815,Kebab,Middle Eastern,23000.0,1
+4455,101815,Fattoush,Middle Eastern,81000.0,3
+4456,101816,Milkshake,Dessert & Drinks,51000.0,2
+4457,101816,Boba Tea,Dessert & Drinks,39000.0,2
+4458,101816,Matcha Latte,Dessert & Drinks,50000.0,3
+4459,101816,Waffle,Dessert & Drinks,57000.0,2
+4460,101817,Churros,Dessert & Drinks,25000.0,1
+4461,101817,Cheesecake,Dessert & Drinks,25000.0,3
+4462,101818,Tandoori Chicken,Indian,30000.0,2
+4463,101819,Mie Goreng,Indonesian,33000.0,3
+4464,101820,Butter Chicken,Indian,85000.0,1
+4465,101820,Samosa,Indian,24000.0,3
+4466,101820,Tandoori Chicken,Indian,25000.0,3
+4467,101820,Dal Tadka,Indian,18000.0,1
+4468,101821,Gado-Gado,Indonesian,49000.0,1
+4469,101821,Nasi Goreng,Indonesian,79000.0,1
+4470,101822,Soto Ayam,Indonesian,62000.0,2
+4471,101822,Rendang,Indonesian,19000.0,2
+4472,101822,Nasi Goreng,Indonesian,46000.0,1
+4473,101822,Mie Goreng,Indonesian,18000.0,2
+4474,101823,Bibimbap,Korean,28000.0,3
+4475,101823,Bulgogi,Korean,15000.0,1
+4476,101823,Japchae,Korean,73000.0,1
+4477,101823,Kimbap,Korean,35000.0,3
+4478,101824,Burger,Western,44000.0,2
+4479,101824,Grilled Chicken,Western,52000.0,2
+4480,101824,BBQ Ribs,Western,55000.0,3
+4481,101824,Steak,Western,64000.0,2
+4482,101825,Waffle,Dessert & Drinks,64000.0,2
+4483,101825,Milkshake,Dessert & Drinks,38000.0,3
+4484,101825,Matcha Latte,Dessert & Drinks,44000.0,1
+4485,101825,Churros,Dessert & Drinks,58000.0,1
+4486,101826,Japchae,Korean,75000.0,1
+4487,101826,Tteokbokki,Korean,66000.0,2
+4488,101826,Sundubu Jjigae,Korean,67000.0,2
+4489,101827,Milkshake,Dessert & Drinks,18000.0,1
+4490,101827,Boba Tea,Dessert & Drinks,82000.0,2
+4491,101827,Cheesecake,Dessert & Drinks,57000.0,3
+4492,101827,Ice Cream,Dessert & Drinks,68000.0,2
+4493,101828,BBQ Ribs,Western,57000.0,3
+4494,101828,Steak,Western,47000.0,2
+4495,101829,Sushi Set,Japanese,33000.0,3
+4496,101829,Katsu Curry,Japanese,34000.0,3
+4497,101829,Gyudon,Japanese,21000.0,3
+4498,101830,Dumplings,Chinese,49000.0,1
+4499,101830,Noodle Soup,Chinese,25000.0,1
+4500,101830,Spring Roll,Chinese,45000.0,3
+4501,101831,Club Sandwich,Western,43000.0,2
+4502,101832,Butter Chicken,Indian,76000.0,3
+4503,101833,Bakso,Indonesian,67000.0,3
+4504,101834,Mezze Platter,Middle Eastern,35000.0,1
+4505,101835,Chop Suey,Chinese,66000.0,2
+4506,101835,Peking Duck,Chinese,84000.0,1
+4507,101835,Noodle Soup,Chinese,71000.0,1
+4508,101836,Ayam Geprek,Indonesian,22000.0,3
+4509,101836,Rendang,Indonesian,75000.0,3
+4510,101836,Nasi Padang,Indonesian,82000.0,3
+4511,101837,Fried Rice,Chinese,62000.0,3
+4512,101838,Lamb Chops,Middle Eastern,62000.0,3
+4513,101839,Dal Tadka,Indian,72000.0,3
+4514,101839,Biryani,Indian,77000.0,1
+4515,101840,Samosa,Indian,83000.0,3
+4516,101840,Tandoori Chicken,Indian,48000.0,3
+4517,101840,Biryani,Indian,74000.0,2
+4518,101841,Club Sandwich,Western,38000.0,2
+4519,101841,Caesar Salad,Western,61000.0,1
+4520,101841,Pasta,Western,49000.0,1
+4521,101841,Burger,Western,83000.0,1
+4522,101842,Ice Cream,Dessert & Drinks,34000.0,3
+4523,101842,Crepes,Dessert & Drinks,50000.0,2
+4524,101842,Milkshake,Dessert & Drinks,63000.0,1
+4525,101843,Kimchi Jjigae,Korean,51000.0,3
+4526,101844,Fish & Chips,Western,17000.0,3
+4527,101844,Grilled Chicken,Western,27000.0,2
+4528,101844,Caesar Salad,Western,54000.0,1
+4529,101844,Steak,Western,21000.0,2
+4530,101845,Hummus Plate,Middle Eastern,28000.0,3
+4531,101845,Falafel,Middle Eastern,71000.0,2
+4532,101845,Fattoush,Middle Eastern,20000.0,1
+4533,101846,Tempura,Japanese,71000.0,1
+4534,101846,Gyudon,Japanese,80000.0,2
+4535,101846,Katsu Curry,Japanese,40000.0,2
+4536,101847,Udon,Japanese,50000.0,1
+4537,101847,Tempura,Japanese,24000.0,3
+4538,101847,Sushi Set,Japanese,64000.0,1
+4539,101847,Ramen,Japanese,26000.0,3
+4540,101848,Udon,Japanese,32000.0,3
+4541,101848,Katsu Curry,Japanese,19000.0,1
+4542,101848,Onigiri,Japanese,51000.0,1
+4543,101849,Samosa,Indian,74000.0,3
+4544,101849,Palak Paneer,Indian,37000.0,1
+4545,101850,Tandoori Chicken,Indian,62000.0,3
+4546,101850,Naan,Indian,79000.0,1
+4547,101850,Biryani,Indian,76000.0,2
+4548,101851,Dim Sum,Chinese,78000.0,1
+4549,101851,Peking Duck,Chinese,28000.0,2
+4550,101851,Dumplings,Chinese,28000.0,3
+4551,101851,Chop Suey,Chinese,71000.0,1
+4552,101852,Caesar Salad,Western,63000.0,3
+4553,101853,Kimbap,Korean,18000.0,1
+4554,101854,Steak,Western,36000.0,1
+4555,101854,BBQ Ribs,Western,64000.0,2
+4556,101854,Pasta,Western,78000.0,3
+4557,101855,Manakish,Middle Eastern,70000.0,1
+4558,101855,Hummus Plate,Middle Eastern,60000.0,1
+4559,101855,Kebab,Middle Eastern,67000.0,1
+4560,101856,Mie Goreng,Indonesian,39000.0,3
+4561,101856,Ayam Geprek,Indonesian,69000.0,2
+4562,101856,Rendang,Indonesian,76000.0,2
+4563,101856,Gado-Gado,Indonesian,78000.0,3
+4564,101857,Ramen,Japanese,19000.0,1
+4565,101857,Tempura,Japanese,23000.0,1
+4566,101857,Onigiri,Japanese,73000.0,1
+4567,101857,Sushi Set,Japanese,40000.0,3
+4568,101858,Butter Chicken,Indian,61000.0,1
+4569,101858,Palak Paneer,Indian,43000.0,2
+4570,101859,Cheesecake,Dessert & Drinks,67000.0,1
+4571,101859,Ice Cream,Dessert & Drinks,80000.0,1
+4572,101859,Milkshake,Dessert & Drinks,77000.0,2
+4573,101860,Milkshake,Dessert & Drinks,55000.0,2
+4574,101860,Cheesecake,Dessert & Drinks,35000.0,3
+4575,101860,Ice Cream,Dessert & Drinks,49000.0,3
+4576,101860,Crepes,Dessert & Drinks,78000.0,3
+4577,101861,Mie Goreng,Indonesian,23000.0,3
+4578,101861,Soto Ayam,Indonesian,67000.0,1
+4579,101861,Ayam Geprek,Indonesian,84000.0,2
+4580,101862,Sundubu Jjigae,Korean,18000.0,3
+4581,101863,Manakish,Middle Eastern,41000.0,3
+4582,101863,Mezze Platter,Middle Eastern,32000.0,2
+4583,101864,Churros,Dessert & Drinks,39000.0,3
+4584,101865,Gyudon,Japanese,84000.0,2
+4585,101865,Takoyaki,Japanese,67000.0,1
+4586,101866,Ayam Geprek,Indonesian,56000.0,2
+4587,101866,Bakso,Indonesian,22000.0,2
+4588,101867,Boba Tea,Dessert & Drinks,80000.0,2
+4589,101868,Falafel,Middle Eastern,26000.0,2

@@ -1,0 +1,14 @@
+models:
+  servicefood:
+    staging:
+      +materialized: view
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: marts
+      funnel:
+        +schema: marts
+      delivery:
+        +schema: marts
+      bridge:
+        +schema: marts
