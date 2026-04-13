@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_events
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_sessions
+    columns:
+      - name: session_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_users
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_restaurants
+    columns:
+      - name: restaurant_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_couriers
+    columns:
+      - name: courier_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_order_items
+    columns:
+      - name: item_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_exchange_rates
+    columns:
+      - name: period
+        tests:
+          - unique
+          - not_null
