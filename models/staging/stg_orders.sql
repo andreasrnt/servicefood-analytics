@@ -17,10 +17,10 @@ WITH source AS (
         , destination_name
         , CAST(delivery_distance_km AS FLOAT64) AS delivery_distance_km
         , order_type
-        , CAST(placed_at AS TIMESTAMP) AS placed_at
-        , CAST(NULLIF(food_ready_at, '') AS TIMESTAMP) AS food_ready_at
-        , CAST(NULLIF(picked_up_at, '') AS TIMESTAMP) AS picked_up_at
-        , CAST(NULLIF(delivered_at, '') AS TIMESTAMP) AS delivered_at
+        , placed_at
+        , food_ready_at
+        , picked_up_at
+        , delivered_at
         , order_status
         , NULLIF(cancel_note, '') AS cancel_note
         , CAST(food_price AS FLOAT64) AS food_price

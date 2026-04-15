@@ -9,6 +9,6 @@ SELECT
     , cuisine_type
     , CAST(unit_price AS FLOAT64) AS unit_price
     , CAST(quantity AS INT64) AS quantity
-    , CAST(unit_price AS FLOAT64) * CAST(quantity AS INT64) AS line_total
+    , CAST(unit_price AS FLOAT64) * CAST(quantity AS INT64) AS total_amount
 FROM source
 ;

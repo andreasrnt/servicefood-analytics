@@ -7,7 +7,7 @@ WITH couriers AS (
 , order_stats AS (
     SELECT
           courier_id
-        , COUNT(*) AS total_orders
+        , COUNT(DISTINCT order_id) AS total_orders
         , COUNTIF(order_status = 'delivered') AS delivered_orders
         , COUNTIF(order_status != 'delivered') AS cancelled_orders
         , COUNTIF(is_cancelled_by_driver) AS cancelled_by_driver
@@ -48,5 +48,6 @@ SELECT
         ELSE 'EXPECTED'
       END AS performance_vs_tier
 FROM couriers c
-LEFT JOIN order_stats o ON c.courier_id = o.courier_id
+LEFT JOIN order_stats o 
+ON c.courier_id = o.courier_id
 ;

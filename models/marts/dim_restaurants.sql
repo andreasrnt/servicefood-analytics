@@ -43,5 +43,6 @@ SELECT
     , o.total_restaurant_fee_paid
     , o.unique_customers
 FROM restaurants r
-LEFT JOIN order_stats o ON r.restaurant_id = o.restaurant_id
+LEFT JOIN order_stats o 
+ON r.restaurant_id = o.restaurant_id
 ;

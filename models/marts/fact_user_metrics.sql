@@ -31,6 +31,7 @@ WITH orders AS (
 , fx AS (
     SELECT
           period
+        , lcy
         , usd_to_lcy
         , lcy_to_usd
     FROM {{ ref('stg_exchange_rates') }}
@@ -116,6 +117,7 @@ WITH orders AS (
         , u.last_order_date
         , COALESCE(cr.churn_risk_tier, 'LOW') AS churn_risk_tier
         , FORMAT_DATE('%Y-%m', o.order_date) AS order_period
+        , fx.lcy
         , fx.usd_to_lcy
         , fx.lcy_to_usd
     FROM orders o

@@ -33,17 +33,26 @@ WITH users AS (
     GROUP BY 1
 )
 
-, rfm_scores AS (
+, r_scores AS (
     SELECT
           o.customer_id
-        , COALESCE(r.orders_in_90d, 0) AS orders_in_90d
-        , COALESCE(r.gmv_in_90d, 0) AS gmv_in_90d
         , DATE_DIFF((SELECT MAX(order_date) FROM orders), MAX(o.order_date), DAY) AS recency_days
         , CASE
             WHEN DATE_DIFF((SELECT MAX(order_date) FROM orders), MAX(o.order_date), DAY) <= 30 THEN 3
             WHEN DATE_DIFF((SELECT MAX(order_date) FROM orders), MAX(o.order_date), DAY) <= 60 THEN 2
             ELSE 1
           END AS r_score
+    FROM orders o
+    GROUP BY 1
+)
+
+, rfm_scores AS (
+    SELECT
+          o.customer_id
+        , COALESCE(r.orders_in_90d, 0) AS orders_in_90d
+        , COALESCE(r.gmv_in_90d, 0) AS gmv_in_90d
+        , recency_days
+        , r_score
         , CASE
             WHEN COALESCE(r.orders_in_90d, 0) >= 5 THEN 3
             WHEN COALESCE(r.orders_in_90d, 0) >= 2 THEN 2
@@ -55,8 +64,10 @@ WITH users AS (
             ELSE 1
           END AS m_score
     FROM orders o
-    LEFT JOIN rfm_window r ON o.customer_id = r.customer_id
-    GROUP BY 1, 2, 3
+    LEFT JOIN rfm_window r 
+      ON o.customer_id = r.customer_id
+    LEFT JOIN r_scores rs
+      ON o.customer_id = rs.customer_id
 )
 
 , segmented AS (
@@ -89,6 +100,8 @@ SELECT
     , ft.first_order_date
     , ft.last_order_date
 FROM users u
-LEFT JOIN segmented s ON u.customer_id = s.customer_id
-LEFT JOIN first_touch ft ON u.customer_id = ft.customer_id
+LEFT JOIN segmented s 
+  ON u.customer_id = s.customer_id
+LEFT JOIN first_touch ft 
+  ON u.customer_id = ft.customer_id
 ;
