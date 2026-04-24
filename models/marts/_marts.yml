@@ -1,0 +1,198 @@
+version: 2
+
+models:
+
+  - name: fact_orders
+    description: >
+      Core financial fact table. One row per order (all statuses).
+    columns:
+      - name: order_id
+        description: Primary key.
+      - name: customer_segment
+        description: Carried from fact_user_metrics via dim_users RFM logic.
+      - name: churn_risk_tier
+        description: HIGH / MEDIUM / LOW. Carried from fact_user_metrics.
+      - name: restaurant_rating
+        description: Static rating from stg_restaurants seed.
+      - name: courier_rating
+        description: Static rating from stg_couriers seed.
+
+  - name: fact_delivery
+    description: >
+      Delivery performance fact table. One row per delivered order.
+      Partitioned by order_date, clustered by restaurant_id, courier_id, customer_id.
+    columns:
+      - name: order_id
+        description: Primary key.
+      - name: sla_threshold_mins
+        description: Distance-adjusted SLA target. Formula is 30 + (delivery_distance_km * 3).
+      - name: mins_over_threshold
+        description: How many minutes the order exceeded the SLA threshold. Null if not breached.
+      - name: is_long_distance
+        description: TRUE when delivery_distance_km > 7.
+      - name: is_prep_bottleneck
+        description: TRUE when dominant_bottleneck = RESTAURANT_PREP.
+      - name: is_courier_bottleneck
+        description: TRUE when dominant_bottleneck is COURIER_WAIT or COURIER_RIDE.
+      - name: prep_share_pct
+        description: prep_time_mins / total_delivery_mins. Restaurant time share.
+      - name: wait_share_pct
+        description: courier_wait_mins / total_delivery_mins. Courier assignment share.
+      - name: ride_share_pct
+        description: courier_ride_mins / total_delivery_mins. Courier ride share.
+      - name: restaurant_avg_prep_mins
+        description: AVG(prep_time_mins) across all delivered orders for this restaurant.
+      - name: prep_vs_restaurant_avg
+        description: >
+          prep_time_mins - restaurant_avg_prep_mins.
+          Positive = this order was slower than that restaurant's usual.
+          Negative = faster than usual.
+      - name: courier_avg_ride_mins
+        description: AVG(courier_ride_mins) across all delivered orders for this courier.
+      - name: ride_vs_courier_avg
+        description: >
+          courier_ride_mins - courier_avg_ride_mins.
+          Positive = this ride took longer than that courier's usual.
+
+  - name: fact_funnel
+    description: >
+      Funnel performance fact table. One row per (session_date, channel, campaign, device, city).
+      Partitioned by session_date, clustered by channel, device.
+    columns:
+      - name: session_date
+        description: Part of composite PK.
+      - name: channel
+        description: Part of composite PK.
+      - name: campaign
+        description: Part of composite PK. NONE when no campaign.
+      - name: device
+        description: Part of composite PK.
+      - name: city
+        description: Part of composite PK.
+      - name: s1_app_visit
+        description: Count of users who fired a page_view on home.
+      - name: s7_delivered
+        description: Count of users who reached the delivered stage.
+      - name: cvr_end_to_end
+        description: s7_delivered / s1_app_visit. Full funnel conversion rate.
+      - name: dropoff_visit_to_browse
+        description: 1 - cvr_visit_to_browse. Complement of CVR, pre-computed for Tableau.
+
+  - name: fact_channel_performance
+    description: >
+      Channel and voucher efficiency fact table.
+      One row per (channel, campaign, voucher_code).
+    columns:
+      - name: channel
+        description: Part of composite PK.
+      - name: campaign
+        description: Part of composite PK. NONE when no campaign.
+      - name: voucher_code
+        description: Part of composite PK. NO_VOUCHER when no voucher applied.
+      - name: checkout_to_order_cvr
+        description: Converted orders / checkout sessions. True purchase conversion rate.
+      - name: net_revenue_per_visit
+        description: Total net revenue / total visits. Revenue efficiency per acquisition.
+      - name: net_revenue_per_checkout
+        description: Total net revenue / checkout sessions. Revenue per high-intent user.
+      - name: first_order_ratio
+        description: First orders / total orders. High ratio = channel acquires new users.
+      - name: sla_breach_rate
+        description: >
+          SLA breach rate for orders from this channel/voucher combination.
+          Used to identify whether promo users also get worse delivery experience.
+      - name: discount_rate
+        description: Total discount / total GMV. Margin cost of the voucher strategy.
+
+  - name: fact_user_metrics
+    description: >
+      Transaction-level fact table. One row per order with full user context.
+      Partitioned by order_date, clustered by channel, customer_segment, order_status.
+    columns:
+      - name: order_id
+        description: Primary key.
+      - name: order_period
+        description: Pre-formatted YYYY-MM string for easy monthly grouping without FORMAT_DATE.
+      - name: churn_risk_tier
+        description: >
+          HIGH / MEDIUM / LOW. Computed from this customer's breach rate and order count.
+          HIGH = VIP or REGULAR segment with breach_rate >= 0.40 and >= 2 breaches.
+          MEDIUM = any segment with breach_rate >= 0.30 and >= 2 breaches.
+      - name: usd_to_idr
+        description: Monthly average rate. Null if order falls outside exchange rate window.
+      - name: idr_to_usd
+        description: 1 / usd_to_idr. Used to compute all _usd columns.
+      - name: gmv_idr
+        description: food_price + delivery_price + platform_fee - discount_amount. In IDR.
+      - name: gmv_usd
+        description: gmv_idr * idr_to_usd. Null if no exchange rate available for that month.
+      - name: net_revenue_idr
+        description: platform_fee + restaurant_fee + 20% of delivery revenue. In IDR.
+      - name: net_revenue_usd
+        description: net_revenue_idr * idr_to_usd.
+
+  - name: dim_users
+    description: >
+      User dimension table. One row per customer.
+    columns:
+      - name: customer_id
+        description: Primary key. Integer starting from 1001.
+      - name: customer_segment
+        description: VIP / REGULAR / OCCASIONAL / AT_RISK. Derived from combined RFM score.
+      - name: r_score
+        description: Recency score 1-3. 3 = ordered within last 30 days.
+      - name: f_score
+        description: Frequency score 1-3. 3 = 5+ orders in 90-day window.
+      - name: m_score
+        description: Monetary score 1-3 based on PERCENT_RANK of GMV in 90-day window.
+      - name: rfm_total
+        description: r_score + f_score + m_score. Range 3-9.
+      - name: recency_days
+        description: Days between last order and dataset end date (2024-06-30).
+      - name: first_channel
+        description: Acquisition channel of the customer's first delivered order.
+      - name: first_campaign
+        description: Campaign of first delivered order. Null if organic or no campaign.
+      - name: first_order_date
+        description: Date of customer's first delivered order.
+      - name: last_order_date
+        description: Date of customer's most recent delivered order.
+
+  - name: dim_restaurants
+    description: >
+      Restaurant dimension table. One row per restaurant.
+    columns:
+      - name: restaurant_id
+        description: Primary key. Random 4-digit integer.
+      - name: fulfillment_rate
+        description: delivered_orders / total_orders.
+      - name: avg_prep_time_mins
+        description: Average prep time across all delivered orders for this restaurant.
+      - name: sla_breach_rate
+        description: Proportion of this restaurant's delivered orders that breached SLA.
+      - name: cancelled_by_restaurant
+        description: Orders cancelled due to restaurant_closed, restaurant_too_busy, or out_of_stock.
+      - name: total_restaurant_fee_paid
+        description: Cumulative restaurant fees (2% of food_price) paid to platform.
+
+  - name: dim_couriers
+    description: >
+      Courier dimension table. One row per courier.
+    columns:
+      - name: courier_id
+        description: Primary key. Random 4-digit integer.
+      - name: completion_rate
+        description: delivered_orders / total_orders.
+      - name: avg_ride_mins
+        description: Average ride time across all delivered orders for this courier.
+      - name: sla_breach_rate
+        description: Proportion of this courier's delivered orders that breached SLA.
+      - name: cancelled_by_driver
+        description: Orders cancelled due to driver_cancelled or driver_no_show.
+      - name: total_commission_earned
+        description: Cumulative courier commission earned across all delivered orders.
+      - name: performance_vs_tier
+        description: >
+          UNDERPERFORMING = gold tier with breach_rate >= 0.30.
+          OVERPERFORMING = bronze tier with breach_rate <= 0.10.
+          EXPECTED = all others.
